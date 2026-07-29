@@ -1,127 +1,34 @@
 ---
 title: "MeteoAndes"
-description: "Datos propios medidos sobre el hielo: ICESat-2, InSAR, meteorología y carbono negro en glaciares tropicales del Perú."
+pagetitle: "MeteoAndes — Glaciares tropicales del Perú"
+title-block-style: none
 page-layout: full
+lang: es
+description: "Monitoreo científico de glaciares tropicales, meteorología, carbono negro y observación de la Tierra en los Andes peruanos."
+image: assets/img/og/home.jpg
 toc: false
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/">
 ---
 
-<div class="ma-hero ma-section-wide">
-  <div class="ma-hero__bg" aria-hidden="true"></div>
-  <div class="ma-hero__veil" aria-hidden="true"></div>
-  <div class="ma-hero__content">
-    <div class="ma-eyebrow" style="color:#9ce1ef">Programa científico · Perú · 2018–2026</div>
-    <h1>Medimos el hielo que queda.</h1>
-    <p class="ma-hero__lead">Altimetría satelital, radar, estaciones meteorológicas y muestreo de carbono negro para observar cómo cambian los glaciares tropicales del Perú —y separar lo demostrado de lo que aún está en evaluación.</p>
-    <div class="ma-hero__actions">
-      <a class="ma-btn ma-btn--primary" href="investigacion/cambio-elevacion.html">Ver el resultado principal →</a>
-      <a class="ma-btn ma-btn--ghost" href="datos/index.html">Explorar datos</a>
-    </div>
-  </div>
-  <div class="ma-scroll-cue" aria-hidden="true">↓</div>
-</div>
+{{< include assets/partials/es/home-transect.html >}}
 
-<div class="ma-section-wide ma-section">
-  <div class="ma-kpi-grid" aria-live="off" data-reveal>
-    <div class="ma-kpi"><span class="ma-kpi__value" data-count-to="113">113</span><span class="ma-kpi__label">muestras de nieve y hielo inventariadas en 2026</span></div>
-    <div class="ma-kpi"><span class="ma-kpi__value" data-count-to="68">68</span><span class="ma-kpi__label">adquisiciones Sentinel‑1 auditadas en Vilcanota</span></div>
-    <div class="ma-kpi"><span class="ma-kpi__value" data-count-to="129">129</span><span class="ma-kpi__label">pasadas ICESat‑2 en la serie regional revisada</span></div>
-    <div class="ma-kpi"><span class="ma-kpi__value" data-count-to="-1.463" data-decimals="3">−1.463</span><span class="ma-kpi__label">m año⁻¹ · descenso regional ponderado por hipsometría</span></div>
-  </div>
-</div>
+{{< include assets/partials/es/home-spectrum.html >}}
 
-<div class="ma-section-wide ma-section ma-section--tint">
-<div class="ma-section-header" data-reveal>
-<div class="ma-eyebrow">Resultado central</div>
+{{< include assets/partials/es/home-kpis.html >}}
 
-## Un descenso regional robusto en Vilcanota
+{{< include assets/partials/es/home-result.html >}}
 
-La serie ICESat‑2 ATL06‑SR de diciembre de 2018 a febrero de 2026 converge en una pérdida superficial cercana a **1.5 m por año**. La estimación ponderada por área hipsométrica es **−1.463 m año⁻¹** (IC95%: −2.357 a −0.596) y representa 96.5% del área analizada. La señal es más negativa en cotas bajas y medias-bajas, aproximadamente entre 5 000 y 5 400 m.
-</div>
+{{< include assets/partials/es/home-chain.html >}}
 
-<figure class="ma-science-figure" data-reveal><img src="/assets/img/charts/icesat2-forest.svg" alt="Gráfico forest plot con cinco estimadores negativos del cambio de elevación superficial en Vilcanota" width="1100" height="530" loading="lazy"><figcaption>Cinco estimadores independientes convergen en signo y magnitud. El remuestreo hipsométrico reporta percentiles 5–95, no un intervalo de confianza convencional.</figcaption></figure>
+{{< include assets/partials/es/home-sites.html >}}
 
-<div class="ma-callout ma-callout--uncertainty" data-reveal><strong>Incertidumbre que permanece.</strong> El sesgo central del terreno estable quedó casi nulo tras el co‑registro, pero el NMAD residual permanece alto (~4.63 m). El resultado multianual es sólido; la incertidumbre puntual y la máscara estable aún requieren pruebas de sensibilidad.</div>
-</div>
+{{< include assets/partials/es/home-maturity.html >}}
 
-<div class="ma-section-wide ma-section">
-<div class="ma-section-header" data-reveal>
-<div class="ma-eyebrow">Sistema de evidencia</div>
+{{< include assets/partials/es/home-albedo.html >}}
 
-## Una cadena multifuente, no una sola imagen
+{{< include assets/partials/es/home-transparency.html >}}
 
-Cada instrumento observa una parte distinta del sistema. MeteoAndes conserva esas diferencias físicas para evitar equivalencias incorrectas entre desplazamiento radar, cambio de elevación, concentración atmosférica y deposición.
-</div>
-
-<div class="ma-chain" data-reveal>
-  <div class="ma-chain__node"><div class="ma-eyebrow">Atmósfera</div><strong>AL30 · AE33 · Sentinel‑5P</strong><p>Exposición y transporte de aerosoles.</p></div>
-  <div class="ma-chain__node"><div class="ma-eyebrow">Meteorología</div><strong>AWS · ERA5 · CHIRPS</strong><p>Temperatura, precipitación, nubosidad y viento.</p></div>
-  <div class="ma-chain__node"><div class="ma-eyebrow">Depósito</div><strong>SP2 · iones · capas</strong><p>rBC y composición química en nieve/hielo.</p></div>
-  <div class="ma-chain__node"><div class="ma-eyebrow">Energía</div><strong>Albedo · SW/LW · Rn</strong><p>Absorción radiativa y fusión potencial.</p></div>
-  <div class="ma-chain__node"><div class="ma-eyebrow">Respuesta</div><strong>ICESat‑2 · InSAR</strong><p>Cambio de elevación y movimiento coherente.</p></div>
-</div>
-</div>
-
-<div class="ma-section-wide ma-section ma-section--dark">
-<div class="ma-section-header" data-reveal>
-<div class="ma-eyebrow" style="color:#7fcfe3">Estado científico</div>
-
-## Lo consolidado, lo preliminar y lo pendiente
-
-MeteoAndes muestra el nivel de madurez de cada afirmación. Una arquitectura completa no equivale automáticamente a una conclusión causal.
-</div>
-
-<div class="ma-evidence-grid">
-  <div class="ma-evidence" data-reveal><span class="ma-status ma-status--solid">Consolidado</span><strong>ICESat‑2 Vilcanota</strong><p>Descenso regional multianual, estimadores robustos y diagnóstico hipsométrico.</p></div>
-  <div class="ma-evidence" data-reveal data-reveal-delay="80"><span class="ma-status ma-status--advanced">Diagnóstico</span><strong>InSAR Vilcanota</strong><p>Geometría bien condicionada; señal mensual cercana al piso de ruido; acumulado final pendiente.</p></div>
-  <div class="ma-evidence" data-reveal data-reveal-delay="160"><span class="ma-status ma-status--prelim">Preliminar</span><strong>Carbono negro</strong><p>Variabilidad AL30 y perfiles SP2/iones; falta cerrar QA/QC y sincronización temporal.</p></div>
-  <div class="ma-evidence" data-reveal data-reveal-delay="240"><span class="ma-status ma-status--pending">Pendiente</span><strong>Atribución a incendios</strong><p>Sentinel‑5P y catálogo de eventos aún no producen evidencia causal final.</p></div>
-</div>
-</div>
-
-<div class="ma-section-wide ma-section">
-<div class="ma-section-header" data-reveal>
-<div class="ma-eyebrow">Sitios y campañas</div>
-
-## Cinco unidades de estudio, tres cordilleras
-
-La red combina el campo de hielo regional de Vilcanota y cuatro sitios de campaña criogeoquímica. Las tarjetas distinguen resultados regionales de mediciones de sesión.
-</div>
-
-<div class="ma-card-grid">
-<a class="ma-card" href="glaciares/vilcanota.html" data-reveal><div class="ma-card__media"><img src="/assets/img/glaciares/vilcanota.svg" alt="Ilustración científica de la Cordillera Vilcanota" width="900" height="600" loading="lazy"></div><div class="ma-card__body"><div class="ma-eyebrow">Cordillera Vilcanota</div><h3>Campo de hielo regional</h3><p>Resultado ICESat‑2 consolidado e InSAR diagnóstico.</p><div class="ma-card__meta">2018–2026 · 254.01 km² efectivos</div></div></a>
-<a class="ma-card" href="glaciares/quelccaya.html" data-reveal data-reveal-delay="80"><div class="ma-card__media"><img src="/assets/img/glaciares/quelccaya.svg" alt="Ilustración científica del casquete Quelccaya" width="900" height="600" loading="lazy"></div><div class="ma-card__body"><div class="ma-eyebrow">Cusco · Vilcanota</div><h3>Quelccaya</h3><p>Meteorología, AL30 y 48 muestras de nieve/hielo.</p><div class="ma-card__meta">5 200–5 680 m · campaña 2026</div></div></a>
-<a class="ma-card" href="glaciares/huaytapallana.html" data-reveal data-reveal-delay="160"><div class="ma-card__media"><img src="/assets/img/glaciares/huaytapallana.svg" alt="Ilustración científica del sector glaciar Huaytapallana" width="900" height="600" loading="lazy"></div><div class="ma-card__body"><div class="ma-eyebrow">Junín · Huaytapallana</div><h3>Huaytapallana / Cochas</h3><p>AL30 de campaña, AE33 2022–2024 y 25 muestras.</p><div class="ma-card__meta">eBC preliminar · dos jornadas</div></div></a>
-<a class="ma-card" href="glaciares/tunshu.html" data-reveal><div class="ma-card__media"><img src="/assets/img/glaciares/tunshu.svg" alt="Ilustración científica del glaciar Tunshu" width="900" height="600" loading="lazy"></div><div class="ma-card__body"><div class="ma-eyebrow">Junín · Andes centrales</div><h3>Tunshu</h3><p>Campaña AL30 y 21 muestras para SP2, iones e isótopos.</p></div></a>
-<a class="ma-card" href="glaciares/mateo.html" data-reveal data-reveal-delay="80"><div class="ma-card__media"><img src="/assets/img/glaciares/mateo.svg" alt="Ilustración científica del glaciar Mateo o sector Contrayerba" width="900" height="600" loading="lazy"></div><div class="ma-card__body"><div class="ma-eyebrow">Áncash · Cordillera Blanca</div><h3>Mateo / Contrayerba</h3><p>Gradiente altitudinal AL30 y perfil de 19 muestras entre 0–95 cm.</p></div></a>
-<a class="ma-card" href="datos/index.html" data-reveal data-reveal-delay="160"><div class="ma-card__media"><img src="/assets/img/charts/sample-inventory.svg" alt="Gráfico del inventario de 113 muestras glaciares de 2026" width="960" height="500" loading="lazy"></div><div class="ma-card__body"><div class="ma-eyebrow">Ciencia abierta</div><h3>Catálogo de datos</h3><p>Tablas ligeras, estado de evidencia y metadatos de reutilización.</p></div></a>
-</div>
-</div>
-
-<div class="ma-section-wide ma-section ma-section--tint">
-<div class="ma-two-col">
-<div data-reveal>
-<div class="ma-eyebrow">Albedo</div>
-
-## Del hielo brillante a una superficie más absorbente
-
-El comparador ilustra el mecanismo físico —no una observación cuantitativa de una campaña específica—: una reducción del albedo aumenta la radiación de onda corta neta absorbida. Bajo 600 W m⁻², una reducción instantánea de 0.05 implicaría aproximadamente 30 W m⁻² adicionales de absorción, antes de considerar nubosidad, temperatura superficial y flujos turbulentos.
-</div>
-<div data-albedo-slider class="ma-albedo" data-reveal aria-label="Comparador conceptual de superficie glaciar limpia y oscurecida">
-  <img src="/assets/img/albedo/superficie-oscura.svg" alt="Ilustración conceptual de una superficie glaciar oscurecida por partículas y sedimentos" width="1200" height="675">
-  <img class="ma-albedo__after" src="/assets/img/albedo/superficie-limpia.svg" alt="Ilustración conceptual de una superficie glaciar limpia y altamente reflectante" width="1200" height="675">
-  <span class="ma-albedo__label ma-albedo__label--left">superficie limpia</span><span class="ma-albedo__label ma-albedo__label--right">superficie oscurecida</span>
-  <div class="ma-albedo__handle" aria-hidden="true"></div><button class="ma-albedo__knob" role="slider" aria-label="Posición del comparador de albedo" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">↔</button>
-</div>
-</div>
-</div>
-
-<div class="ma-section-wide ma-section">
-<div class="ma-section-header" data-reveal>
-<div class="ma-eyebrow">Transparencia</div>
-
-## La afirmación causal todavía no está cerrada
-
-El descenso glaciar observado no puede atribuirse todavía a incendios forestales específicos. Faltan una serie Sentinel‑5P validada, un catálogo de eventos, ventanas antes–durante–después, trayectorias, controles meteorológicos y sincronización con eBC/rBC, albedo y respuesta geométrica.
-</div>
-<div class="ma-callout ma-callout--warning" data-reveal><strong>Regla editorial.</strong> MeteoAndes no presenta dU mensual de InSAR como balance de masa, eBC atmosférico como deposición, una anomalía anual positiva como recuperación estructural, ni un trazador químico aislado como prueba inequívoca de fuente.</div>
-</div>
+{{< include assets/partials/es/home-closing.html >}}

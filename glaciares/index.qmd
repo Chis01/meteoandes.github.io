@@ -1,35 +1,41 @@
 ---
 title: "Glaciares y sitios de estudio"
 description: "Galería filtrable de sitios glaciares estudiados por MeteoAndes."
+image: ../assets/img/og/glaciares.jpg
 page-layout: full
 toc: false
+lang: es
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/glaciares/">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/glaciers/">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/glaciares/">
 ---
 
-<div class="ma-section-wide ma-hero-mini">
-<div class="ma-eyebrow">Red de observación</div>
-
-# Glaciares y sitios de estudio
-
-<p class="ma-lede">Cinco unidades de análisis conectan criósfera, meteorología, carbono negro y química de hielo. Use los filtros para explorar por cordillera o línea de investigación.</p>
+<section class="ma-section ma-deposit" data-gallery-scope>
+<div class="ma-section-rule"></div>
+<div class="ma-section-grid">
+<div class="ma-section-index">RED</div>
+<div class="ma-section-copy">
+<p class="ma-eyebrow">Observación de alta montaña</p>
+<p class="ma-section-lead">Cinco unidades de análisis conectan criósfera, meteorología, carbono negro y química de hielo. Los filtros permiten explorar por cordillera y línea de investigación.</p>
 </div>
-
-<div class="ma-section-wide ma-filterbar" role="search" aria-label="Filtros de sitios glaciares">
-<input type="search" data-gallery-search aria-label="Buscar sitio, cordillera o región" placeholder="Buscar por nombre, cordillera o región…">
-<button class="ma-filter-chip" data-filter-value="all" aria-pressed="true">Todos</button>
-<button class="ma-filter-chip" data-filter-value="vilcanota" aria-pressed="false">Vilcanota</button>
-<button class="ma-filter-chip" data-filter-value="central" aria-pressed="false">Andes centrales</button>
-<button class="ma-filter-chip" data-filter-value="blanca" aria-pressed="false">Cordillera Blanca</button>
-<button class="ma-filter-chip" data-filter-value="carbono" aria-pressed="false">Carbono negro</button>
-<button class="ma-filter-chip" data-filter-value="criosfera" aria-pressed="false">Criósfera</button>
-<span class="ma-gallery-status" data-gallery-status>Mostrando 5 de 5 sitios</span>
+<aside class="ma-marginalia">Las fotografías son del archivo de campo suministrado para el rediseño. El sitio exacto y la autoría de cada toma deben verificarse en la tabla de metadatos antes de una publicación formal.</aside>
 </div>
-
-<div class="ma-section-wide ma-card-grid" data-glacier-gallery>
-<a class="ma-card" data-glacier-card data-tags="vilcanota criosfera insar meteorologia" data-search="cordillera vilcanota cusco icesat-2 insar meteorologia" href="vilcanota.html"><div class="ma-card__media"><img src="/assets/img/glaciares/vilcanota.svg" alt="Ilustración científica del campo glaciar de la Cordillera Vilcanota" width="900" height="600"></div><div class="ma-card__body"><div class="ma-eyebrow">Cordillera Vilcanota</div><h3>Conjunto glaciar regional</h3><p>ICESat‑2 2018–2026, InSAR Sentinel‑1 e hidrometeorología.</p><div class="ma-card__meta">4 597–6 364 m · 190 polígonos en AOI</div></div></a>
-<a class="ma-card" data-glacier-card data-tags="vilcanota carbono meteorologia" data-search="quelccaya quelqaya qori kalis cusco vilcanota carbono negro meteorologia" href="quelccaya.html"><div class="ma-card__media"><img src="/assets/img/glaciares/quelccaya.svg" alt="Ilustración científica del casquete glaciar Quelccaya" width="900" height="600"></div><div class="ma-card__body"><div class="ma-eyebrow">Cusco · Vilcanota</div><h3>Quelccaya</h3><p>48 muestras, AL30, meteorología y comparación SP2/iones.</p><div class="ma-card__meta">5 200–5 680 m · campaña 2026</div></div></a>
-<a class="ma-card" data-glacier-card data-tags="central carbono meteorologia criosfera" data-search="huaytapallana cochas junin carbono negro ae33 al30 icesat-2" href="huaytapallana.html"><div class="ma-card__media"><img src="/assets/img/glaciares/huaytapallana.svg" alt="Ilustración científica de los glaciares de Huaytapallana" width="900" height="600"></div><div class="ma-card__body"><div class="ma-eyebrow">Junín · Huaytapallana</div><h3>Huaytapallana / Cochas</h3><p>Dos jornadas AL30, serie AE33 descrita y 25 muestras.</p></div></a>
-<a class="ma-card" data-glacier-card data-tags="central carbono" data-search="tunshu junin andes centrales carbono negro al30 hielo" href="tunshu.html"><div class="ma-card__media"><img src="/assets/img/glaciares/tunshu.svg" alt="Ilustración científica del glaciar Tunshu en los Andes centrales" width="900" height="600"></div><div class="ma-card__body"><div class="ma-eyebrow">Junín · Andes centrales</div><h3>Tunshu</h3><p>21 muestras y campaña atmosférica de alta montaña.</p></div></a>
-<a class="ma-card" data-glacier-card data-tags="blanca carbono" data-search="mateo contrayerba ancash cordillera blanca carbono negro altitud" href="mateo.html"><div class="ma-card__media"><img src="/assets/img/glaciares/mateo.svg" alt="Ilustración científica del glaciar Mateo o sector Contrayerba" width="900" height="600"></div><div class="ma-card__body"><div class="ma-eyebrow">Áncash · Cordillera Blanca</div><h3>Mateo / Contrayerba</h3><p>Perfil 0–95 cm, 19 muestras y mediciones AL30 por altitud.</p></div></a>
+<div class="ma-filterbar" role="group" aria-label="Filtros de sitios glaciares">
+<input type="search" data-gallery-search aria-label="Buscar sitio, cordillera o región" placeholder="Buscar por nombre, cordillera o método">
+<button class="ma-filter-chip" type="button" data-filter="all" aria-pressed="true">Todos</button>
+<button class="ma-filter-chip" type="button" data-filter="vilcanota" aria-pressed="false">Vilcanota</button>
+<button class="ma-filter-chip" type="button" data-filter="central" aria-pressed="false">Andes centrales</button>
+<button class="ma-filter-chip" type="button" data-filter="blanca" aria-pressed="false">Cordillera Blanca</button>
+<button class="ma-filter-chip" type="button" data-filter="carbono" aria-pressed="false">Carbono negro</button>
+<span class="ma-gallery-status" data-gallery-status aria-live="polite"></span>
 </div>
-
-<div class="ma-section-wide ma-empty-state" data-gallery-empty><h3>Ningún sitio coincide con esos filtros.</h3><button class="ma-filter-chip" data-gallery-clear>Limpiar filtros</button></div>
+<div class="ma-card-grid" data-gallery>
+<a class="ma-site-card" data-site-card data-state="consolidated" data-tags="vilcanota criosfera insar meteorologia" data-search="cordillera vilcanota cusco icesat-2 insar meteorologia" href="vilcanota.html"><div class="ma-site-card__media"><img src="/assets/img/photos/cards/vilcanota.webp" alt="Formaciones de hielo estratificado y nieve en alta montaña" width="900" height="600" loading="lazy"><span class="ma-photo-credit">Archivo MeteoAndes · 2026</span></div><div class="ma-site-card__body"><p class="ma-eyebrow">Cordillera Vilcanota</p><h3>Conjunto glaciar regional</h3><p>ICESat-2 2018–2026, InSAR Sentinel-1 e hidrometeorología.</p><div class="ma-site-card__meta">4 597–6 364 m · 190 polígonos en el AOI</div><svg class="ma-card-arrow" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></a>
+<a class="ma-site-card" data-site-card data-state="preliminary" data-tags="vilcanota carbono meteorologia" data-search="quelccaya cusco vilcanota carbono negro meteorologia" href="quelccaya.html"><div class="ma-site-card__media"><img src="/assets/img/photos/cards/quelccaya.webp" alt="Casquete de hielo con cornisas y capas de nieve" width="900" height="600" loading="lazy"><span class="ma-photo-credit">Archivo MeteoAndes · 2026</span></div><div class="ma-site-card__body"><p class="ma-eyebrow">Cusco · Vilcanota</p><h3>Quelccaya</h3><p>48 muestras, AL30, meteorología y comparación SP2/iones.</p><div class="ma-site-card__meta">Campaña 2026 · evidencia preliminar</div><svg class="ma-card-arrow" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></a>
+<a class="ma-site-card" data-site-card data-state="preliminary" data-tags="central carbono meteorologia criosfera" data-search="huaytapallana cochas junin carbono negro ae33 al30 icesat-2" href="huaytapallana.html"><div class="ma-site-card__media"><img src="/assets/img/photos/cards/huaytapallana.webp" alt="Laguna altoandina frente a una montaña nevada" width="900" height="600" loading="lazy"><span class="ma-photo-credit">Archivo MeteoAndes · 2026</span></div><div class="ma-site-card__body"><p class="ma-eyebrow">Junín · Huaytapallana</p><h3>Huaytapallana / Cochas</h3><p>Dos jornadas AL30, serie AE33 descrita y 25 muestras.</p><svg class="ma-card-arrow" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></a>
+<a class="ma-site-card" data-site-card data-state="preliminary" data-tags="central carbono" data-search="tunshu junin andes centrales carbono negro al30 hielo" href="tunshu.html"><div class="ma-site-card__media"><img src="/assets/img/photos/cards/tunshu.webp" alt="Equipo de campo caminando sobre una superficie de nieve" width="900" height="600" loading="lazy"><span class="ma-photo-credit">Archivo MeteoAndes · 2026</span></div><div class="ma-site-card__body"><p class="ma-eyebrow">Junín · Andes centrales</p><h3>Tunshu</h3><p>21 muestras y campaña atmosférica de alta montaña.</p><svg class="ma-card-arrow" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></a>
+<a class="ma-site-card" data-site-card data-state="preliminary" data-tags="blanca carbono" data-search="mateo contrayerba ancash cordillera blanca carbono negro altitud" href="mateo.html"><div class="ma-site-card__media"><img src="/assets/img/photos/cards/mateo.webp" alt="Bofedal altoandino y cordillera nevada" width="900" height="600" loading="lazy"><span class="ma-photo-credit">Archivo MeteoAndes · 2026</span></div><div class="ma-site-card__body"><p class="ma-eyebrow">Áncash · Cordillera Blanca</p><h3>Mateo / Contrayerba</h3><p>Perfil 0–95 cm, 19 muestras y mediciones AL30 por altitud.</p><svg class="ma-card-arrow" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></a>
+</div>
+<div class="ma-empty-state" data-gallery-empty>No hay sitios que coincidan con los filtros activos.</div>
+</section>

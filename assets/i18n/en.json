@@ -1,0 +1,24 @@
+{
+  "skip": "Skip to content",
+  "nav": {
+    "glaciers": "Glaciers",
+    "research": "Research",
+    "overview": "Overview",
+    "elevation": "Elevation change",
+    "insar": "InSAR dynamics",
+    "meteo": "Glacier meteorology",
+    "blackcarbon": "Black carbon",
+    "albedo": "Albedo and energy",
+    "sentinel": "Sentinel-5P",
+    "methods": "Methods",
+    "data": "Data",
+    "publications": "Publications",
+    "fieldlog": "Field log"
+  },
+  "gallery": {
+    "count": "{n} visible sites",
+    "empty": "No sites match the active filter."
+  },
+  "language": "Switch to the Spanish version",
+  "footer": "Open science from the Andes"
+}

@@ -1,24 +1,30 @@
 ---
 title: "Tunshu"
-subtitle: "Campaña atmosférica y muestreo criogeoquímico"
-description: "Muestreo de carbono negro, iones e isótopos en el glaciar Tunshu, Andes centrales."
-image: ../assets/img/glaciares/tunshu.svg
-categories: [Tunshu, carbono negro, criogeoquímica]
+subtitle: "Campaña atmosférica y muestreo de nieve/hielo"
+description: "Monitoreo AL30 y 21 muestras criogeoquímicas en el glaciar Tunshu, Andes centrales."
+image: ../assets/img/og/glaciares.jpg
+categories: [Tunshu, carbono negro, muestreo]
 date-modified: 2026-07-29
+lang: es
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/glaciares/tunshu.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/glaciers/tunshu.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/glaciares/tunshu.html">
 ---
 
-<div class="ma-page-meta"><span class="ma-status ma-status--prelim">Campaña preliminar</span></div>
+<p><span class="ma-inline-state" data-state="preliminary">Campaña preliminar</span></p>
 
-## Diseño de campo {data-elevation="5000"}
-
-Tunshu integra la comparación intercordillera de 2026. La campaña utilizó extracción con barreno Kovacs, metadatos de campo y cadena fría para análisis con SP2, cromatografía iónica e isótopos.
+<figure class="ma-figure-photo"><img src="/assets/img/photos/cards/tunshu.webp" alt="Equipo de campo caminando en fila sobre una superficie nevada" width="900" height="600" fetchpriority="high"><div class="ma-photo-note"><span>Archivo MeteoAndes · campaña 2026</span><span>Sitio exacto y autoría por validar</span></div><figcaption>Fotografía de una travesía de campo utilizada como imagen representativa. La identificación exacta debe validarse.</figcaption></figure>
 
 ## Inventario de muestras
 
-Se registraron **21 muestras** TUN26_01–21, con volumen nominal máximo de 1.05 L. El valor del sitio reside en el contraste con Quelccaya, Huaytapallana y Cordillera Blanca bajo un protocolo común.
+El inventario registra **21 muestras** TUN26_01–21, con volumen nominal máximo de **1,05 L**. Las muestras se destinaron a SP2, iones e isótopos bajo un protocolo común de extracción, etiquetado, cadena fría y trazabilidad.
 
 ## Estado de resultados
 
 Existe un producto gráfico de campaña AL30 y fotografía de contexto, pero la base numérica final debe acompañarse de duración, altitud, flujo, ATN, meteorología y estadísticos robustos antes de publicar una comparación cuantitativa.
 
-<div class="ma-callout ma-callout--uncertainty"><strong>Interpretación limitada.</strong> Una sesión de alta montaña describe una ventana atmosférica particular. No representa por sí sola una climatología ni la carga depositada en el hielo.</div>
+::: {.callout-warning}
+### Interpretación limitada
+Una sesión de alta montaña describe una ventana atmosférica particular. No representa por sí sola una climatología ni la carga depositada en el hielo.
+:::

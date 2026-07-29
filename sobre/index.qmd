@@ -1,19 +1,26 @@
 ---
 title: "Sobre MeteoAndes"
+pagetitle: "Sobre MeteoAndes — MeteoAndes"
 description: "Programa científico y principios editoriales de MeteoAndes."
+image: ../assets/img/og/contacto.jpg
+lang: es
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/sobre/index.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/about/index.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/sobre/index.html">
 ---
 
 ## Qué es
 
 MeteoAndes es un sitio público de investigación creado por **Christian Riveros** para comunicar resultados sobre glaciares tropicales peruanos de forma navegable, citable y reproducible.
 
-## Principios
+## Principios editoriales
 
 - Mostrar datos propios y su incertidumbre.
 - Separar resultado consolidado, diagnóstico, preliminar y pendiente.
 - No confundir correlación con causalidad.
 - Publicar métodos, metadatos y código cuando sea posible.
-- Diseñar para pares científicos, gestores, estudiantes y público general.
+- No fabricar cifras para completar brechas.
 
 ## Cómo citar
 

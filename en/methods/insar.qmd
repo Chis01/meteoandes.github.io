@@ -1,0 +1,25 @@
+---
+title: "InSAR method"
+pagetitle: "InSAR method — MeteoAndes"
+description: "Sentinel-1 ascending/descending processing and east–vertical decomposition under dN=0."
+image: ../../assets/img/og/investigacion.jpg
+lang: en
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/metodos/insar.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/methods/insar.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/metodos/insar.html">
+format:
+  html:
+    code-tools: true
+    code-fold: true
+---
+
+## Products
+
+Ascending/descending LOS, dE, dU, |dE|, interval and annualized rates, continuous cumulative displacement, quality and elevation profiles.
+
+```python
+dE, dU = invert_ascending_descending(los_asc, los_desc, geometry)
+```
+
+dU is not Eulerian elevation change or mass balance.

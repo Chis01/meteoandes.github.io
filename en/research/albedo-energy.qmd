@@ -1,0 +1,27 @@
+---
+title: "Surface albedo and energy"
+pagetitle: "Surface albedo and energy — MeteoAndes"
+subtitle: "Physical mechanism from darkening to potential melt"
+description: "Albedo, net radiation and potential-melt scenarios for Quisoquipina."
+image: ../../assets/img/og/investigacion.jpg
+categories: [research]
+lang: en
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/investigacion/albedo-energia.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/research/albedo-energy.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/investigacion/albedo-energia.html">
+---
+
+<p><span class="ma-inline-state" data-state="diagnostic">Implemented · numerical result not closed</span></p>
+
+## Variables
+
+The module calculates albedo, net shortwave and longwave radiation, net radiation, radiative surface temperature, potential melt energy and COSIPY forcing. Quisoquipina 2011–2024 contains the required variables, but a final consolidated energy-balance table is not yet available.
+
+{{< include ../../assets/partials/en/home-albedo.html >}}
+
+## Transparent sensitivity
+
+An albedo reduction Δα = −0.05 under 600 W m⁻² incoming shortwave radiation increases instantaneous absorption by approximately **30 W m⁻²**. It cannot be extrapolated directly to daily melt without integrating solar geometry, cloudiness, thermal state and turbulent fluxes.
+
+The result based on positive Rn must be called **radiative potential melt** or an energy scenario, not observed mass balance.

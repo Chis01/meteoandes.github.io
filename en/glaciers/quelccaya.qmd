@@ -1,9 +1,23 @@
 ---
 title: "Quelccaya"
+pagetitle: "Quelccaya — MeteoAndes"
+subtitle: "Integration site in Cordillera Vilcanota"
+description: "Meteorology, snow/ice sampling, atmospheric eBC and preliminary SP2/ion analysis."
+image: ../../assets/img/og/glaciares.jpg
+categories: [glaciers]
 lang: en
-description: "MeteoAndes field and remote-sensing evidence for Quelccaya."
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/glaciares/quelccaya.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/glaciers/quelccaya.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/glaciares/quelccaya.html">
 ---
 
-Quelccaya connects glacier meteorology, atmospheric eBC and stratigraphic snow/ice sampling. The 2026 inventory contains 48 samples. A 222 ng m⁻³ AL30 value is an instantaneous context measurement, not a climatology or deposition estimate.
+<p><span class="ma-inline-state" data-state="preliminary">Preliminary black carbon</span> <span class="ma-inline-state" data-state="diagnostic">Advanced meteorology</span></p>
 
-[Back to English home](../index.qmd)
+<figure class="ma-figure-photo"><img src="/assets/img/photos/cards/quelccaya.webp" alt="Ice-cap surface with snow cornices and layers under a blue sky" width="900" height="600" fetchpriority="high"><div class="ma-photo-note"><span>MeteoAndes archive · 2026 campaign</span><span>Exact site and authorship pending validation</span></div><figcaption>Representative field-archive image; metadata must be validated before citation.</figcaption></figure>
+
+## Integration site
+
+The 2026 campaign produced **48 samples** coded QUEL2026_01–48, with a nominal maximum volume of **2.40 L**. Field observations described visually clean, highly reflective and stratified snow; visual appearance cannot establish the absence of light-absorbing particles.
+
+A context AL30 measurement of **222 ng m⁻³** is available. It is not a campaign mean, climatology or deposition rate. SP2 and ion products remain preliminary and require frozen units, blanks, replicates, detection limits, depth and traceability.

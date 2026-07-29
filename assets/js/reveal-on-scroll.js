@@ -1,17 +1,17 @@
 export function initReveal() {
-  const els = document.querySelectorAll('[data-reveal]');
-  if (!els.length) return;
-  if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    els.forEach(el => el.classList.add('is-revealed'));
+  const nodes = [...document.querySelectorAll("[data-reveal]")];
+  if (!nodes.length) return;
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches || !("IntersectionObserver" in window)) {
+    nodes.forEach(node => node.classList.add("is-visible"));
     return;
   }
-  const io = new IntersectionObserver(entries => {
+  const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       if (!entry.isIntersecting) return;
-      const delay = Math.min(Number(entry.target.dataset.revealDelay || 0), 400);
-      setTimeout(() => entry.target.classList.add('is-revealed'), delay);
-      io.unobserve(entry.target);
+      const delay = Number(entry.target.dataset.revealDelay || 0);
+      setTimeout(() => entry.target.classList.add("is-visible"), delay);
+      observer.unobserve(entry.target);
     });
-  }, {rootMargin:'0px 0px -10% 0px', threshold:.12});
-  els.forEach(el => io.observe(el));
+  }, {threshold: .12, rootMargin: "0px 0px -8% 0px"});
+  nodes.forEach(node => observer.observe(node));
 }

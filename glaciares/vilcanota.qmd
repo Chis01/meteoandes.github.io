@@ -2,41 +2,54 @@
 title: "Cordillera Vilcanota"
 subtitle: "Descenso superficial regional y dinámica multifuente"
 description: "Resultados ICESat-2 e InSAR para el conjunto glaciar de Vilcanota, Perú, 2018–2026."
-image: ../assets/img/glaciares/vilcanota.svg
+image: ../assets/img/og/glaciares.jpg
 categories: [Vilcanota, ICESat-2, InSAR, criósfera]
 date-modified: 2026-07-29
+lang: es
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/glaciares/vilcanota.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/glaciers/vilcanota.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/glaciares/vilcanota.html">
 ---
 
-<div class="ma-page-meta"><span class="ma-status ma-status--solid">Resultado consolidado ICESat‑2</span><span class="ma-status ma-status--advanced">InSAR diagnóstico avanzado</span></div>
+<p><span class="ma-inline-state" data-state="consolidated">ICESat-2 consolidado</span> <span class="ma-inline-state" data-state="diagnostic">InSAR diagnóstico</span></p>
 
-## Alcance regional {data-elevation="5600"}
+<figure class="ma-figure-photo"><img src="/assets/img/photos/cards/vilcanota.webp" alt="Formaciones de hielo estratificado y nieve en alta montaña" width="900" height="600" fetchpriority="high"><div class="ma-photo-note"><span>Archivo MeteoAndes · campaña 2026</span><span>Sitio exacto y autoría por validar</span></div><figcaption>Imagen de campo representativa del programa. La identificación fotográfica exacta debe validarse antes de una publicación formal.</figcaption></figure>
 
-El análisis ICESat‑2 representa un **conjunto glaciar regional**, no un único glaciar. El AOI original cubre 269.02 km² y 190 polígonos entre aproximadamente 4 597 y 6 364 m; después de un buffer interno de 15 m, el área efectiva es 254.01 km².
+## Alcance regional
 
-<div class="ma-data-strip"><div><strong>639 415</strong><span>segmentos recuperados</span></div><div><strong>27 160</strong><span>puntos glaciares tras QC</span></div><div><strong>129</strong><span>pasadas ICESat‑2</span></div><div><strong>8</strong><span>RGT</span></div></div>
+El análisis ICESat-2 representa un **conjunto glaciar regional**, no un único glaciar. El AOI original cubre **269,02 km²** y 190 polígonos entre aproximadamente 4.597 y 6.364 m; después de un buffer interno de 15 m, el área efectiva es **254,01 km²**.
 
-## Resultado multianual {data-elevation="5300"}
+| Indicador | Valor |
+|---|---:|
+| Segmentos ATL06-SR recuperados | 639 415 |
+| Puntos glaciares después del QC | 27 160 |
+| Pasadas | 129 |
+| RGT | 8 |
 
-La estimación regional ponderada por el área hipsométrica es **−1.463 m año⁻¹** (IC95%: −2.357 a −0.596), equivalente a **−1.243 m e.a. año⁻¹** bajo una densidad de 850 kg m⁻³. La estimación primaria de estación seca es −1.590 m año⁻¹.
+## Resultado multianual
 
-<figure class="ma-science-figure"><img src="/assets/img/charts/icesat2-forest.svg" alt="Cinco estimadores de descenso superficial para la Cordillera Vilcanota" width="1100" height="530"><figcaption>Convergencia entre estación seca, todas las observaciones, dh crudo, ponderación y remuestreo hipsométrico.</figcaption></figure>
+La estimación regional ponderada por hipsometría es **−1,463 m año⁻¹** (IC95 %: **−2,357 a −0,596**), equivalente a **−1,243 m e.a. año⁻¹** bajo una densidad de 850 kg m⁻³. La estimación primaria de estación seca es **−1,590 m año⁻¹** (IC95 %: −2,229 a −1,053).
 
-<div class="ma-callout ma-callout--data"><strong>Trazabilidad.</strong> Auditorías ICESat‑2 v15–v16.1, notebook v17 y síntesis doctoral con corte al 16 de julio de 2026. Los CSV resumidos están disponibles en el catálogo de datos.</div>
+<figure class="ma-science-figure"><img src="/assets/img/charts/icesat2-forest.svg" alt="Cinco estimadores negativos del descenso superficial en la Cordillera Vilcanota" width="1100" height="530" loading="lazy"><figcaption>Cinco formulaciones independientes convergen en signo y magnitud. El remuestreo hipsométrico utiliza percentiles P5–P95.</figcaption></figure>
 
-## Variabilidad por año hidrológico {data-elevation="5150"}
+## Variabilidad por año hidrológico
 
 Los productos anuales son diagnósticos porque su soporte temporal y altitudinal es desigual. HY2023 y HY2024 concentran los cambios negativos más intensos; la anomalía positiva de HY2022 **no** demuestra recuperación estructural.
 
-<figure class="ma-science-figure"><img src="/assets/img/charts/hydro-years.svg" alt="Cambios diagnósticos de elevación de Vilcanota por año hidrológico" width="1100" height="540"><figcaption>Cambios respecto al año previo para estación seca y todas las observaciones. HY2026 se excluye por incompleto.</figcaption></figure>
+<figure class="ma-science-figure"><img src="/assets/img/charts/hydro-years.svg" alt="Cambios diagnósticos de elevación de Vilcanota por año hidrológico" width="1100" height="540" loading="lazy"><figcaption>Cambios respecto al año previo para estación seca y todas las observaciones. HY2026 se excluye por incompleto.</figcaption></figure>
 
-## Gradiente altitudinal {data-elevation="5000"}
+## Gradiente altitudinal
 
-La pérdida es más intensa en cotas bajas y medias-bajas, especialmente alrededor de **5 000–5 400 m**. Hacia cotas altas la magnitud se modera, pero el soporte disminuye y la incertidumbre aumenta; no corresponde interpretar las bandas >5 750 m como estabilidad confirmada.
+La pérdida es más intensa en cotas bajas y medias-bajas, especialmente alrededor de **5 000–5 400 m**. Hacia cotas altas la magnitud se modera, pero el soporte disminuye y la incertidumbre aumenta. Las bandas por encima de aproximadamente 5 750 m no permiten afirmar estabilidad o ganancia.
 
-## InSAR: lo que ya se sabe {data-elevation="4900"}
+## InSAR: resultado diagnóstico
 
-La serie revisada contiene 33 adquisiciones ascendentes y 35 descendentes en una grilla común de 40 m (EPSG:32719). La inversión Este–Vertical bajo dN=0 está bien condicionada (determinante cercano a −0.95). Sin embargo, el residual estable de ~0.63–0.65 cm es comparable con las medianas mensuales dU revisadas.
+La serie revisada contiene **33 adquisiciones ascendentes y 35 descendentes** en una grilla común de 40 m, EPSG:32719. La inversión Este–Vertical bajo dN=0 está bien condicionada, con determinante cercano a −0,95. Sin embargo, el residual estable de aproximadamente 0,63–0,65 cm es comparable con las medianas mensuales dU revisadas.
 
-<figure class="ma-science-figure"><img src="/assets/img/charts/insar-noise.svg" alt="Comparación de dos señales mensuales InSAR con el residual estable" width="1000" height="470"><figcaption>Los mapas mensuales deben tratarse como diagnóstico; la comparación defendible requiere acumulados, periodos homogéneos y presupuesto de incertidumbre.</figcaption></figure>
+<figure class="ma-science-figure"><img src="/assets/img/charts/insar-noise.svg" alt="Dos señales mensuales InSAR comparadas con el residual estable" width="1000" height="470" loading="lazy"><figcaption>Los mapas mensuales son diagnósticos. La comparación defendible requiere acumulados continuos, periodos homogéneos y un presupuesto de incertidumbre.</figcaption></figure>
 
-<div class="ma-callout ma-callout--warning"><strong>No equivalencia física.</strong> dU InSAR representa movimiento vertical relativo de la superficie coherente bajo el supuesto dN=0. No es directamente dh/dt ni balance de masa. ICESat‑2 e InSAR deben compararse por tasas y acumulados sobre ventanas y soportes comunes.</div>
+::: {.callout-warning}
+### No equivalencia física
+dU InSAR representa movimiento vertical relativo de la superficie coherente bajo el supuesto dN=0. No es directamente dh/dt ni balance de masa. ICESat-2 e InSAR deben compararse mediante tasas y acumulados sobre ventanas y soportes comunes.
+:::

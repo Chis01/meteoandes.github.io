@@ -1,9 +1,12 @@
 ---
 title: "Campaña criogeoquímica en Tunshu"
+pagetitle: "Campaña criogeoquímica en Tunshu — MeteoAndes"
 date: 2026-07-07
 author: "Christian Riveros"
 categories: [Tunshu, campaña 2026]
 description: "Nota técnica de campo de MeteoAndes."
+image: ../../../assets/img/og/glaciares.jpg
+lang: es
 ---
 
 Se recolectaron 21 muestras mediante extracción con Kovacs, conservadas en cadena fría. El objetivo es comparar rBC, composición iónica e isótopos con otros sitios peruanos bajo un esquema común.

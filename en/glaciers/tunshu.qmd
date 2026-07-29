@@ -1,9 +1,21 @@
 ---
 title: "Tunshu"
+pagetitle: "Tunshu — MeteoAndes"
+subtitle: "Atmospheric campaign and snow/ice sampling"
+description: "AL30 high-mountain campaign and 21 cryogeochemical samples."
+image: ../../assets/img/og/glaciares.jpg
+categories: [glaciers]
 lang: en
-description: "MeteoAndes field and remote-sensing evidence for Tunshu."
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/glaciares/tunshu.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/glaciers/tunshu.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/glaciares/tunshu.html">
 ---
 
-The 2026 field campaign collected 21 samples for rBC, ions and isotopes. Atmospheric campaign results remain preliminary until duration, flow, attenuation and meteorology are consolidated.
+<p><span class="ma-inline-state" data-state="preliminary">Preliminary campaign</span></p>
 
-[Back to English home](../index.qmd)
+<figure class="ma-figure-photo"><img src="/assets/img/photos/cards/tunshu.webp" alt="Field team walking in single file across a snow surface" width="900" height="600" fetchpriority="high"><div class="ma-photo-note"><span>MeteoAndes archive · 2026 campaign</span><span>Exact site and authorship pending validation</span></div><figcaption>Representative expedition image; exact identification must be validated.</figcaption></figure>
+
+The inventory contains **21 samples**, TUN26_01–21, with a nominal maximum volume of **1.05 L**. A campaign graphic exists, but a publishable numerical comparison still requires duration, altitude, flow, ATN, meteorology and robust statistics.
+
+A high-mountain session is a specific atmospheric window. It is not a climatology or the deposited load in ice.

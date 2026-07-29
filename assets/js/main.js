@@ -1,16 +1,42 @@
-import {initReveal} from './reveal-on-scroll.js';
-import {initCounters} from './counters.js';
-import {initElevationSpine} from './elevation-spine.js';
-import {initGalleryFilter} from './gallery-filter.js';
-import {initAlbedoSliders} from './albedo-slider.js';
-import {initReadingProgress} from './reading-progress.js';
+import {initReveal} from "./reveal-on-scroll.js";
+import {initCounters} from "./counters.js";
+import {initTransect} from "./transect.js";
+import {initGalleryFilter} from "./gallery-filter.js";
+import {initAlbedoSliders} from "./albedo-slider.js";
+import {initReadingProgress} from "./reading-progress.js";
+import {initForestPlots} from "./forest-plot.js";
+import {initLanguage} from "./language.js";
 
-document.addEventListener('DOMContentLoaded',()=>{
-  initReveal(); initCounters(); initElevationSpine(); initGalleryFilter(); initAlbedoSliders(); initReadingProgress();
-  if (!document.querySelector('.skip-link')) { const skip=document.createElement('a'); skip.className='skip-link'; skip.href='#quarto-content'; skip.textContent=document.documentElement.lang.startsWith('en')?'Skip to content':'Ir al contenido'; document.body.prepend(skip); }
-  const enLink=[...document.querySelectorAll('.navbar a')].find(a=>a.textContent.trim()==='EN');
-  if(enLink){ const path=location.pathname; const map={'/glaciares/vilcanota.html':'/en/glaciers/vilcanota.html','/glaciares/quelccaya.html':'/en/glaciers/quelccaya.html','/glaciares/huaytapallana.html':'/en/glaciers/huaytapallana.html','/glaciares/tunshu.html':'/en/glaciers/tunshu.html','/glaciares/mateo.html':'/en/glaciers/mateo.html','/datos/index.html':'/en/data/index.html','/publicaciones/index.html':'/en/publications/index.html','/sobre/contacto.html':'/en/about/contact.html'}; if(path.startsWith('/en/')){enLink.textContent='ES'; const reverse=Object.fromEntries(Object.entries(map).map(([a,b])=>[b,a])); enLink.href=reverse[path]||'/';} else {enLink.href=map[path]||'/en/';}}
-  const nav=document.querySelector('.navbar');
-  const compact=()=>nav?.classList.toggle('ma-compact',scrollY>80);
-  addEventListener('scroll',compact,{passive:true});compact();
+document.addEventListener("DOMContentLoaded", async () => {
+  if (/\/(metodos|methods)\//.test(location.pathname)) document.body.classList.add("ma-method-page");
+  await initLanguage();
+  initReveal();
+  initCounters();
+  initTransect();
+  initGalleryFilter();
+  initAlbedoSliders();
+  initReadingProgress();
+  initForestPlots();
+
+  const nav=document.querySelector(".navbar");
+  let ticking=false;
+  const compact=()=>{
+    nav?.classList.toggle("ma-compact",scrollY>96);
+    ticking=false;
+  };
+  addEventListener("scroll",()=>{
+    if(ticking)return;
+    ticking=true;
+    requestAnimationFrame(compact);
+  },{passive:true});
+  compact();
+
+  document.querySelectorAll('a[href]').forEach(link=>{
+    const href=link.getAttribute("href");
+    if(!href || href.startsWith("#") || href.startsWith("mailto:") || href.startsWith("http") || link.target==="_blank") return;
+    link.addEventListener("click",event=>{
+      if(event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;
+      document.body.classList.add("ma-page-transition");
+    });
+  });
 });

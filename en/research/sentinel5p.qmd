@@ -1,0 +1,33 @@
+---
+title: "Sentinel‑5P and fire exposure"
+pagetitle: "Sentinel‑5P and fire exposure — MeteoAndes"
+subtitle: "Designed methodology, no validated final product yet"
+description: "Transparent status of the TROPOMI aerosol and fire component."
+image: ../../assets/img/og/investigacion.jpg
+categories: [research]
+lang: en
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/investigacion/sentinel5p.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/research/sentinel5p.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/investigacion/sentinel5p.html">
+---
+
+<p><span class="ma-inline-state" data-state="pending">Final execution pending</span></p>
+
+## Current status
+
+No validated Sentinel‑5P series, definitive event catalogue, anomaly maps or synchronized exposure windows are currently available. It is therefore not scientifically valid to attribute observed Vilcanota lowering to specific fires.
+
+## Candidate products
+
+| Product | Role | Limitation |
+|---|---|---|
+| UV Aerosol Index | Absorbing aerosol and plumes | Does not measure BC mass or deposition |
+| CO | Combustion and transport tracer | Long lifetime and regional mixing |
+| NO₂ | Urban/fossil combustion and fires | Urban sources and resolution |
+| HCHO | Biomass-related chemistry | Weak signal and biogenic sources |
+| SO₂ | Volcanic/point-combustion control | Not the main fire tracer |
+
+## Closure criterion
+
+Daily and moving composites, day-of-year climatology, anomalies, fire detections, trajectories, matched negative controls, lag analysis and AL30/AE33 validation are required before this component is promoted beyond pending.

@@ -1,9 +1,31 @@
 ---
-title: "Vilcanota glacier ensemble"
+title: "Cordillera Vilcanota"
+pagetitle: "Cordillera Vilcanota — MeteoAndes"
+subtitle: "Regional glacier system, Cusco"
+description: "Regional ice field: ICESat‑2 elevation change, InSAR and hydrometeorology."
+image: ../../assets/img/og/glaciares.jpg
+categories: [glaciers]
 lang: en
-description: "MeteoAndes field and remote-sensing evidence for Vilcanota glacier ensemble."
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/glaciares/vilcanota.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/glaciers/vilcanota.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/glaciares/vilcanota.html">
 ---
 
-The ICESat‑2 analysis covers 2018–2026 and shows robust regional surface lowering near 1.5 m yr⁻¹. The area-weighted estimate is −1.463 m yr⁻¹. InSAR geometry is well conditioned, but monthly vertical signals are close to stable-terrain noise and require accumulated products.
+<p><span class="ma-inline-state" data-state="consolidated">ICESat‑2 consolidated</span> <span class="ma-inline-state" data-state="diagnostic">InSAR diagnostic</span></p>
 
-[Back to English home](../index.qmd)
+<figure class="ma-figure-photo"><img src="/assets/img/photos/cards/vilcanota.webp" alt="Stratified ice formations and snow in a high-mountain landscape" width="900" height="600" fetchpriority="high"><div class="ma-photo-note"><span>MeteoAndes archive · 2026 campaign</span><span>Exact site and authorship pending validation</span></div><figcaption>Representative field-archive image; validate the original metadata before using it as a site-specific record.</figcaption></figure>
+
+## Regional unit
+
+The analysed AOI covers 269.02 km² before the internal buffer and 254.01 km² after a 15 m buffer, with 190 polygons and elevations of approximately 4,597–6,364 m.
+
+## Main result
+
+The area-weighted regional rate is **−1.463 m yr⁻¹** (95% CI: −2.357 to −0.596), representing 96.5% of the AOI. At 850 kg m⁻³ this corresponds to **−1.243 m water equivalent yr⁻¹** (95% CI: −2.011 to −0.476).
+
+The strongest negative trends occur at lower and middle-lower elevations. High-elevation bands have weaker support and wider uncertainty.
+
+## InSAR context
+
+The audited series has 33 ascending and 35 descending acquisitions on a 40 m EPSG:32719 grid. Monthly dU examples (+0.23 and −0.58 cm) are close to the 0.63–0.65 cm stable residual. Cumulative products and consistent uncertainty are required before a regional InSAR rate is reported.

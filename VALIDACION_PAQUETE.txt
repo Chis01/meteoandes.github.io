@@ -1,0 +1,25 @@
+METEOANDES — VALIDACIÓN DEL PAQUETE AUDITADO
+Fecha: 29 de julio de 2026
+
+Archivos incluidos: 184
+Tamaño fuente aproximado: 2785435 bytes
+Transecto fotográfico: 729424 bytes (límite de auditoría: 900000 bytes)
+Documentos Quarto: 58
+
+CONTROLES EJECUTADOS
+- YAML/front matter y referencias absolutas de recursos: OK
+- JavaScript (node --check): OK
+- Textos alternativos científicos y dimensiones intrínsecas: OK
+- Presupuestos de imagen: OK
+- Tablas científicas esperadas: OK
+- Parciales de portada: un H1, sin IDs duplicados y sin HTML indentado como código: OK
+- Imágenes Open Graph: JPEG 1200 x 630, menores de 300 kB: OK
+- Tema oscuro global: eliminado
+- code-tools global: desactivado; solo métodos: habilitado
+- .git, _site y .quarto: excluidos del paquete
+
+LIMITACIÓN TRANSPARENTE
+Quarto CLI no estaba disponible en el entorno de ensamblaje; por ello el render final debe ejecutarse en el equipo del usuario o mediante GitHub Actions. Los fuentes fueron validados y el workflow incluido ejecutará quarto render y controles del HTML generado.
+
+METADATOS FOTOGRÁFICOS
+El ZIP de imágenes no contenía, por archivo, coordenadas, cota, fecha exacta y autoría verificable. Esos campos se marcan como pendientes en assets/data/photo-metadata.csv y no fueron inventados.

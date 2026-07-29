@@ -1,22 +1,32 @@
 ---
 title: "Catálogo de datos"
+pagetitle: "Catálogo de datos — MeteoAndes"
 description: "Tablas de síntesis y metadatos de los resultados publicados por MeteoAndes."
+image: ../assets/img/og/datos.jpg
+lang: es
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/datos/index.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/data/index.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/datos/index.html">
 ---
 
-## Datos disponibles en esta versión
+<p><span class="ma-inline-state" data-state="consolidated">Versionado y descargable</span></p>
+
+<figure class="ma-figure-photo"><img src="/assets/img/photos/cards/datos.webp" alt="Equipo de campo tomando y registrando muestras de nieve en alta montaña" width="900" height="600" loading="lazy"><div class="ma-photo-note"><span>Archivo MeteoAndes · 2026</span><span>Sitio y autoría por validar</span></div><figcaption>Los resúmenes disponibles se publican con estado de evidencia, unidades y periodo.</figcaption></figure>
+
+## Conjuntos disponibles
 
 | Conjunto | Periodo | Estado | Archivo |
 |---|---|---|---|
 | Tendencias ICESat‑2 Vilcanota | 2018–2026 | Auditado | [CSV](../assets/data/series/vilcanota_icesat2_trends.csv) |
 | Cambios por año hidrológico | HY2020–HY2025 | Diagnóstico | [CSV](../assets/data/series/vilcanota_hydro_year_changes.csv) |
-| Auditoría InSAR Vilcanota | corte julio 2026 | Diagnóstico avanzado | [CSV](../assets/data/series/insar_vilcanota_summary.csv) |
+| Auditoría InSAR Vilcanota | julio de 2026 | Diagnóstico avanzado | [CSV](../assets/data/series/insar_vilcanota_summary.csv) |
 | Sesiones AL30 | campañas 2026 | Preliminar | [CSV](../assets/data/series/al30_preliminary_sessions.csv) |
-| Inventario de muestras | mayo–julio 2026 | Inventario | [CSV](../assets/data/series/glacier_samples_2026.csv) |
-| Perfil Mateo 0–95 cm | julio 2026 | Inventario | [CSV](../assets/data/series/sample_depth_mateo.csv) |
+| Inventario de muestras | mayo–julio de 2026 | Inventario | [CSV](../assets/data/series/glacier_samples_2026.csv) |
+| Perfil Mateo 0–95 cm | julio de 2026 | Inventario | [CSV](../assets/data/series/sample_depth_mateo.csv) |
 | Inventario de estaciones | varios periodos | Metadatos | [CSV](../assets/data/series/station_inventory.csv) |
+| Metadatos fotográficos | campañas 2026 | Requiere validación | [CSV](../assets/data/photo-metadata.csv) |
 
 ## Política de uso
 
-Las tablas son resúmenes ligeros derivados de documentación interna auditada o de inventarios de campaña. Cuando se publiquen depósitos Zenodo, esta página incorporará DOI, archivos completos, versión, checksum y cita específica.
-
-<div class="ma-callout ma-callout--warning"><strong>No confundir estado.</strong> “Preliminar” significa que faltan estadísticas o QA/QC consolidados; “diagnóstico” significa que el flujo está auditado, pero no existe todavía una magnitud regional final publicable.</div>
+Cuando existan depósitos Zenodo, esta página incorporará DOI, versión, checksum, licencia y cita específica. «Preliminar» significa que el QA/QC o la estadística final no están cerrados; «diagnóstico» indica que el flujo está auditado, pero no existe todavía una magnitud regional final.

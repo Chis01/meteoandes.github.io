@@ -1,12 +1,27 @@
 ---
 title: "Método meteorológico"
+pagetitle: "Método meteorológico — MeteoAndes"
 description: "Integración de estaciones locales, ERA5-Land, ERA5 y CHIRPS."
+image: ../assets/img/og/investigacion.jpg
+lang: es
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/metodos/meteorologia.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/methods/meteorology.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/metodos/meteorologia.html">
+format:
+  html:
+    code-tools: true
+    code-fold: true
 ---
 
 ## Extracción espacial
 
-Las celdas de reanálisis y precipitación se ponderan por el área de intersección con el AOI glaciar. Cada año exporta pesos, cobertura, tabla diaria, resumen mensual y panel de visualización.
+Las celdas se ponderan por el área de intersección con el AOI glaciar. Cada año exporta pesos, cobertura, tabla diaria, resumen mensual y panel.
+
+```python
+weighted_mean = (cell_value * intersection_area).sum() / intersection_area.sum()
+```
 
 ## Validación
 
-Las correcciones de reanálisis deben validarse con partición temporal y reportar MAE, RMSE, sesgo y R² por estación seca/húmeda. Las variables diarias no sustituyen observaciones horarias en análisis de transporte.
+Las correcciones de reanálisis deben evaluarse con partición temporal y reportar MAE, RMSE, sesgo y R² por estación seca/húmeda.

@@ -1,0 +1,23 @@
+---
+title: "About MeteoAndes"
+pagetitle: "About MeteoAndes — MeteoAndes"
+description: "Scientific programme and editorial principles."
+image: ../../assets/img/og/contacto.jpg
+lang: en
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/sobre/index.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/about/index.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/sobre/index.html">
+---
+
+## What it is
+
+MeteoAndes is a public research website created by **Christian Riveros** to communicate results on Peruvian tropical glaciers in a navigable, citable and reproducible form.
+
+## Editorial principles
+
+- Show measurements together with uncertainty.
+- Separate consolidated, diagnostic, preliminary and pending evidence.
+- Do not confuse correlation with causation.
+- Publish methods, metadata and code when possible.
+- Never fabricate values to fill analytical gaps.

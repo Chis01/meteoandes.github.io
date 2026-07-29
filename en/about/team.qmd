@@ -1,0 +1,17 @@
+---
+title: "Team"
+pagetitle: "Team — MeteoAndes"
+description: "Authorship and scientific collaboration in MeteoAndes."
+image: ../../assets/img/og/contacto.jpg
+lang: en
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/sobre/equipo.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/about/team.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/sobre/equipo.html">
+---
+
+## Christian Riveros
+
+Researcher and author of MeteoAndes. Research lines include glacier remote sensing, InSAR, ICESat‑2, high-mountain meteorology, aerosols and black carbon.
+
+Collaborator names, affiliations and contributions will be incorporated with authorization and CRediT roles in each product.

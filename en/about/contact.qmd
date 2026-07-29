@@ -1,7 +1,19 @@
 ---
 title: "Contact"
+pagetitle: "Contact — MeteoAndes"
+description: "Scientific contact for MeteoAndes."
+image: ../../assets/img/og/contacto.jpg
 lang: en
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/sobre/contacto.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/about/contact.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/sobre/contacto.html">
 ---
 
-**Christian Riveros**  
-[contacto@meteoandes.com](mailto:contacto@meteoandes.com) · [GitHub](https://github.com/Chis01)
+## Christian Riveros
+
+- Project email: [contacto@meteoandes.com](mailto:contacto@meteoandes.com)
+- GitHub: [Chis01](https://github.com/Chis01)
+- Repository: [meteoandes.github.io](https://github.com/Chis01/meteoandes.github.io)
+
+For unpublished data requests, specify the dataset, period, purpose and intended product. Availability depends on QA/QC, permissions, licences and manuscript status.

@@ -1,0 +1,43 @@
+---
+title: "Research"
+pagetitle: "Research — MeteoAndes"
+subtitle: "A multi-sensor evidence framework"
+description: "MeteoAndes scientific architecture: cryosphere, meteorology, black carbon and energy."
+image: ../../assets/img/og/investigacion.jpg
+categories: [research]
+lang: en
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/investigacion/index.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/research/index.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/investigacion/index.html">
+---
+
+<p><span class="ma-inline-state" data-state="consolidated">Audited core result</span> <span class="ma-inline-state" data-state="diagnostic">Integration in progress</span></p>
+
+## Integrating question
+
+How are the elevation and dynamics of Peruvian tropical glaciers changing, and what roles may meteorology and light-absorbing particles play in that response?
+
+<figure class="ma-figure-photo"><img src="/assets/img/photos/sections/agua-campo.webp" alt="High-mountain researchers next to glacial water during a field campaign" width="1400" height="933" loading="lazy"><div class="ma-photo-note"><span>MeteoAndes archive · 2026 campaigns</span><span>Site and authorship pending metadata validation</span></div><figcaption>The architecture combines field, laboratory and satellite observations; each sensor retains its own physical quantity and uncertainty.</figcaption></figure>
+
+## Evidence chain
+
+<div class="ma-evidence-ribbon">
+<a class="ma-chain__segment is-atmosphere" href="sentinel5p.html"><strong>Atmosphere</strong><span>TROPOMI · AL30 · AE33</span><p>Exposure and aerosols.</p></a>
+<a class="ma-chain__segment is-meteo" href="glacier-meteorology.html"><strong>Meteorology</strong><span>AWS · ERA5 · CHIRPS</span><p>Transport and confounders.</p></a>
+<a class="ma-chain__segment is-deposit" href="black-carbon.html"><strong>Deposition</strong><span>SP2 · ions · isotopes</span><p>Particles retained in snow and ice.</p></a>
+<a class="ma-chain__segment is-energy" href="albedo-energy.html"><strong>Energy</strong><span>Albedo · SW/LW · Rn</span><p>Absorption and potential melt.</p></a>
+<a class="ma-chain__segment is-response" href="elevation-change.html"><strong>Response</strong><span>ICESat-2 · InSAR</span><p>Geometry change and motion.</p></a>
+</div>
+
+## Results matrix
+
+| Component | Current result | Evidence level |
+|---|---|---|
+| ICESat‑2 Vilcanota | −1.463 m yr⁻¹; 95% CI: −2.357 to −0.596 | Consolidated/audited |
+| InSAR Vilcanota | Suitable geometry; monthly signal near noise | Advanced diagnostic |
+| Hydrometeorology | AOI/year panels; multi-year synthesis pending | Advanced diagnostic |
+| Albedo/energy | Equations, QA/QC and forcing implemented | Implemented, not closed |
+| AL30/AE33 | Preliminary eBC variability | Preliminary |
+| SP2/ions | Preliminary profiles and multivariate analyses | Preliminary laboratory evidence |
+| Sentinel‑5P | No validated final product | Pending |

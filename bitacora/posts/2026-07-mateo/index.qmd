@@ -1,9 +1,12 @@
 ---
 title: "Perfil de 0–95 cm en Mateo / Contrayerba"
+pagetitle: "Perfil de 0–95 cm en Mateo / Contrayerba — MeteoAndes"
 date: 2026-07-15
 author: "Christian Riveros"
 categories: [Mateo, campaña 2026]
 description: "Nota técnica de campo de MeteoAndes."
+image: ../../../assets/img/og/glaciares.jpg
+lang: es
 ---
 
 El perfil está compuesto por 19 intervalos continuos de 5 cm. También se realizaron mediciones AL30 a diferentes alturas. La pendiente altitudinal no se publica hasta consolidar cotas, tiempos, QA y estadísticos.

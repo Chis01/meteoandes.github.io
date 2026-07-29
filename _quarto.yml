@@ -1,6 +1,16 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - "*.qmd"
+    - "glaciares/**/*.qmd"
+    - "investigacion/**/*.qmd"
+    - "metodos/**/*.qmd"
+    - "datos/**/*.qmd"
+    - "publicaciones/**/*.qmd"
+    - "sobre/**/*.qmd"
+    - "bitacora/**/*.qmd"
+    - "en/**/*.qmd"
   resources:
     - CNAME
     - .nojekyll
@@ -15,16 +25,14 @@ project:
 
 execute:
   freeze: auto
-  echo: fenced
+  echo: false
   warning: false
 
 website:
   title: "MeteoAndes"
   site-url: "https://meteoandes.com"
-  repo-url: "https://github.com/Chis01/meteoandes.github.io"
-  repo-actions: [source, issue]
   favicon: assets/img/brand/favicon.svg
-  image: assets/img/og/default.png
+  image: assets/img/og/home.jpg
   description: >
     Investigación de campo y observación de la Tierra en glaciares tropicales
     del Perú: cambio de elevación, dinámica InSAR, meteorología, albedo y carbono negro.
@@ -36,7 +44,7 @@ website:
 
   navbar:
     logo: assets/img/brand/logo-mark.svg
-    logo-alt: "MeteoAndes"
+    logo-alt: "Símbolo de MeteoAndes"
     title: "MeteoAndes"
     pinned: true
     collapse-below: lg
@@ -70,7 +78,7 @@ website:
     right:
       - text: "EN"
         href: en/index.qmd
-        aria-label: "English version"
+        aria-label: "Cambiar a la versión en inglés"
       - icon: github
         href: https://github.com/Chis01/meteoandes.github.io
         aria-label: "Repositorio de MeteoAndes en GitHub"
@@ -102,10 +110,8 @@ website:
 
 format:
   html:
-    theme:
-      light: [cosmo, assets/scss/theme-light.scss]
-      dark: [darkly, assets/scss/theme-dark.scss]
-    css: assets/css/extra.css
+    theme: cosmo
+    css: assets/css/site.css
     toc: true
     toc-depth: 3
     toc-title: "En esta página"
@@ -114,8 +120,8 @@ format:
     smooth-scroll: true
     code-fold: true
     code-summary: "Mostrar código"
-    code-tools: true
-    code-copy: true
+    code-tools: false
+    code-copy: false
     highlight-style: github
     link-external-icon: true
     link-external-newwindow: true

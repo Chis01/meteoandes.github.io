@@ -1,21 +1,28 @@
 ---
 title: "Dinámica glaciar con InSAR"
+pagetitle: "Dinámica glaciar con InSAR — MeteoAndes"
 subtitle: "Sentinel‑1 ASC/DESC y descomposición dN=0"
 description: "Estado auditado del flujo InSAR de Vilcanota y transferencia a Cordillera Blanca."
-categories: [InSAR, Sentinel-1, MintPy, Vilcanota]
+image: ../assets/img/og/investigacion.jpg
+categories: [investigación]
+lang: es
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/investigacion/insar.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/research/insar.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/investigacion/insar.html">
 ---
 
-<div class="ma-page-meta"><span class="ma-status ma-status--advanced">Diagnóstico avanzado</span></div>
+<p><span class="ma-inline-state" data-state="diagnostic">Diagnóstico avanzado</span></p>
 
 ## Arquitectura implementada
 
 El flujo integra series ascendentes y descendentes procesadas con HyP3 y MintPy, corrección troposférica, referencia espacial, productos LOS, emparejamiento temporal, descomposición Este–Vertical bajo dN=0, estadísticas por AOI y bandas de elevación, atlas y tablas de tendencia.
 
-<div class="ma-data-strip"><div><strong>33</strong><span>adquisiciones ASC</span></div><div><strong>35</strong><span>adquisiciones DESC</span></div><div><strong>40 m</strong><span>resolución común</span></div><div><strong>−0.95</strong><span>determinante aproximado</span></div></div>
+<div class="ma-data-strip"><div><strong>33</strong><span>adquisiciones ASC</span></div><div><strong>35</strong><span>adquisiciones DESC</span></div><div><strong>40 m</strong><span>resolución común</span></div><div><strong>−0,95</strong><span>determinante aproximado</span></div></div>
 
 ## Señal y capacidad de detección
 
-<figure class="ma-science-figure"><img src="/assets/img/charts/insar-noise.svg" alt="Medianas mensuales de dU comparadas con el residual estable de InSAR" width="1000" height="470"><figcaption>Ejemplos auditados: +0.23 cm en diciembre de 2023 y −0.58 cm en enero de 2024; residual estable 0.63–0.65 cm.</figcaption></figure>
+<figure class="ma-science-figure"><img src="/assets/img/charts/insar-noise.svg" alt="Medianas mensuales de desplazamiento vertical relativo comparadas con el residual estable de InSAR" width="1000" height="470" loading="lazy"><figcaption>Ejemplos auditados: +0,23 cm en diciembre de 2023 y −0,58 cm en enero de 2024; residual estable de 0,63–0,65 cm.</figcaption></figure>
 
 La señal mensual vertical está dentro o cerca del ruido. Esto no invalida el método: indica que la ventana mensual está por debajo de la capacidad de detección para una señal subcentimétrica.
 
@@ -24,13 +31,16 @@ La señal mensual vertical está dentro o cerca del ruido. Esto no invalida el m
 | Problema | Efecto | Tratamiento |
 |---|---|---|
 | Máscara ASC leída desde DESC | Cobertura y estadísticos sesgados | Resolver ruta por geometría y verificar |
-| Ventana de 24 días rotulada como anual | Magnitud engañosa | Reportar duración efectiva y tasa anualizada |
+| Ventana de 24 días rotulada como anual | Magnitud engañosa | Reportar duración y tasa anualizada |
 | Baseline reiniciado cada año | Oculta acumulación multianual | Referencia global o acumulado enlazado |
 | NoData interpretado como cero | Reduce medianas y crea bordes | Mantener NaN y reportar cobertura |
 | P-valores sin autocorrelación | Sobreestima tendencia | Hamed–Rao y bootstrap por bloques |
 
 ## Interpretación permitida
 
-InSAR aporta movimiento lento y espacialmente continuo en píxeles coherentes. La contribución publicable debe centrarse en acumulados, perfiles altitudinales, calidad, incertidumbre y comparación multifuente. Todavía **no** existe una tasa regional final de dU para Vilcanota.
+InSAR aporta movimiento lento y espacialmente continuo en píxeles coherentes. El producto publicable debe centrarse en acumulados, perfiles altitudinales, calidad, incertidumbre y comparación multifuente. **No existe todavía una tasa regional final de dU para Vilcanota.**
 
-<div class="ma-callout ma-callout--warning"><strong>Cordillera Blanca.</strong> El flujo fue transferido con CRS correcto EPSG:32718, pero la evidencia empírica regional final no está consolidada. No se asignan magnitudes no auditadas.</div>
+::: {.callout-note}
+### Cordillera Blanca
+El flujo fue transferido con el CRS correcto EPSG:32718, pero la evidencia empírica regional final no está consolidada. No se asignan magnitudes no auditadas.
+:::

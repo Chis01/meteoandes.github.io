@@ -1,0 +1,19 @@
+---
+title: "Page not found"
+pagetitle: "Page not found — MeteoAndes"
+description: "MeteoAndes recovery page."
+image: ../assets/img/og/home.jpg
+lang: en
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/404.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/404.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/404.html">
+page-layout: full
+toc: false
+---
+
+<section class="ma-error-page">
+<p class="ma-eyebrow">Error 404</p>
+<p class="ma-section-lead">This route disappeared into the clouds. Use search or return to a main section.</p>
+<div class="ma-actions"><a class="ma-button ma-button--dark" href="/en/">Return to MeteoAndes</a><a class="ma-button ma-button--paper" href="/en/glaciers/">Explore glaciers</a></div>
+</section>

@@ -1,0 +1,31 @@
+---
+title: "Glosario bilingüe"
+pagetitle: "Glosario bilingüe — MeteoAndes"
+description: "Terminología normalizada de MeteoAndes."
+image: assets/img/og/investigacion.jpg
+lang: es
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/glosario.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/glossary.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/glosario.html">
+---
+
+| Español | Inglés | Definición |
+|---|---|---|
+| albedo | albedo | Fracción de radiación de onda corta reflejada por una superficie. |
+| carbono negro equivalente | equivalent black carbon (eBC) | Concentración inferida ópticamente mediante absorción. |
+| carbono negro refractario | refractory black carbon (rBC) | Masa de partículas refractarias medida por incandescencia SP2. |
+| cambio de elevación | elevation change | Cambio euleriano de la cota superficial entre fechas. |
+| co-registro | co-registration | Alineación horizontal y vertical entre datasets de elevación. |
+| criósfera | cryosphere | Componentes del sistema terrestre donde el agua está congelada. |
+| desplazamiento LOS | line-of-sight displacement | Movimiento proyectado sobre la línea de visión del radar. |
+| equivalente de agua | water equivalent | Espesor de agua equivalente a una masa de nieve o hielo. |
+| estación meteorológica automática | automatic weather station (AWS) | Sistema autónomo de sensores meteorológicos. |
+| hipsometría | hypsometry | Distribución del área glaciar por bandas de elevación. |
+| InSAR | InSAR | Interferometría radar de apertura sintética. |
+| NMAD | NMAD | Desviación absoluta mediana normalizada, estadístico robusto de dispersión. |
+| radiación neta | net radiation | Balance entre radiación entrante y saliente de onda corta y larga. |
+| terreno estable | stable terrain | Superficie no glaciar usada para estimar sesgo y dispersión. |
+| año hidrológico | hydrological year | Periodo anual definido para capturar el ciclo de acumulación y ablación. |
+
+[Descargar CSV](assets/data/glossary.csv)

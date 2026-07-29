@@ -1,29 +1,51 @@
+function getParam() {
+  const url = new URL(location.href);
+  return {filter: url.searchParams.get("f") || "all", q: url.searchParams.get("q") || ""};
+}
+function setParam(filter, q) {
+  const url = new URL(location.href);
+  if (filter === "all") url.searchParams.delete("f"); else url.searchParams.set("f", filter);
+  if (!q) url.searchParams.delete("q"); else url.searchParams.set("q", q);
+  history.replaceState({}, "", url);
+}
+
 export function initGalleryFilter() {
-  const gallery=document.querySelector('[data-glacier-gallery]');
-  if(!gallery)return;
-  const cards=[...gallery.querySelectorAll('[data-glacier-card]')];
-  const search=document.querySelector('[data-gallery-search]');
-  const chips=[...document.querySelectorAll('[data-filter-value]')];
-  const status=document.querySelector('[data-gallery-status]');
-  const empty=document.querySelector('[data-gallery-empty]');
-  const clear=document.querySelector('[data-gallery-clear]');
-  let filter='all';
-  const apply=()=>{
-    const q=(search?.value||'').trim().toLowerCase(); let shown=0;
-    cards.forEach(card=>{
-      const hay=(card.dataset.search||'').toLowerCase();
-      const tags=(card.dataset.tags||'').split(' ');
-      const ok=(filter==='all'||tags.includes(filter))&&(!q||hay.includes(q));
-      card.classList.toggle('is-filtered',!ok); if(ok)shown++;
-    });
-    if(status)status.textContent=`Mostrando ${shown} de ${cards.length} sitios`;
-    empty?.classList.toggle('is-visible',shown===0);
-    const url=new URL(location.href); filter==='all'?url.searchParams.delete('filtro'):url.searchParams.set('filtro',filter); q?url.searchParams.set('q',q):url.searchParams.delete('q'); history.replaceState({},'',url);
-  };
-  chips.forEach(btn=>btn.addEventListener('click',()=>{filter=btn.dataset.filterValue;chips.forEach(b=>b.setAttribute('aria-pressed',String(b===btn)));apply()}));
-  search?.addEventListener('input',apply);
-  clear?.addEventListener('click',()=>{filter='all';if(search)search.value='';chips.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.filterValue==='all')));apply()});
-  const params=new URLSearchParams(location.search); const f=params.get('filtro'); const q=params.get('q');
-  if(f&&chips.some(b=>b.dataset.filterValue===f)){filter=f;chips.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.filterValue===f)))}
-  if(q&&search)search.value=q; apply();
+  document.querySelectorAll("[data-gallery]").forEach(gallery => {
+    const cards = [...gallery.querySelectorAll("[data-site-card], [data-glacier-card]")];
+    const scope = gallery.closest("[data-gallery-scope]") || document;
+    const chips = [...scope.querySelectorAll("[data-filter]")];
+    const search = scope.querySelector("[data-gallery-search]");
+    const status = scope.querySelector("[data-gallery-status]");
+    const empty = scope.querySelector("[data-gallery-empty]");
+    if (!cards.length) return;
+    let {filter, q} = getParam();
+    if (search) search.value = q;
+    chips.forEach(chip => chip.setAttribute("aria-pressed", chip.dataset.filter === filter ? "true" : "false"));
+
+    const apply = () => {
+      let visible = 0;
+      cards.forEach(card => {
+        const tags = (card.dataset.tags || "").toLowerCase().split(/\s+/);
+        const haystack = (card.dataset.search || card.textContent).toLowerCase();
+        const okFilter = filter === "all" || tags.includes(filter);
+        const okQuery = !q || haystack.includes(q.toLowerCase());
+        const show = okFilter && okQuery;
+        card.classList.toggle("is-filtered", !show);
+        card.setAttribute("aria-hidden", show ? "false" : "true");
+        if (show) visible++;
+      });
+      const isEnglish = document.documentElement.lang.startsWith("en");
+      if (status) status.textContent = isEnglish ? `${visible} visible sites` : `${visible} sitios visibles`;
+      if (empty) empty.classList.toggle("is-visible", visible === 0);
+      setParam(filter, q);
+    };
+
+    chips.forEach(chip => chip.addEventListener("click", () => {
+      filter = chip.dataset.filter || "all";
+      chips.forEach(item => item.setAttribute("aria-pressed", item === chip ? "true" : "false"));
+      apply();
+    }));
+    search?.addEventListener("input", () => { q = search.value.trim(); apply(); });
+    apply();
+  });
 }

@@ -1,6 +1,17 @@
 ---
 title: "Método de carbono negro"
-description: "QA/QC AL30/AE33, SP2, muestreo estratigráfico e iones solubles."
+pagetitle: "Método de carbono negro — MeteoAndes"
+description: "QA/QC AL30/AE33, SP2, muestreo estratigráfico e iones."
+image: ../assets/img/og/investigacion.jpg
+lang: es
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/metodos/carbono-negro.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/methods/black-carbon.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/metodos/carbono-negro.html">
+format:
+  html:
+    code-tools: true
+    code-fold: true
 ---
 
 ## AL30 / AE33
@@ -8,16 +19,13 @@ description: "QA/QC AL30/AE33, SP2, muestreo estratigráfico e iones solubles."
 - Eliminar estabilización inicial con regla documentada.
 - Mantener eBC crudo y registrar fracción negativa.
 - Revisar flujo, ATN, errores, temperatura y RH.
-- Comparar media, mediana, P95 y métodos de suavizado.
+- Comparar media, mediana, P95 y suavizados.
 - Conservar zona horaria y duración válida.
+
+```python
+qc = raw.assign(valid_flow=raw.flow.between(45, 55))
+```
 
 ## SP2 y muestras
 
-- Cadena fría y herramientas descontaminadas.
-- Estándares Aquadag y control de flujo/láser.
-- Blancos, duplicados, LOD/LOQ y profundidad.
-- rBC por partícula, iones e isótopos según volumen.
-
-## Atribución
-
-Se requiere coincidencia multivariada, meteorología y trayectorias. K⁺ aislado no prueba quema de biomasa; Ca²⁺/Mg²⁺ ayudan a separar polvo mineral.
+Cadena fría, herramientas descontaminadas, estándares Aquadag, blancos, duplicados, LOD/LOQ, profundidad y metadatos completos.

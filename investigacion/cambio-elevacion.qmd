@@ -1,45 +1,49 @@
 ---
 title: "Cambio de elevación con ICESat‑2"
+pagetitle: "Cambio de elevación con ICESat‑2 — MeteoAndes"
 subtitle: "Cordillera Vilcanota, 2018–2026"
 description: "Resultados auditados de cambio de elevación superficial glaciar con ICESat-2 ATL06-SR y COP30."
-categories: [ICESat-2, Vilcanota, criósfera]
+image: ../assets/img/og/investigacion.jpg
+categories: [investigación]
+lang: es
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/investigacion/cambio-elevacion.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/research/elevation-change.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/investigacion/cambio-elevacion.html">
 ---
 
-<div class="ma-page-meta"><span class="ma-status ma-status--solid">Consolidado/auditado</span></div>
+<p><span class="ma-inline-state" data-state="consolidated">Consolidado / auditado</span></p>
 
 ## Datos y control de calidad
 
-La consulta recuperó 639 415 segmentos ATL06‑SR. Después de aplicar el AOI y el control de calidad permanecieron 27 160 puntos glaciares y 141 868 puntos de terreno estable, distribuidos en 129 pasadas y ocho RGT.
+La consulta recuperó **639 415 segmentos ATL06‑SR**. Después del AOI y el control de calidad permanecieron **27 160 puntos glaciares** y **141 868 puntos de terreno estable**, distribuidos en **129 pasadas** y ocho RGT.
 
-El DEM COP30 fue convertido de alturas ortométricas EGM2008 a elipsoidales, con corrección geoidal cercana a 47.1 m. Tras el co‑registro, la mediana estable pasó de −0.607 a −0.152 m y luego a −0.008 m con corrección residual; el NMAD final fue 4.631 m.
+El DEM COP30 fue convertido de alturas ortométricas EGM2008 a elipsoidales, con corrección geoidal cercana a **47,1 m**. Tras el co‑registro, la mediana estable pasó de −0,607 a −0,152 m y luego a −0,008 m con corrección residual; el NMAD final fue **4,631 m**.
 
 ## Tendencia principal
 
-<figure class="ma-science-figure"><img src="/assets/img/charts/icesat2-forest.svg" alt="Comparación de cinco estimadores de cambio de elevación superficial en Vilcanota" width="1100" height="530"><figcaption>La estimación ponderada por hipsometría representa 96.5% del área y se adopta como resultado regional.</figcaption></figure>
+<figure class="ma-science-figure"><img src="/assets/img/charts/icesat2-forest.svg" alt="Comparación de cinco estimadores de cambio de elevación superficial en Vilcanota, todos con pendiente negativa" width="1100" height="530" loading="lazy"><figcaption>La estimación ponderada por hipsometría representa el 96,5 % del área y se adopta como resultado regional.</figcaption></figure>
 
-| Estimador | Pendiente (m año⁻¹) | Intervalo | Interpretación |
+| Estimador | Pendiente (m año⁻¹) | Incertidumbre | Uso |
 |---|---:|---|---|
-| Estación seca, h′ | −1.590 | IC95% −2.229 a −1.053 | Producto primario por menor influencia de nieve estacional |
-| Todas las observaciones, h′ | −1.523 | IC95% −1.953 a −1.114 | Sensibilidad temporal |
-| dh crudo | −1.356 | IC95% −1.740 a −0.980 | Sin corrección hipsométrica |
-| Ponderado por hipsometría | **−1.463** | IC95% −2.357 a −0.596 | Resultado regional |
-| Remuestreo hipsométrico | −1.600 | P5–P95 −1.732 a −1.434 | 50 iteraciones de sensibilidad |
+| Estación seca, h′ | −1,590 | IC95 %: −2,229 a −1,053 | Producto primario |
+| Todas las observaciones, h′ | −1,523 | IC95 %: −1,953 a −1,114 | Sensibilidad temporal |
+| dh crudo | −1,356 | IC95 %: −1,740 a −0,980 | Sin corrección hipsométrica |
+| Ponderado por hipsometría | **−1,463** | IC95 %: −2,357 a −0,596 | Resultado regional |
+| Remuestreo hipsométrico | −1,600 | P5–P95: −1,732 a −1,434 | 50 iteraciones |
 
 ## Años hidrológicos
 
-<figure class="ma-science-figure"><img src="/assets/img/charts/hydro-years.svg" alt="Serie diagnóstica de cambios por año hidrológico en Vilcanota" width="1100" height="540"><figcaption>HY2023 y HY2024 registran las pérdidas diagnósticas más intensas.</figcaption></figure>
+<figure class="ma-science-figure"><img src="/assets/img/charts/hydro-years.svg" alt="Cambios diagnósticos por año hidrológico en Vilcanota, con las pérdidas mayores en 2023 y 2024" width="1100" height="540" loading="lazy"><figcaption>HY2023 y HY2024 registran las pérdidas diagnósticas más intensas; HY2026 es incompleto.</figcaption></figure>
 
-La suma diagnóstica relativa a HY2020 alcanza −6.90 m para estación seca y −8.10 m para todas las observaciones hasta HY2025. No equivale a un balance de masa geodésico completo.
+El cambio acumulado diagnóstico relativo a HY2020 alcanza **−6,90 m** para estación seca y **−8,10 m** para todas las observaciones hasta HY2025. No equivale a un balance de masa geodésico completo.
 
-## Lo que puede afirmarse
+## Inferencia permitida
 
-- Existe descenso superficial multianual robusto cercano a 1.5 m año⁻¹.
-- La pérdida es mayor en cotas bajas y medias-bajas.
-- Los estimadores independientes convergen.
+- Descenso superficial multianual robusto cercano a 1,5 m año⁻¹.
+- Pérdida más intensa en cotas bajas y medias-bajas.
+- Convergencia de estimadores independientes.
 
-## Lo que todavía requiere cierre
+## Incertidumbre abierta
 
-- Depurar la máscara de terreno estable y cuantificar sensibilidad del NMAD.
-- Documentar fuente/año nominal del inventario glaciar.
-- Ejecutar pruebas leave-one-year-out y leave-one-RGT-out.
-- Evitar atribución causal a incendios sin evidencia atmosférica sincronizada.
+La máscara de terreno estable, el NMAD residual, la fuente/año del inventario y las sensibilidades leave-one-year-out y leave-one-RGT-out requieren cierre antes del manuscrito definitivo.

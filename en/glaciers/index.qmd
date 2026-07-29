@@ -1,0 +1,41 @@
+---
+title: "Glaciers and study sites"
+description: "Filterable gallery of glacier sites studied by MeteoAndes."
+image: ../../assets/img/og/glaciares.jpg
+page-layout: full
+toc: false
+lang: en
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/glaciares/">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/glaciers/">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/glaciares/">
+---
+
+<section class="ma-section ma-deposit" data-gallery-scope>
+<div class="ma-section-rule"></div>
+<div class="ma-section-grid">
+<div class="ma-section-index">NETWORK</div>
+<div class="ma-section-copy">
+<p class="ma-eyebrow">High-mountain observation</p>
+<p class="ma-section-lead">Five analytical units connect the cryosphere, meteorology, black carbon and ice chemistry. Use the filters to explore by cordillera and research line.</p>
+</div>
+<aside class="ma-marginalia">Photographs come from the field archive supplied for the redesign. Exact site and authorship metadata must be verified before formal publication.</aside>
+</div>
+<div class="ma-filterbar" role="group" aria-label="Glacier-site filters">
+<input type="search" data-gallery-search aria-label="Search site, cordillera or region" placeholder="Search by name, cordillera or method">
+<button class="ma-filter-chip" type="button" data-filter="all" aria-pressed="true">All</button>
+<button class="ma-filter-chip" type="button" data-filter="vilcanota" aria-pressed="false">Vilcanota</button>
+<button class="ma-filter-chip" type="button" data-filter="central" aria-pressed="false">Central Andes</button>
+<button class="ma-filter-chip" type="button" data-filter="blanca" aria-pressed="false">Cordillera Blanca</button>
+<button class="ma-filter-chip" type="button" data-filter="carbono" aria-pressed="false">Black carbon</button>
+<span class="ma-gallery-status" data-gallery-status aria-live="polite"></span>
+</div>
+<div class="ma-card-grid" data-gallery>
+<a class="ma-site-card" data-site-card data-state="consolidated" data-tags="vilcanota criosfera insar meteorologia" data-search="cordillera vilcanota cusco icesat-2 insar meteorologia" href="/en/glaciers/vilcanota.html"><div class="ma-site-card__media"><img src="/assets/img/photos/cards/vilcanota.webp" alt="Layered ice and snow formations in a high-mountain environment" width="900" height="600" loading="lazy"><span class="ma-photo-credit">MeteoAndes archive · 2026</span></div><div class="ma-site-card__body"><p class="ma-eyebrow">Cordillera Vilcanota</p><h3>Regional glacier ensemble</h3><p>ICESat-2 2018–2026, InSAR Sentinel-1 and hydrometeorology.</p><div class="ma-site-card__meta">4,597–6,364 m · 190 polygons in the AOI</div><svg class="ma-card-arrow" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></a>
+<a class="ma-site-card" data-site-card data-state="preliminary" data-tags="vilcanota carbono meteorologia" data-search="quelccaya cusco vilcanota carbono negro meteorologia" href="/en/glaciers/quelccaya.html"><div class="ma-site-card__media"><img src="/assets/img/photos/cards/quelccaya.webp" alt="Ice cap with cornices and snow layers" width="900" height="600" loading="lazy"><span class="ma-photo-credit">MeteoAndes archive · 2026</span></div><div class="ma-site-card__body"><p class="ma-eyebrow">Cusco · Vilcanota</p><h3>Quelccaya</h3><p>48 samples, AL30, meteorology and SP2/ion comparison.</p><div class="ma-site-card__meta">2026 campaign · preliminary evidence</div><svg class="ma-card-arrow" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></a>
+<a class="ma-site-card" data-site-card data-state="preliminary" data-tags="central carbono meteorologia criosfera" data-search="huaytapallana cochas junin carbono negro ae33 al30 icesat-2" href="/en/glaciers/huaytapallana.html"><div class="ma-site-card__media"><img src="/assets/img/photos/cards/huaytapallana.webp" alt="High-Andean lake facing a snow-covered mountain" width="900" height="600" loading="lazy"><span class="ma-photo-credit">MeteoAndes archive · 2026</span></div><div class="ma-site-card__body"><p class="ma-eyebrow">Junín · Huaytapallana</p><h3>Huaytapallana / Cochas</h3><p>Two AL30 sessions, a documented AE33 series and 25 samples.</p><svg class="ma-card-arrow" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></a>
+<a class="ma-site-card" data-site-card data-state="preliminary" data-tags="central carbono" data-search="tunshu junin andes centrales carbono negro al30 hielo" href="/en/glaciers/tunshu.html"><div class="ma-site-card__media"><img src="/assets/img/photos/cards/tunshu.webp" alt="Field team walking across a snow surface" width="900" height="600" loading="lazy"><span class="ma-photo-credit">MeteoAndes archive · 2026</span></div><div class="ma-site-card__body"><p class="ma-eyebrow">Junín · Andes centrales</p><h3>Tunshu</h3><p>21 samples and a high-mountain atmospheric campaign.</p><svg class="ma-card-arrow" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></a>
+<a class="ma-site-card" data-site-card data-state="preliminary" data-tags="blanca carbono" data-search="mateo contrayerba ancash cordillera blanca carbono negro altitud" href="/en/glaciers/mateo.html"><div class="ma-site-card__media"><img src="/assets/img/photos/cards/mateo.webp" alt="High-Andean wetland and snow-covered cordillera" width="900" height="600" loading="lazy"><span class="ma-photo-credit">MeteoAndes archive · 2026</span></div><div class="ma-site-card__body"><p class="ma-eyebrow">Áncash · Cordillera Blanca</p><h3>Mateo / Contrayerba</h3><p>0–95 cm profile, 19 samples and elevation-resolved AL30 measurements.</p><svg class="ma-card-arrow" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></a>
+</div>
+<div class="ma-empty-state" data-gallery-empty>No sites match the active filters.</div>
+</section>

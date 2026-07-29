@@ -1,16 +1,21 @@
 name: Quality checks
 on:
   pull_request:
-  workflow_dispatch:
-permissions:
-  contents: read
+  push:
+    branches: [main]
 jobs:
   quality:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: quarto-dev/quarto-actions/setup@v2
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
-      - run: python scripts/validate_data.py
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - run: python scripts/check_source_quality.py
       - run: python scripts/check-alt-text.py
+      - run: python scripts/check_image_budgets.py
+      - run: python scripts/validate_data.py
+      - run: quarto render
+      - run: python scripts/check_rendered_html.py

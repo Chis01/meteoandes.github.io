@@ -1,19 +1,33 @@
 ---
 title: "Método ICESat‑2"
-description: "Arquitectura de estimación de cambio de elevación superficial con ATL06-SR."
+pagetitle: "Método ICESat‑2 — MeteoAndes"
+description: "Arquitectura de estimación de cambio de elevación con ATL06-SR."
+image: ../assets/img/og/investigacion.jpg
+lang: es
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/metodos/icesat2.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/methods/icesat2.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/metodos/icesat2.html">
+format:
+  html:
+    code-tools: true
+    code-fold: true
 ---
 
 ## Flujo
 
-1. Inventario glaciar y AOI en CRS métrico adecuado.
-2. Consulta ATL06‑SR y conservación de granule/RGT/ciclo/fecha.
+1. Inventario glaciar y AOI en CRS métrico.
+2. Consulta ATL06‑SR con granule, RGT, ciclo y fecha.
 3. Filtros de calidad y separación glaciar/terreno estable.
 4. Conversión vertical COP30 EGM2008 → altura elipsoidal.
-5. Co‑registro horizontal/vertical con terreno estable.
+5. Co‑registro horizontal/vertical.
 6. Modelo dh(z), anomalía h′ y ponderación hipsométrica.
 7. Theil–Sen, bootstrap, Hamed–Rao, FDR y sensibilidades.
-8. Reporte de soporte por año, pasada, RGT y banda.
+8. Soporte por año, pasada, RGT y banda.
 
-## Resultado reproducible
+```python
+# Esquema conceptual; el notebook publicable usa rutas relativas.
+trend = robust_theil_sen(time, elevation_anomaly)
+```
 
-Los CSV de síntesis se encuentran en `assets/data/series/`. Los notebooks analíticos pesados deben incorporarse después de eliminar rutas absolutas y conservar `_freeze/`.
+Los notebooks pesados deben incorporarse después de eliminar rutas absolutas y conservar `_freeze/`.

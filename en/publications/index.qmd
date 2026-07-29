@@ -1,9 +1,31 @@
 ---
-title: "Publications"
+title: "Publications and products"
+pagetitle: "Publications and products — MeteoAndes"
+description: "Manuscripts, technical reports and reproducible MeteoAndes products."
+image: ../../assets/img/og/publicaciones.jpg
 lang: en
-description: "MeteoAndes manuscripts and research products."
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/publicaciones/index.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/publications/index.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/publicaciones/index.html">
 ---
 
-1. **Vilcanota surface-elevation change with ICESat‑2** — highest maturity.
-2. **InSAR surface dynamics and multi-sensor validation** — final accumulated analysis pending.
-3. **Aerosols, black carbon and glacier energy response** — depends on the Sentinel‑5P and integrated BC closure.
+## Manuscripts in development
+
+### Surface-elevation change in Vilcanota
+
+The most mature product integrates ICESat‑2 ATL06‑SR, COP30, co-registration, hypsometric correction, robust trends and elevation support.
+
+**Core result:** −1.463 m yr⁻¹; 95% CI: −2.357 to −0.596 m yr⁻¹.
+
+### InSAR dynamics and multi-sensor validation
+
+This manuscript will focus on dE/dU under dN=0, cumulative displacement, quality, noise floor and complementarity with ICESat‑2. It will not be presented as complete 3-D velocity or mass balance.
+
+### Aerosols, black carbon and energy response
+
+This product depends on closing Sentinel‑5P, AE33/AL30, SP2/ions and albedo. The inference unit will be an event with exposure, transport, deposition and lagged response.
+
+## Cite MeteoAndes
+
+> Riveros, C. (2026). *MeteoAndes: glaciers, atmosphere and Earth observation in the Andes*. https://meteoandes.com

@@ -1,18 +1,13 @@
-METEOANDES — PAQUETE COMPLETO
+METEOANDES — PAQUETE AUDITADO
 
-1) Extraiga este ZIP.
-2) Copie TODO el contenido de la carpeta meteoandes-web-final dentro de:
-   C:\MeteoAndes\meteoandes-web
-3) No elimine la carpeta oculta .git que ya existe en su proyecto local.
-4) Abra PowerShell en esa carpeta y ejecute:
+1. Haga una copia de seguridad de C:\MeteoAndes\meteoandes-web.
+2. Descomprima este ZIP.
+3. Copie el CONTENIDO de la carpeta meteoandes-web-auditado dentro de su repositorio existente.
+4. No elimine ni reemplace la carpeta oculta .git de su equipo.
+5. Ejecute VISTA_PREVIA.cmd para revisar.
+6. Ejecute PUBLICAR.cmd para renderizar, validar, hacer commit y push.
 
-   quarto preview
-   quarto render
-   git add -A
-   git commit -m "Publish complete MeteoAndes scientific website"
-   git push
-
-5) GitHub Actions publicará la rama gh-pages.
-6) Para que meteoandes.com abra, complete los cuatro registros A descritos en DNS_CLOUDFLARE.md.
-
-El sitio distingue resultados consolidados, diagnósticos, preliminares y pendientes.
+IMPORTANTE:
+- Complete assets/data/photo-metadata.csv con sitio, fecha, coordenadas, cota y autoría exactos.
+- El paquete no incluye .git, _site, .quarto ni archivos de fuentes tipográficas.
+- El archivo CNAME contiene meteoandes.com.

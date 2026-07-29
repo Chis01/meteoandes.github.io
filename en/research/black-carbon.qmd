@@ -1,0 +1,31 @@
+---
+title: "Black carbon and aerosols"
+pagetitle: "Black carbon and aerosols — MeteoAndes"
+subtitle: "From atmospheric eBC to rBC deposited in snow and ice"
+description: "Preliminary AL30/AE33, SP2 laboratory and ion results from Peruvian glaciers."
+image: ../../assets/img/og/investigacion.jpg
+categories: [research]
+lang: en
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/investigacion/carbono-negro.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/research/black-carbon.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/investigacion/carbono-negro.html">
+---
+
+<p><span class="ma-inline-state" data-state="preliminary">Preliminary results</span></p>
+
+<figure class="ma-figure-photo"><img src="/assets/img/photos/sections/muestreo.webp" alt="Researcher extracting and documenting a snow sample during glacier fieldwork" width="1400" height="933" loading="lazy"><div class="ma-photo-note"><span>MeteoAndes archive · 2026 campaigns</span><span>Site and authorship pending validation</span></div><figcaption>The design integrates atmospheric eBC, transport, rBC/ion deposition, albedo and glacier response.</figcaption></figure>
+
+## AL30 campaigns
+
+Preliminary means were **174 ng m⁻³** for Huaytapallana Day 1, **654 ng m⁻³** for Day 2 and **222 ng m⁻³** for an instantaneous Quelccaya context measurement. Day 2 was **3.76 times** Day 1, but this does not identify source or mechanism.
+
+The raw series is retained. QA/QC quantifies negative values, evaluates ATN, flow and error codes, and compares moving smoothers with ONA-like processing. Session values are not climatologies or deposition rates.
+
+## AE33, SP2 and ions
+
+A one-minute AE33 series is described for Huaytapallana in 2022–2024. SP2 measures refractory black carbon particle by particle in prepared snow/ice samples. Preliminary profiles and ion composition exist for Quelccaya/Vilcanota and Cordillera Blanca. No single ion uniquely identifies a source.
+
+## Open bridge
+
+Atmospheric eBC → transport → rBC/ion deposition → albedo → melt must be assessed through synchronized windows and lags. Concentrations from different matrices are not directly equated.

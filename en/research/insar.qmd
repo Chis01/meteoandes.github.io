@@ -1,0 +1,31 @@
+---
+title: "Glacier dynamics with InSAR"
+pagetitle: "Glacier dynamics with InSAR — MeteoAndes"
+subtitle: "Sentinel‑1 ascending/descending geometry and dN=0 decomposition"
+description: "Audited status of the Vilcanota InSAR workflow and transfer to Cordillera Blanca."
+image: ../../assets/img/og/investigacion.jpg
+categories: [research]
+lang: en
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/investigacion/insar.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/research/insar.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/investigacion/insar.html">
+---
+
+<p><span class="ma-inline-state" data-state="diagnostic">Advanced diagnostic</span></p>
+
+## Implemented architecture
+
+The workflow integrates HyP3/MintPy ascending and descending series, tropospheric correction, spatial referencing, LOS products, temporal pairing, east–vertical decomposition under dN=0, AOI and elevation-band statistics, atlases and trend tables.
+
+<div class="ma-data-strip"><div><strong>33</strong><span>ascending acquisitions</span></div><div><strong>35</strong><span>descending acquisitions</span></div><div><strong>40 m</strong><span>common resolution</span></div><div><strong>−0.95</strong><span>approximate determinant</span></div></div>
+
+## Signal and detection capability
+
+<figure class="ma-science-figure"><img src="/assets/img/charts/insar-noise-en.svg" alt="Monthly relative vertical displacement medians compared with the stable-terrain InSAR residual" width="1000" height="470" loading="lazy"><figcaption>Audited examples: +0.23 cm in December 2023 and −0.58 cm in January 2024; stable residual 0.63–0.65 cm.</figcaption></figure>
+
+Monthly vertical signals lie within or close to the noise floor. The publishable contribution must focus on cumulative products, elevation profiles, quality, uncertainty and multi-sensor comparison. A final regional dU rate is not yet reported.
+
+## Physical restriction
+
+dU is relative vertical motion of coherent scatterers under dN=0. It is not Eulerian elevation change or mass balance. Comparison with ICESat‑2 requires common windows, rates/cumulative displacement and coherent slow-flow zones.

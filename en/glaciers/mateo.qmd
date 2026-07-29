@@ -1,9 +1,19 @@
 ---
 title: "Mateo / Contrayerba"
+pagetitle: "Mateo / Contrayerba — MeteoAndes"
+subtitle: "Elevation gradient and ice profile"
+description: "AL30 campaign and a 19-sample ice profile in Cordillera Blanca."
+image: ../../assets/img/og/glaciares.jpg
+categories: [glaciers]
 lang: en
-description: "MeteoAndes field and remote-sensing evidence for Mateo / Contrayerba."
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/glaciares/mateo.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/glaciers/mateo.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/glaciares/mateo.html">
 ---
 
-The field inventory includes 19 consecutive 5-cm samples from 0 to 95 cm and AL30 measurements at several elevations. No altitude trend is reported before the metadata and QA table are complete.
+<p><span class="ma-inline-state" data-state="preliminary">Preliminary campaign</span></p>
 
-[Back to English home](../index.qmd)
+<figure class="ma-figure-photo"><img src="/assets/img/photos/cards/mateo.webp" alt="High-Andean wetland with a snow-covered cordillera in the background" width="900" height="600" fetchpriority="high"><div class="ma-photo-note"><span>MeteoAndes archive · 2026 campaign</span><span>Exact site and authorship pending validation</span></div><figcaption>Representative high-mountain image; exact Mateo/Contrayerba identification must be confirmed.</figcaption></figure>
+
+The inventory contains **19 samples**, MAT26_01–19, in consecutive 5 cm intervals from 0 to 95 cm, with a nominal maximum volume of **0.95 L**. AL30 measurements were collected at different elevations, but no altitudinal slope is reported until altitude, time, duration, flow, ATN, temperature, humidity and robust statistics are synchronized.

@@ -1,28 +1,35 @@
 ---
 title: "Huaytapallana / Cochas"
-subtitle: "Variabilidad atmosférica de eBC y monitoreo continuo"
-description: "Campañas AL30, serie AE33 y muestreo de hielo en Huaytapallana, Junín."
-image: ../assets/img/glaciares/huaytapallana.svg
+subtitle: "Variabilidad atmosférica de eBC y monitoreo criogeoquímico"
+description: "Campañas AL30, serie AE33 y muestreo de nieve/hielo en Huaytapallana, Junín."
+image: ../assets/img/og/glaciares.jpg
 categories: [Huaytapallana, AL30, AE33, carbono negro]
 date-modified: 2026-07-29
+lang: es
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/glaciares/huaytapallana.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/glaciers/huaytapallana.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/glaciares/huaytapallana.html">
 ---
 
-<div class="ma-page-meta"><span class="ma-status ma-status--prelim">Campañas AL30 preliminares</span><span class="ma-status ma-status--advanced">AE33 disponible, integración pendiente</span></div>
+<p><span class="ma-inline-state" data-state="preliminary">Campañas AL30 preliminares</span> <span class="ma-inline-state" data-state="diagnostic">AE33 por integrar</span></p>
 
-## Dos sesiones, alta variabilidad {data-elevation="5100"}
+<figure class="ma-figure-photo"><img src="/assets/img/photos/cards/huaytapallana.webp" alt="Laguna altoandina frente a una montaña nevada bajo nubes" width="900" height="600" fetchpriority="high"><div class="ma-photo-note"><span>Archivo MeteoAndes · campaña 2026</span><span>Sitio exacto y autoría por validar</span></div><figcaption>Imagen representativa de alta montaña. La relación exacta con Huaytapallana debe confirmarse mediante los metadatos originales.</figcaption></figure>
 
-Las medias preliminares incorporadas en el notebook comparativo fueron **174 ng m⁻³** para el Día 1 y **654 ng m⁻³** para el Día 2. El segundo valor fue aproximadamente 3.76 veces el primero.
+## Sesiones AL30
 
-<figure class="ma-science-figure"><img src="/assets/img/charts/al30-sessions.svg" alt="Medias preliminares de carbono negro equivalente en Huaytapallana y Quelccaya" width="980" height="470"><figcaption>La diferencia entre jornadas demuestra variabilidad de sesión, no su causa. Se requieren mediana, IQR, P95, fracción negativa, ATN, flujo y tiempo válido.</figcaption></figure>
+Las medias preliminares fueron **174 ng m⁻³** en Huaytapallana Día 1 y **654 ng m⁻³** en Día 2. El segundo valor fue aproximadamente **3,76 veces** el primero. Esta diferencia demuestra variabilidad entre sesiones, pero no identifica su causa.
 
-## Control de calidad AL30 {data-elevation="4950"}
+<figure class="ma-science-figure"><img src="/assets/img/charts/al30-sessions.svg" alt="Medias preliminares de carbono negro equivalente en dos sesiones de Huaytapallana y una medición de Quelccaya" width="980" height="470" loading="lazy"><figcaption>Las medias de sesión no son climatologías. Deben acompañarse de mediana, IQR, P95, fracción negativa, ATN, flujo y tiempo válido.</figcaption></figure>
 
-El flujo elimina los primeros diez minutos de estabilización, conserva la serie cruda, evalúa flujo y errores, cuantifica valores negativos y compara media/mediana móvil con un suavizado adaptativo **ONA-like**. Los negativos no deben truncarse automáticamente a cero porque sesgarían la media.
+## Control de calidad
 
-## AE33 y continuidad temporal
+El flujo conserva la serie cruda, elimina los primeros diez minutos de estabilización, revisa flujo y códigos de error, cuantifica valores negativos y compara media/mediana móvil con suavizado ONA-like. Truncar automáticamente los negativos a cero sesgaría la media hacia arriba.
 
-Se describe una base institucional AE33 a resolución de un minuto entre 2022 y 2024. Su integración final debe armonizar zona horaria, canales espectrales, correcciones de carga, modelo biomasa/fósil y meteorología. Es más adecuada que campañas cortas para estudiar estacionalidad y circulación valle–montaña.
+## Serie AE33
 
-## Muestras 2026
+La documentación describe una serie AE33 con resolución de un minuto entre 2022 y 2024. Su integración final debe armonizar zona horaria, canales espectrales, corrección de carga, modelo biomasa/fósil y meteorología.
 
-El inventario registra **25 muestras** HUAY26_01–25, con volumen nominal máximo de 1.25 L. La comparación con eBC atmosférico debe considerar transporte, precipitación y tasas de deposición; eBC y rBC no son magnitudes directamente intercambiables.
+## Muestreo 2026
+
+El inventario registra **25 muestras** HUAY26_01–25, con volumen nominal máximo de **1,25 L**. El vínculo entre eBC atmosférico y rBC en nieve/hielo debe evaluarse mediante ventanas temporales, deposición y transporte, no por igualdad directa de concentraciones.

@@ -1,0 +1,15 @@
+archivo_derivado,archivo_origen,uso,clasificacion,sitio,fecha,credito,descripcion
+assets/img/photos/transect/01-laguna-puna.webp,photo_2026-07-29_21-48-51.webp,Transecto y portada,Paisaje,Sitio exacto por validar,Campaña 2026,Archivo MeteoAndes,Laguna altoandina frente a montaña parcialmente nevada
+assets/img/photos/transect/02-travesia-nieve.webp,photo_2026-07-29_21-49-41.webp,Transecto,Equipo,Sitio exacto por validar,Campaña 2026,Archivo MeteoAndes,Equipo de campo desplazándose sobre nieve
+assets/img/photos/transect/03-estacion-glaciar.webp,photo_2026-07-29_21-49-42.webp,Transecto y meteorología,Instrumento,Sitio exacto por validar,Campaña 2026,Archivo MeteoAndes,Estación meteorológica automática sobre superficie glaciar
+assets/img/photos/transect/04-estratigrafia-hielo.webp,photo_2026-07-29_21-49-46.webp,Transecto,Detalle de superficie,Sitio exacto por validar,Campaña 2026,Archivo MeteoAndes,Pared de hielo con estratos horizontales
+assets/img/photos/transect/05-casquete-alta-montana.webp,photo_2026-07-29_21-49-16.webp,Transecto y Quelccaya,Paisaje,Sitio exacto por validar,Campaña 2026,Archivo MeteoAndes,Formaciones de hielo y nieve en alta montaña
+assets/img/photos/transect/06-bofedal-cordillera.webp,photo_2026-07-29_21-49-29.webp,Transecto y Mateo,Paisaje,Sitio exacto por validar,Campaña 2026,Archivo MeteoAndes,Bofedal y cordillera nevada
+assets/img/photos/cards/vilcanota.webp,photo_2026-07-29_21-49-59.webp,Tarjeta Vilcanota,Paisaje,Representativa; validar sitio,Campaña 2026,Archivo MeteoAndes,Formaciones de hielo estratificado
+assets/img/photos/cards/quelccaya.webp,photo_2026-07-29_21-49-16.webp,Tarjeta Quelccaya,Paisaje,Representativa; validar sitio,Campaña 2026,Archivo MeteoAndes,Casquete de hielo con cornisas
+assets/img/photos/cards/huaytapallana.webp,photo_2026-07-29_21-48-51.webp,Tarjeta Huaytapallana,Paisaje,Representativa; validar sitio,Campaña 2026,Archivo MeteoAndes,Laguna y montaña nevada
+assets/img/photos/cards/tunshu.webp,photo_2026-07-29_21-49-41.webp,Tarjeta Tunshu,Equipo,Representativa; validar sitio,Campaña 2026,Archivo MeteoAndes,Travesía del equipo sobre nieve
+assets/img/photos/cards/mateo.webp,photo_2026-07-29_21-49-29.webp,Tarjeta Mateo,Paisaje,Representativa; validar sitio,Campaña 2026,Archivo MeteoAndes,Bofedal y cordillera nevada
+assets/img/photos/cards/datos.webp,photo_2026-07-29_21-49-39.webp,Datos y muestreo,Muestreo,Sitio exacto por validar,Campaña 2026,Archivo MeteoAndes,Muestreo de nieve por el equipo
+assets/img/photos/albedo/clean.webp,photo_2026-07-29_21-48-27.webp,Comparador conceptual,Superficie,Sitio exacto por validar,Campaña 2026,Archivo MeteoAndes,Nieve limpia con formas onduladas
+assets/img/photos/albedo/dark.webp,photo_2026-07-29_21-50-01.webp,Comparador conceptual,Superficie,Sitio exacto por validar,Campaña 2026,Archivo MeteoAndes,Roca oscura y nieve residual

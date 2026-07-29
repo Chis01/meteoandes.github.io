@@ -1,37 +1,52 @@
 ---
 title: "Investigación"
+pagetitle: "Investigación — MeteoAndes"
+subtitle: "Panorama de evidencia multifuente"
 description: "Arquitectura científica de MeteoAndes: criósfera, meteorología, carbono negro y energía."
+image: ../assets/img/og/investigacion.jpg
+categories: [investigación]
+lang: es
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/investigacion/index.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/research/index.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/investigacion/index.html">
 ---
+
+<p><span class="ma-inline-state" data-state="consolidated">Resultado central auditado</span> <span class="ma-inline-state" data-state="diagnostic">Integración en curso</span></p>
 
 ## Pregunta integradora
 
 ¿Cómo evolucionan la elevación y la dinámica de los glaciares tropicales peruanos, y qué papel pueden desempeñar la meteorología y las partículas absorbentes en esa respuesta?
 
-<div class="ma-chain">
-<div class="ma-chain__node"><strong>Exposición</strong><p>Incendios y otras fuentes generan aerosoles.</p></div>
-<div class="ma-chain__node"><strong>Transporte</strong><p>Viento, capa límite y precipitación conectan fuente y receptor.</p></div>
-<div class="ma-chain__node"><strong>Depósito</strong><p>SP2 e iones observan lo retenido en nieve/hielo.</p></div>
-<div class="ma-chain__node"><strong>Forzamiento</strong><p>Albedo y balance energético traducen oscurecimiento en absorción.</p></div>
-<div class="ma-chain__node"><strong>Respuesta</strong><p>ICESat‑2 e InSAR observan cambio geométrico y movimiento.</p></div>
+<figure class="ma-figure-photo"><img src="/assets/img/photos/sections/agua-campo.webp" alt="Investigadores de alta montaña junto a una masa de agua glaciar durante una campaña de campo" width="1400" height="933" loading="lazy"><div class="ma-photo-note"><span>Archivo MeteoAndes · campañas 2026</span><span>Sitio y autoría por validar en la hoja de metadatos</span></div><figcaption>La arquitectura combina mediciones de campo, laboratorio y observación satelital; cada sensor conserva su magnitud física y su incertidumbre.</figcaption></figure>
+
+## Cadena de evidencia
+
+<div class="ma-evidence-ribbon">
+<a class="ma-chain__segment is-atmosphere" href="sentinel5p.html"><strong>Atmósfera</strong><span>TROPOMI · AL30 · AE33</span><p>Exposición y aerosoles.</p></a>
+<a class="ma-chain__segment is-meteo" href="meteorologia-glaciar.html"><strong>Meteorología</strong><span>AWS · ERA5 · CHIRPS</span><p>Transporte y confusores.</p></a>
+<a class="ma-chain__segment is-deposit" href="carbono-negro.html"><strong>Depósito</strong><span>SP2 · iones · isótopos</span><p>Partículas retenidas.</p></a>
+<a class="ma-chain__segment is-energy" href="albedo-energia.html"><strong>Energía</strong><span>Albedo · SW/LW · Rn</span><p>Absorción y fusión potencial.</p></a>
+<a class="ma-chain__segment is-response" href="cambio-elevacion.html"><strong>Respuesta</strong><span>ICESat-2 · InSAR</span><p>Cambio geométrico y movimiento.</p></a>
 </div>
 
-## Jerarquía de resultados
+## Matriz de resultados
 
-| Componente | Resultado actual | Nivel |
+| Componente | Resultado actual | Nivel de evidencia |
 |---|---|---|
-| ICESat‑2 Vilcanota | −1.463 m año⁻¹ ponderado por hipsometría | Consolidado/auditado |
+| ICESat‑2 Vilcanota | −1,463 m año⁻¹; IC95 %: −2,357 a −0,596 | Consolidado/auditado |
 | InSAR Vilcanota | Geometría adecuada; señal mensual cercana al ruido | Diagnóstico avanzado |
-| Hidrometeorología | Paneles y tablas por AOI/año; climatología maestra pendiente | Avanzado |
-| Albedo/energía | Ecuaciones, QC y forzantes implementados | Implementado, no cerrado |
+| Hidrometeorología | Paneles por AOI/año; síntesis multianual pendiente | Diagnóstico avanzado |
+| Albedo/energía | Ecuaciones, QA/QC y forzantes implementados | Implementado, no cerrado |
 | AL30/AE33 | Variabilidad preliminar de eBC | Preliminar |
 | SP2/iones | Perfiles y análisis multivariados preliminares | Preliminar de laboratorio |
 | Sentinel‑5P | Sin producto final validado | Pendiente |
 
-## Líneas
+## Líneas temáticas
 
 - [Cambio de elevación con ICESat‑2](cambio-elevacion.qmd)
-- [Dinámica InSAR](insar.qmd)
+- [Dinámica glaciar con InSAR](insar.qmd)
 - [Meteorología glaciar](meteorologia-glaciar.qmd)
 - [Carbono negro y aerosoles](carbono-negro.qmd)
-- [Albedo y energía](albedo-energia.qmd)
-- [Estado de Sentinel‑5P](sentinel5p.qmd)
+- [Albedo y energía superficial](albedo-energia.qmd)
+- [Sentinel‑5P y exposición a incendios](sentinel5p.qmd)

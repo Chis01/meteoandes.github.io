@@ -1,6 +1,9 @@
 ---
 title: "Bitácora de campo"
+pagetitle: "Bitácora de campo — MeteoAndes"
 description: "Campañas, protocolos y notas de campo de MeteoAndes."
+image: ../assets/img/og/glaciares.jpg
+lang: es
 listing:
   contents: posts
   sort: "date desc"

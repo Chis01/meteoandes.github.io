@@ -1,0 +1,25 @@
+---
+title: "Black-carbon method"
+pagetitle: "Black-carbon method — MeteoAndes"
+description: "AL30/AE33 QA/QC, SP2, stratigraphic sampling and soluble ions."
+image: ../../assets/img/og/investigacion.jpg
+lang: en
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/metodos/carbono-negro.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/methods/black-carbon.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/metodos/carbono-negro.html">
+format:
+  html:
+    code-tools: true
+    code-fold: true
+---
+
+## Optical instruments
+
+Retain raw eBC; document stabilization; quantify negative fractions; review flow, ATN, errors, temperature and RH; report mean, median, P95 and valid duration.
+
+```python
+qc = raw.assign(valid_flow=raw.flow.between(45, 55))
+```
+
+SP2 analysis requires cold chain, clean tools, Aquadag standards, blanks, duplicates, detection limits, depth and full metadata.

@@ -1,32 +1,28 @@
 # MeteoAndes
 
-Sitio científico estático de **Christian Riveros** sobre glaciares tropicales del Perú,
-meteorología de alta montaña, cambio de elevación con ICESat-2, dinámica InSAR y carbono negro.
+Sitio científico estático de Christian Riveros sobre glaciares tropicales, meteorología de alta montaña, carbono negro, ICESat‑2, Sentinel‑1 InSAR y energía superficial.
 
-## Publicación rápida
+## Inicio rápido en Windows
 
-Este paquete se diseñó para copiarse sobre el repositorio local existente sin reemplazar la carpeta oculta `.git`.
-
-```powershell
-cd C:\MeteoAndes\meteoandes-web
-quarto preview
-quarto render
-git add -A
-git commit -m "Publish complete MeteoAndes scientific website"
-git push
+```bat
+VISTA_PREVIA.cmd
+PUBLICAR.cmd
 ```
 
-El workflow `.github/workflows/publish.yml` renderiza y despliega automáticamente a `gh-pages`.
+`PUBLICAR.cmd` evita la restricción de ejecución de PowerShell, renderiza con Quarto, ejecuta controles, crea el commit y envía los cambios a GitHub.
 
-## Dominio
+## Arquitectura
 
-El archivo `CNAME` contiene `meteoandes.com`. En Cloudflare deben existir cuatro registros A para el dominio raíz y un CNAME `www` hacia `chis01.github.io`. Véase `DNS_CLOUDFLARE.md`.
+- Quarto, tema claro único.
+- Español en `/`; inglés en `/en/`.
+- Diseño «Espectro Andino»: el color codifica la cadena de evidencia y el trazo codifica la madurez.
+- Interactividad con JavaScript nativo, sin framework.
+- GitHub Pages mediante `gh-pages` y dominio `meteoandes.com`.
 
-## Niveles de evidencia
+## Fotografías
 
-- **Consolidado/auditado:** cifras reproducibles y sustentadas por salidas revisadas.
-- **Diagnóstico avanzado:** flujo y controles disponibles, pero sin estimación regional final.
-- **Preliminar:** campañas o laboratorio pendientes de QA/QC consolidado.
-- **Pendiente:** módulo metodológico sin producto empírico final.
+Las imágenes se derivan del ZIP de campo proporcionado. Como los archivos no incluían metadata completa verificable, la relación exacta sitio–fecha–autoría debe completarse en `assets/data/photo-metadata.csv` antes de una publicación formal.
 
-El sitio evita convertir resultados preliminares en afirmaciones causales.
+## Licencias
+
+Código: MIT. Contenido: CC BY 4.0, sujeto a derechos y créditos específicos de fotografías y datasets.

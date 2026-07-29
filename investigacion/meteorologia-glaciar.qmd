@@ -1,30 +1,39 @@
 ---
 title: "Meteorología glaciar"
+pagetitle: "Meteorología glaciar — MeteoAndes"
 subtitle: "Observaciones locales, ERA5‑Land, ERA5 y CHIRPS"
 description: "Sistema hidrometeorológico para Quelccaya, Quisoquipina y sitios comparativos."
-categories: [meteorología, AWS, ERA5, CHIRPS]
+image: ../assets/img/og/investigacion.jpg
+categories: [investigación]
+lang: es
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/investigacion/meteorologia-glaciar.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/research/glacier-meteorology.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/investigacion/meteorologia-glaciar.html">
 ---
 
-<div class="ma-page-meta"><span class="ma-status ma-status--advanced">Flujo avanzado · síntesis pendiente</span></div>
+<p><span class="ma-inline-state" data-state="diagnostic">Flujo avanzado · síntesis pendiente</span></p>
+
+<figure class="ma-figure-photo"><img src="/assets/img/photos/sections/meteorologia.webp" alt="Estación meteorológica automática instalada sobre una superficie glaciar de alta montaña" width="1400" height="933" loading="lazy"><div class="ma-photo-note"><span>Archivo MeteoAndes · campaña 2026</span><span>Sitio y autoría por validar</span></div><figcaption>Las observaciones locales se integran con ERA5‑Land, ERA5 y CHIRPS para construir contexto diario y mensual.</figcaption></figure>
 
 ## Fuentes y productos
 
-Los notebooks generan una base diaria por año y AOI, reportes de cobertura, pesos espaciales de celdas, resúmenes mensuales y paneles anuales. ERA5‑Land aporta temperatura, punto de rocío y viento; ERA5 aporta nubosidad total; CHIRPS se usa como fuente espacial principal de precipitación.
+Los notebooks generan una base diaria por año y AOI, reportes de cobertura, pesos espaciales de celdas, resúmenes mensuales y paneles anuales. ERA5‑Land aporta temperatura, punto de rocío y viento; ERA5, nubosidad total; CHIRPS, precipitación espacial.
 
-<div class="ma-station"><div class="ma-station__elev">5 200 m</div><div><strong>Quisoquipina</strong><p>Serie diaria: 29 septiembre 2011–14 julio 2024. Elevación objetivo de forzantes: 5 610 m.</p><div class="ma-station__variables"><span>T</span><span>RH</span><span>viento</span><span>SW/LW</span><span>Rn</span><span>albedo</span></div></div></div>
+<div class="ma-station"><div class="ma-station__elev">5 200 m</div><div><strong>Quisoquipina</strong><p>Serie diaria: 29 de septiembre de 2011–14 de julio de 2024. Elevación objetivo de forzantes: 5 610 m.</p><div class="ma-station__variables"><span>T</span><span>RH</span><span>viento</span><span>SW/LW</span><span>Rn</span><span>albedo</span></div></div></div>
 
 ## Corrección altitudinal
 
-Con un gradiente preliminar de −0.0065 °C m⁻¹, la diferencia de 410 m entre la estación y la elevación objetivo implica cerca de −2.67 °C. Es una preparación de forzantes, no una calibración definitiva: el gradiente debe evaluarse por estación, estabilidad y hora.
+Con un gradiente preliminar de −0,0065 °C m⁻¹, la diferencia de 410 m entre la estación y la elevación objetivo implica cerca de −2,67 °C. Es una preparación de forzantes, no una calibración definitiva.
 
 ## Variables derivadas
 
 - Humedad relativa desde temperatura y punto de rocío.
-- Velocidad/dirección del viento desde U10/V10.
+- Velocidad y dirección del viento desde U10/V10.
 - Totales de precipitación y nubosidad.
 - Cobertura por variable y año.
 - Paneles anuales comparables.
 
 ## Limitaciones
 
-La resolución del reanálisis suaviza la topografía. La precipitación total no equivale a nieve acumulada. Las rosas de viento con datos diarios describen direcciones medias, no ciclos horarios ni ráfagas. La climatología numérica multianual aún debe consolidarse en una base maestra.
+La resolución del reanálisis suaviza la topografía. La precipitación total no equivale a nieve acumulada. Las rosas de viento diarias no resuelven ciclos horarios ni ráfagas. La climatología multianual aún debe consolidarse en una base maestra.

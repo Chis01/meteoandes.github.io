@@ -1,21 +1,34 @@
 ---
 title: "MeteoAndes"
-lang: en
-description: "Field observations and Earth observation across tropical Peruvian glaciers."
+pagetitle: "MeteoAndes — Tropical glaciers of Peru"
+title-block-style: none
 page-layout: full
+lang: en
+description: "Scientific monitoring of tropical glaciers, meteorology, black carbon and Earth observation in the Peruvian Andes."
+image: ../assets/img/og/home.jpg
 toc: false
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/">
 ---
 
-<div class="ma-hero ma-section-wide"><div class="ma-hero__bg" aria-hidden="true"></div><div class="ma-hero__veil"></div><div class="ma-hero__content"><div class="ma-eyebrow" style="color:#9ce1ef">Scientific programme · Peru · 2018–2026</div><h1>We measure the ice that remains.</h1><p class="ma-hero__lead">Satellite altimetry, radar, glacier weather observations and black-carbon sampling across tropical Peruvian glaciers.</p><div class="ma-hero__actions"><a class="ma-btn ma-btn--primary" href="../investigacion/cambio-elevacion.html">View the main result →</a><a class="ma-btn ma-btn--ghost" href="data/index.html">Data catalogue</a></div></div></div>
+{{< include ../assets/partials/en/home-transect.html >}}
 
-## Current evidence
+{{< include ../assets/partials/en/home-spectrum.html >}}
 
-The strongest quantitative result is a hypsometry-area-weighted surface lowering of **−1.463 m yr⁻¹** across the Vilcanota glacier ensemble during the ICESat‑2 era. InSAR provides an advanced diagnostic of coherent surface motion, while atmospheric black-carbon and laboratory evidence remain preliminary. Fire attribution is not yet supported by a final Sentinel‑5P event analysis.
+{{< include ../assets/partials/en/home-kpis.html >}}
 
-## Sites
+{{< include ../assets/partials/en/home-result.html >}}
 
-- [Vilcanota glacier ensemble](glaciers/vilcanota.qmd)
-- [Quelccaya](glaciers/quelccaya.qmd)
-- [Huaytapallana](glaciers/huaytapallana.qmd)
-- [Tunshu](glaciers/tunshu.qmd)
-- [Mateo / Contrayerba](glaciers/mateo.qmd)
+{{< include ../assets/partials/en/home-chain.html >}}
+
+{{< include ../assets/partials/en/home-sites.html >}}
+
+{{< include ../assets/partials/en/home-maturity.html >}}
+
+{{< include ../assets/partials/en/home-albedo.html >}}
+
+{{< include ../assets/partials/en/home-transparency.html >}}
+
+{{< include ../assets/partials/en/home-closing.html >}}

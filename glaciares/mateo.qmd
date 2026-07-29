@@ -2,18 +2,25 @@
 title: "Mateo / Contrayerba"
 subtitle: "Gradiente altitudinal y perfil de hielo en Cordillera Blanca"
 description: "Campaña AL30 y perfil de 19 muestras en el sector Mateo/Contrayerba, Áncash."
-image: ../assets/img/glaciares/mateo.svg
+image: ../assets/img/og/glaciares.jpg
 categories: [Cordillera Blanca, Mateo, carbono negro, perfil de hielo]
 date-modified: 2026-07-29
+lang: es
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/glaciares/mateo.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/glaciers/mateo.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/glaciares/mateo.html">
 ---
 
-<div class="ma-page-meta"><span class="ma-status ma-status--prelim">Campaña preliminar</span></div>
+<p><span class="ma-inline-state" data-state="preliminary">Campaña preliminar</span></p>
 
-## Perfil criogeoquímico {data-elevation="5100"}
+<figure class="ma-figure-photo"><img src="/assets/img/photos/cards/mateo.webp" alt="Bofedal altoandino con cordillera nevada al fondo" width="900" height="600" fetchpriority="high"><div class="ma-photo-note"><span>Archivo MeteoAndes · campaña 2026</span><span>Sitio exacto y autoría por validar</span></div><figcaption>Fotografía representativa de un ambiente de alta montaña. La identificación exacta con Mateo/Contrayerba debe confirmarse.</figcaption></figure>
 
-El inventario contiene **19 muestras** MAT26_01–19 en intervalos consecutivos de 5 cm entre 0 y 95 cm, con volumen nominal máximo de 0.95 L. El perfil permite evaluar la variación con profundidad cuando se incorporen blancos, estándares, densidad y cronología.
+## Perfil criogeoquímico
 
-<figure class="ma-science-figure"><img src="/assets/img/charts/sample-inventory.svg" alt="Número de muestras de Quelccaya, Huaytapallana, Tunshu y Mateo" width="960" height="500"><figcaption>Mateo aporta 19 de las 113 muestras inventariadas en 2026.</figcaption></figure>
+El inventario contiene **19 muestras** MAT26_01–19 en intervalos consecutivos de 5 cm entre 0 y 95 cm, con volumen nominal máximo de **0,95 L**. El perfil permitirá evaluar la variación con profundidad cuando se incorporen blancos, estándares, densidad y cronología.
+
+<figure class="ma-science-figure"><img src="/assets/img/charts/sample-inventory.svg" alt="Número de muestras inventariadas en Quelccaya, Huaytapallana, Tunshu y Mateo" width="960" height="500" loading="lazy"><figcaption>Mateo aporta 19 de las 113 muestras inventariadas en 2026.</figcaption></figure>
 
 ## AL30 por altitud
 

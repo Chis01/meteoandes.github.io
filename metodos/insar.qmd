@@ -1,17 +1,33 @@
 ---
 title: "Método InSAR"
-description: "Procesamiento Sentinel-1 ASC/DESC y descomposición Este-Vertical bajo dN=0."
+pagetitle: "Método InSAR — MeteoAndes"
+description: "Procesamiento Sentinel-1 ASC/DESC y descomposición Este–Vertical bajo dN=0."
+image: ../assets/img/og/investigacion.jpg
+lang: es
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/metodos/insar.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/methods/insar.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/metodos/insar.html">
+format:
+  html:
+    code-tools: true
+    code-fold: true
 ---
 
 ## Productos
 
 - LOS ascendente y descendente.
 - dE, dU y |dE| bajo dN=0.
-- Tasas por intervalo y anualizadas, con duración explícita.
+- Tasas por intervalo y anualizadas con duración explícita.
 - Acumulado continuo desde referencia global.
-- Cobertura, determinante, calidad y número de observaciones.
-- Series AOI y perfiles por banda de elevación.
+- Cobertura, determinante, calidad y observaciones.
+- Series AOI y perfiles de elevación.
+
+```python
+# La inversión conserva el supuesto dN = 0 en la metadata.
+dE, dU = invert_ascending_descending(los_asc, los_desc, geometry)
+```
 
 ## Restricción física
 
-dU no es cambio euleriano de elevación ni balance de masa. El flujo glaciar y emergencia/submergencia intervienen. La comparación con ICESat‑2 debe usar acumulados/tasas sobre una ventana común y zonas coherentes.
+dU no es cambio euleriano de elevación ni balance de masa. La comparación con ICESat‑2 usa acumulados o tasas en ventanas comunes.

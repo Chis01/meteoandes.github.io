@@ -1,45 +1,25 @@
-name: Render and publish MeteoAndes
-
+name: Publish MeteoAndes
 on:
+  workflow_dispatch:
   push:
     branches: [main]
-  workflow_dispatch:
-
 permissions:
   contents: write
-
-concurrency:
-  group: gh-pages
-  cancel-in-progress: true
-
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+      - uses: quarto-dev/quarto-actions/setup@v2
+      - uses: actions/setup-python@v5
         with:
-          fetch-depth: 0
-
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-          cache: pip
-
-      - name: Install lightweight dependencies
-        run: pip install -r requirements.txt
-
-      - name: Validate research tables and image alt text
-        run: |
-          python scripts/validate_data.py
-          python scripts/check-alt-text.py
-
-      - name: Render and publish
-        uses: quarto-dev/quarto-actions/publish@v2
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - run: python scripts/check_source_quality.py
+      - run: python scripts/check-alt-text.py
+      - run: python scripts/check_image_budgets.py
+      - run: python scripts/validate_data.py
+      - uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
         env:

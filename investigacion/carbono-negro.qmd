@@ -1,32 +1,37 @@
 ---
 title: "Carbono negro y aerosoles"
-subtitle: "De eBC atmosférico a rBC depositado en nieve y hielo"
+pagetitle: "Carbono negro y aerosoles — MeteoAndes"
+subtitle: "De eBC atmosférico a rBC depositado"
 description: "Resultados preliminares AL30/AE33, laboratorio SP2 e iones en glaciares peruanos."
-categories: [carbono negro, AL30, AE33, SP2]
+image: ../assets/img/og/investigacion.jpg
+categories: [investigación]
+lang: es
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/investigacion/carbono-negro.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/research/black-carbon.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/investigacion/carbono-negro.html">
 ---
 
-<div class="ma-page-meta"><span class="ma-status ma-status--prelim">Resultados preliminares</span></div>
+<p><span class="ma-inline-state" data-state="preliminary">Resultados preliminares</span></p>
+
+<figure class="ma-figure-photo"><img src="/assets/img/photos/sections/muestreo.webp" alt="Investigador extrayendo y registrando una muestra de nieve durante trabajo de campo glaciar" width="1400" height="933" loading="lazy"><div class="ma-photo-note"><span>Archivo MeteoAndes · campañas 2026</span><span>Sitio y autoría por validar</span></div><figcaption>El diseño integra eBC atmosférico, transporte, deposición rBC/iones, albedo y respuesta glaciar.</figcaption></figure>
 
 ## Campañas AL30
 
-<figure class="ma-science-figure"><img src="/assets/img/charts/al30-sessions.svg" alt="Medias preliminares de eBC en sesiones AL30 de Huaytapallana y Quelccaya" width="980" height="470"><figcaption>Huaytapallana D1: 174 ng m⁻³; D2: 654 ng m⁻³; Quelccaya: 222 ng m⁻³ como medición instantánea de contexto.</figcaption></figure>
+<figure class="ma-science-figure"><img src="/assets/img/charts/al30-sessions.svg" alt="Medias preliminares de eBC en dos sesiones de Huaytapallana y una medición instantánea de Quelccaya" width="980" height="470" loading="lazy"><figcaption>Huaytapallana D1: 174 ng m⁻³; D2: 654 ng m⁻³; Quelccaya: 222 ng m⁻³ como medición instantánea de contexto.</figcaption></figure>
 
-El Día 2 de Huaytapallana fue 3.76 veces el Día 1, pero la diferencia no identifica fuente ni mecanismo. Puede depender de transporte, viento, capa límite, humedad, posición, flujo, duración o estabilización.
+El Día 2 de Huaytapallana fue **3,76 veces** el Día 1, pero la diferencia no identifica fuente ni mecanismo. Puede depender de transporte, viento, capa límite, humedad, posición, flujo, duración o estabilización.
 
 ## QA/QC del microAeth
 
-La serie cruda se conserva. El procesamiento cuantifica valores negativos, evalúa ATN, flujo y códigos de error, y compara suavizados móviles con ONA-like. Un registro instantáneo del 26 de junio de 2026 mostró 2 155.7 ng m⁻³, ATN 12.88, flujo 50 mL min⁻¹, 25.4 °C, 53.1% RH y 70.1 kPa: confirma operación instrumental, no una media ambiental.
+La serie cruda se conserva. El procesamiento cuantifica valores negativos, evalúa ATN, flujo y códigos de error, y compara suavizados móviles con ONA-like. Un registro instantáneo del 26 de junio de 2026 mostró **2 155,7 ng m⁻³**, ATN 12,88, flujo 50 mL min⁻¹, 25,4 °C, 53,1 % RH y 70,1 kPa: confirma operación instrumental, no una media ambiental.
 
-## AE33
+## AE33, SP2 e iones
 
-Existe una serie descrita para Huaytapallana a resolución de un minuto durante 2022–2024. Debe integrarse con zona horaria, canales espectrales, correcciones de carga y meteorología antes de derivar estacionalidad o fuentes.
+Existe una serie AE33 descrita para Huaytapallana con resolución de un minuto en 2022–2024. SP2 mide carbono negro refractario partícula por partícula en nieve/hielo. Los resultados preliminares incluyen perfiles y composición iónica de Quelccaya/Vilcanota y Cordillera Blanca. Ningún ion aislado identifica una fuente de manera inequívoca.
 
-## SP2 e iones
+<figure class="ma-science-figure"><img src="/assets/img/charts/sample-inventory.svg" alt="Inventario de 113 muestras de nieve y hielo recogidas en cuatro sitios durante 2026" width="960" height="500" loading="lazy"><figcaption>113 muestras inventariadas: Quelccaya 48, Huaytapallana 25, Tunshu 21 y Mateo 19.</figcaption></figure>
 
-SP2 mide carbono negro refractario partícula por partícula en muestras de nieve/hielo. Los resultados preliminares incluyen perfiles y composición iónica para Quelccaya/Vilcanota y Cordillera Blanca. K⁺ puede apoyar una señal de biomasa, mientras Ca²⁺/Mg²⁺ aportan contexto de polvo mineral; ningún ion aislado identifica una fuente de forma inequívoca.
-
-<figure class="ma-science-figure"><img src="/assets/img/charts/sample-inventory.svg" alt="Inventario de muestras de nieve y hielo recogidas en cuatro sitios durante 2026" width="960" height="500"><figcaption>113 muestras inventariadas: Quelccaya 48, Huaytapallana 25, Tunshu 21 y Mateo 19.</figcaption></figure>
-
-## Puente aún pendiente
+## Puente pendiente
 
 La relación eBC atmosférico → transporte → deposición rBC/iones → albedo → fusión debe evaluarse con ventanas temporales y rezagos. No se comparan directamente concentraciones de matrices diferentes.

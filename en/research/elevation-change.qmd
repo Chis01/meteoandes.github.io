@@ -1,0 +1,41 @@
+---
+title: "Elevation change with ICESat‑2"
+pagetitle: "Elevation change with ICESat‑2 — MeteoAndes"
+subtitle: "Cordillera Vilcanota, 2018–2026"
+description: "Audited glacier surface-elevation change from ICESat-2 ATL06-SR and COP30."
+image: ../../assets/img/og/investigacion.jpg
+categories: [research]
+lang: en
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/investigacion/cambio-elevacion.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/research/elevation-change.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/investigacion/cambio-elevacion.html">
+---
+
+<p><span class="ma-inline-state" data-state="consolidated">Consolidated / audited</span></p>
+
+## Data and quality control
+
+The query retrieved **639,415 ATL06‑SR segments**. After AOI selection and quality control, **27,160 glacier points** and **141,868 stable-terrain points** remained across **129 passes** and eight RGTs.
+
+COP30 was converted from EGM2008 orthometric heights to ellipsoidal heights using a geoid correction of approximately **47.1 m**. After co-registration, the stable-terrain median changed from −0.607 to −0.152 m and then to −0.008 m after residual correction; final NMAD was **4.631 m**.
+
+## Main trend
+
+<figure class="ma-science-figure"><img src="/assets/img/charts/icesat2-forest-en.svg" alt="Five estimates of surface-elevation change in Vilcanota, all showing negative trends" width="1100" height="530" loading="lazy"><figcaption>The hypsometry-weighted estimate represents 96.5% of the area and is used as the regional result.</figcaption></figure>
+
+| Estimator | Slope (m yr⁻¹) | Uncertainty | Use |
+|---|---:|---|---|
+| Dry-season h′ | −1.590 | 95% CI: −2.229 to −1.053 | Primary product |
+| All-observation h′ | −1.523 | 95% CI: −1.953 to −1.114 | Temporal sensitivity |
+| Raw dh | −1.356 | 95% CI: −1.740 to −0.980 | Without hypsometric correction |
+| Hypsometry weighted | **−1.463** | 95% CI: −2.357 to −0.596 | Regional result |
+| Hypsometric resampling | −1.600 | P5–P95: −1.732 to −1.434 | 50 iterations |
+
+## Hydrological years
+
+The diagnostic cumulative change relative to HY2020 reaches **−6.90 m** for the dry season and **−8.10 m** for all observations through HY2025. It is not a complete geodetic mass-balance estimate.
+
+## Defensible inference
+
+A robust multi-year surface lowering close to 1.5 m yr⁻¹ is present, with stronger loss at lower and middle-lower elevations. Stable-terrain masking and residual NMAD remain open uncertainty components.

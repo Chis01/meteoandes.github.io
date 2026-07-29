@@ -1,9 +1,23 @@
 ---
 title: "Huaytapallana / Cochas"
+pagetitle: "Huaytapallana / Cochas — MeteoAndes"
+subtitle: "Atmospheric eBC variability and cryogeochemical monitoring"
+description: "AL30 campaigns, an AE33 series and snow/ice sampling in Junín."
+image: ../../assets/img/og/glaciares.jpg
+categories: [glaciers]
 lang: en
-description: "MeteoAndes field and remote-sensing evidence for Huaytapallana / Cochas."
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/glaciares/huaytapallana.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/glaciers/huaytapallana.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/glaciares/huaytapallana.html">
 ---
 
-Two preliminary AL30 sessions had mean eBC values of 174 and 654 ng m⁻³. The contrast demonstrates session variability, not source attribution. A one-minute AE33 series for 2022–2024 is described but still requires integrated QA/QC.
+<p><span class="ma-inline-state" data-state="preliminary">Preliminary AL30 campaigns</span> <span class="ma-inline-state" data-state="diagnostic">AE33 integration pending</span></p>
 
-[Back to English home](../index.qmd)
+<figure class="ma-figure-photo"><img src="/assets/img/photos/cards/huaytapallana.webp" alt="High-Andean lake in front of a snow-covered mountain beneath clouds" width="900" height="600" fetchpriority="high"><div class="ma-photo-note"><span>MeteoAndes archive · 2026 campaign</span><span>Exact site and authorship pending validation</span></div><figcaption>Representative high-mountain image; exact association with Huaytapallana must be confirmed.</figcaption></figure>
+
+## AL30 sessions
+
+Preliminary means were **174 ng m⁻³** on Day 1 and **654 ng m⁻³** on Day 2. Day 2 was approximately **3.76 times** Day 1. This demonstrates session variability but does not identify its cause.
+
+The inventory records **25 samples**, HUAY26_01–25, with a nominal maximum volume of **1.25 L**. Atmospheric eBC and snow/ice rBC must be connected through transport and deposition windows rather than direct concentration equality.

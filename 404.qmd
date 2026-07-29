@@ -1,7 +1,19 @@
 ---
 title: "Página no encontrada"
+pagetitle: "Página no encontrada — MeteoAndes"
+description: "Página de recuperación de MeteoAndes."
+image: assets/img/og/home.jpg
+lang: es
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/404.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/404.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/404.html">
 page-layout: full
 toc: false
 ---
 
-<div class="ma-section-wide ma-section" style="text-align:center;min-height:65vh;display:grid;place-items:center"><div><div class="ma-eyebrow">Error 404</div><h1>Esta ruta se perdió entre las nubes.</h1><p>Regrese a la portada o use la búsqueda para encontrar glaciares, métodos y datos.</p><a class="ma-btn" style="background:#0e7c99;color:white" href="/">Volver a MeteoAndes</a></div></div>
+<section class="ma-error-page">
+<p class="ma-eyebrow">Error 404</p>
+<p class="ma-section-lead">Esta ruta se perdió entre las nubes. Use la búsqueda o vuelva a una sección principal.</p>
+<div class="ma-actions"><a class="ma-button ma-button--dark" href="/">Volver a MeteoAndes</a><a class="ma-button ma-button--paper" href="/glaciares/">Explorar glaciares</a></div>
+</section>

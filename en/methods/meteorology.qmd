@@ -1,0 +1,23 @@
+---
+title: "Meteorological method"
+pagetitle: "Meteorological method — MeteoAndes"
+description: "Integration of local stations, ERA5-Land, ERA5 and CHIRPS."
+image: ../../assets/img/og/investigacion.jpg
+lang: en
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/metodos/meteorologia.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/methods/meteorology.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/metodos/meteorologia.html">
+format:
+  html:
+    code-tools: true
+    code-fold: true
+---
+
+## Spatial extraction
+
+Grid cells are weighted by their intersection area with the glacier AOI. Each year exports weights, coverage, a daily table, monthly summary and visual panel.
+
+```python
+weighted_mean = (cell_value * intersection_area).sum() / intersection_area.sum()
+```

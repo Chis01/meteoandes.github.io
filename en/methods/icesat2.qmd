@@ -1,0 +1,23 @@
+---
+title: "ICESat‑2 method"
+pagetitle: "ICESat‑2 method — MeteoAndes"
+description: "Architecture for estimating surface-elevation change with ATL06-SR."
+image: ../../assets/img/og/investigacion.jpg
+lang: en
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/metodos/icesat2.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/methods/icesat2.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/metodos/icesat2.html">
+format:
+  html:
+    code-tools: true
+    code-fold: true
+---
+
+## Workflow
+
+Glacier inventory and metric AOI; ATL06‑SR retrieval; point/pass/band quality control; COP30 vertical-datum conversion; stable-terrain co-registration; dh(z), h′ and hypsometric weighting; robust trend and sensitivity analyses.
+
+```python
+trend = robust_theil_sen(time, elevation_anomaly)
+```

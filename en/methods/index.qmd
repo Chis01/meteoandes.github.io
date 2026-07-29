@@ -1,0 +1,25 @@
+---
+title: "Reproducible methods"
+pagetitle: "Reproducible methods — MeteoAndes"
+description: "Technical workflows used by MeteoAndes."
+image: ../../assets/img/og/investigacion.jpg
+lang: en
+header-includes: |
+  <link rel="alternate" hreflang="es" href="https://meteoandes.com/metodos/index.html">
+  <link rel="alternate" hreflang="en" href="https://meteoandes.com/en/methods/index.html">
+  <link rel="alternate" hreflang="x-default" href="https://meteoandes.com/metodos/index.html">
+---
+
+## Principles
+
+1. Each sensor retains its observation equation and uncertainty.
+2. Local paths, credentials and tokens are never published.
+3. Executed notebooks use `freeze: auto`.
+4. Every public number declares evidence status and source.
+5. Pending results are not replaced by inferred values.
+
+- [ICESat‑2 ATL06‑SR](icesat2.qmd)
+- [Sentinel‑1 InSAR](insar.qmd)
+- [Glacier meteorology](meteorology.qmd)
+- [Black carbon](black-carbon.qmd)
+- [Bilingual glossary](../../en/glossary.qmd)
