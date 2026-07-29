@@ -8,7 +8,7 @@
 
 <meta name="description" content="Arquitectura científica de MeteoAndes: criósfera, meteorología, carbono negro y energía.">
 
-<title>Investigación – MeteoAndes</title>
+<title>Investigación — MeteoAndes – MeteoAndes</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -27,41 +27,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -78,14 +43,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bb62276ab45c84d9efd712f51ff97b5a.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-5a1953863e1f72ef3b996ef827f01ca7.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bb62276ab45c84d9efd712f51ff97b5a.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bb62276ab45c84d9efd712f51ff97b5a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-869f98707b5359c685b2de81c0e92a10.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-4fc6975cdb7f2874070673a9ac62ff51.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-869f98707b5359c685b2de81c0e92a10.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-e49c5a1de1479fc8090e30ca1b85834a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": true,
@@ -113,200 +74,41 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
-<meta name="theme-color" content="#0E7C99">
-<meta name="color-scheme" content="light dark">
-<link rel="preload" href="../assets/img/brand/logo-mark.svg" as="image" type="image/svg+xml">
-<script>
-  document.documentElement.classList.add('ma-js');
-</script>
-
+<meta name="theme-color" content="#FCFCFA">
+<meta name="color-scheme" content="light">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650;700;800&amp;family=JetBrains+Mono:wght@400;500;600&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&amp;display=swap" rel="stylesheet">
+<link rel="preload" href="../assets/img/photos/transect/01-laguna-puna.webp" as="image" type="image/webp" fetchpriority="high">
+<script>document.documentElement.classList.add("ma-js");</script>
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
-  "@type":"WebSite",
+  "@type":"ResearchProject",
   "name":"MeteoAndes",
   "url":"https://meteoandes.com",
   "description":"Investigación en glaciares tropicales del Perú, meteorología, InSAR y carbono negro.",
-  "author":{"@type":"Person","name":"Christian Riveros","url":"https://github.com/Chis01"}
+  "founder":{"@type":"Person","name":"Christian Riveros","url":"https://github.com/Chis01"}
 }
 </script>
+<link rel="alternate" hreflang="es" href="https://meteoandes.com/investigacion/index.html">
+<link rel="alternate" hreflang="en" href="https://meteoandes.com/en/research/index.html">
+<link rel="alternate" hreflang="x-default" href="https://meteoandes.com/investigacion/index.html">
 
 
-<link rel="stylesheet" href="../assets/css/extra.css">
-<meta property="og:title" content="Investigación – MeteoAndes">
+<link rel="stylesheet" href="../assets/css/site.css">
+<meta property="og:title" content="Investigación — MeteoAndes">
 <meta property="og:description" content="Arquitectura científica de MeteoAndes: criósfera, meteorología, carbono negro y energía.">
-<meta property="og:image" content="https://meteoandes.com/investigacion/assets/img/og/default.png">
+<meta property="og:image" content="https://meteoandes.com/assets/img/og/investigacion.jpg">
 <meta property="og:site_name" content="MeteoAndes">
 <meta property="og:locale" content="es_PE">
-<meta name="twitter:title" content="Investigación – MeteoAndes">
+<meta name="twitter:title" content="Investigación — MeteoAndes">
 <meta name="twitter:description" content="Arquitectura científica de MeteoAndes: criósfera, meteorología, carbono negro y energía.">
-<meta name="twitter:image" content="https://meteoandes.com/investigacion/assets/img/og/default.png">
+<meta name="twitter:image" content="https://meteoandes.com/assets/img/og/investigacion.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
-    const toggleBodyColorMode = (bsSheetEl) => {
-      const mode = bsSheetEl.getAttribute("data-mode");
-      const bodyEl = window.document.querySelector("body");
-      if (mode === "dark") {
-        bodyEl.classList.add("quarto-dark");
-        bodyEl.classList.remove("quarto-light");
-      } else {
-        bodyEl.classList.add("quarto-light");
-        bodyEl.classList.remove("quarto-dark");
-      }
-    }
-    const toggleBodyColorPrimary = () => {
-      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
-      if (bsSheetEl) {
-        toggleBodyColorMode(bsSheetEl);
-      }
-    }
-    const setColorSchemeToggle = (alternate) => {
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
-    };
-    const toggleColorMode = (alternate) => {
-      // Switch the stylesheets
-      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
-      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-      manageTransitions('#quarto-margin-sidebar .nav-link', false);
-      if (alternate) {
-        // note: dark is layered on light, we don't disable primary!
-        enableStylesheet(alternateStylesheets);
-        for (const sheetNode of alternateStylesheets) {
-          if (sheetNode.id === "quarto-bootstrap") {
-            toggleBodyColorMode(sheetNode);
-          }
-        }
-      } else {
-        disableStylesheet(alternateStylesheets);
-        enableStylesheet(primaryStylesheets)
-        toggleBodyColorPrimary();
-      }
-      manageTransitions('#quarto-margin-sidebar .nav-link', true);
-      // Switch the toggles
-      setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
-      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-        manageTransitions("body", false);
-        window.scrollTo(0, 1);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-          manageTransitions("body", true);
-        }, 40);
-      }
-    }
-    const disableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        stylesheet.rel = 'disabled-stylesheet';
-      }
-    }
-    const enableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
-          stylesheet.rel = 'stylesheet';
-        }
-      }
-    }
-    const manageTransitions = (selector, allowTransitions) => {
-      const els = window.document.querySelectorAll(selector);
-      for (let i=0; i < els.length; i++) {
-        const el = els[i];
-        if (allowTransitions) {
-          el.classList.remove('notransition');
-        } else {
-          el.classList.add('notransition');
-        }
-      }
-    }
-    const isFileUrl = () => {
-      return window.location.protocol === 'file:';
-    }
-    const hasAlternateSentinel = () => {
-      let styleSentinel = getColorSchemeSentinel();
-      if (styleSentinel !== null) {
-        return styleSentinel === "alternate";
-      } else {
-        return false;
-      }
-    }
-    const setStyleSentinel = (alternate) => {
-      const value = alternate ? "alternate" : "default";
-      if (!isFileUrl()) {
-        window.localStorage.setItem("quarto-color-scheme", value);
-      } else {
-        localAlternateSentinel = value;
-      }
-    }
-    const getColorSchemeSentinel = () => {
-      if (!isFileUrl()) {
-        const storageValue = window.localStorage.getItem("quarto-color-scheme");
-        return storageValue != null ? storageValue : localAlternateSentinel;
-      } else {
-        return localAlternateSentinel;
-      }
-    }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(authorPrefersDark) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    };
-    const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-    // Dark / light mode switch
-    window.quartoToggleColorScheme = () => {
-      // Read the current dark / light value
-      let toAlternate = !hasAlternateSentinel();
-      toggleColorMode(toAlternate);
-      setStyleSentinel(toAlternate);
-      toggleGiscusIfUsed(toAlternate, darkModeDefault);
-      window.dispatchEvent(new Event('resize'));
-    };
-    // Switch to dark mode if need be
-    if (hasAlternateSentinel()) {
-      toggleColorMode(true);
-    } else {
-      toggleColorMode(false);
-    }
-  </script>
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -314,8 +116,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../assets/img/brand/logo-mark.svg" alt="MeteoAndes" class="navbar-logo light-content">
-    <img src="../assets/img/brand/logo-mark.svg" alt="MeteoAndes" class="navbar-logo dark-content">
+    <img src="../assets/img/brand/logo-mark.svg" alt="Símbolo de MeteoAndes" class="navbar-logo light-content">
+    <img src="../assets/img/brand/logo-mark.svg" alt="Símbolo de MeteoAndes" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">MeteoAndes</span>
@@ -401,7 +203,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -416,19 +217,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#pregunta-integradora" id="toc-pregunta-integradora" class="nav-link active" data-scroll-target="#pregunta-integradora">Pregunta integradora</a></li>
-  <li><a href="#jerarquía-de-resultados" id="toc-jerarquía-de-resultados" class="nav-link" data-scroll-target="#jerarquía-de-resultados">Jerarquía de resultados</a></li>
-  <li><a href="#líneas" id="toc-líneas" class="nav-link" data-scroll-target="#líneas">Líneas</a></li>
+  <li><a href="#cadena-de-evidencia" id="toc-cadena-de-evidencia" class="nav-link" data-scroll-target="#cadena-de-evidencia">Cadena de evidencia</a></li>
+  <li><a href="#matriz-de-resultados" id="toc-matriz-de-resultados" class="nav-link" data-scroll-target="#matriz-de-resultados">Matriz de resultados</a></li>
+  <li><a href="#líneas-temáticas" id="toc-líneas-temáticas" class="nav-link" data-scroll-target="#líneas-temáticas">Líneas temáticas</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/Chis01/meteoandes.github.io/blob/main/investigacion/index.qmd" class="toc-action"><i class="bi bi-github"></i>Ver el código</a></li><li><a href="https://github.com/Chis01/meteoandes.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Informar sobre problema</a></li></ul></div></nav>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title">Investigación</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Código</button></div></div>
-</div>
+<h1 class="title">Investigación</h1>
+<p class="subtitle lead">Panorama de evidencia multifuente</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">investigación</div>
+  </div>
+  </div>
 
 <div>
   <div class="description">
@@ -449,44 +254,50 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
+<p>
+<span class="ma-inline-state" data-state="consolidated">Resultado central auditado</span> <span class="ma-inline-state" data-state="diagnostic">Integración en curso</span>
+</p>
 <section id="pregunta-integradora" class="level2">
 <h2 class="anchored" data-anchor-id="pregunta-integradora">Pregunta integradora</h2>
 <p>¿Cómo evolucionan la elevación y la dinámica de los glaciares tropicales peruanos, y qué papel pueden desempeñar la meteorología y las partículas absorbentes en esa respuesta?</p>
-<div class="ma-chain">
-<div class="ma-chain__node">
-<strong>Exposición</strong>
-<p>
-Incendios y otras fuentes generan aerosoles.
-</p>
+<figure class="ma-figure-photo figure">
+<img src="../assets/img/photos/sections/agua-campo.webp" alt="Investigadores de alta montaña junto a una masa de agua glaciar durante una campaña de campo" width="1400" height="933" loading="lazy" class="figure-img">
+<div class="ma-photo-note">
+<span>Archivo MeteoAndes · campañas 2026</span><span>Sitio y autoría por validar en la hoja de metadatos</span>
 </div>
-<div class="ma-chain__node">
-<strong>Transporte</strong>
+<figcaption>
+La arquitectura combina mediciones de campo, laboratorio y observación satelital; cada sensor conserva su magnitud física y su incertidumbre.
+</figcaption>
+</figure>
+</section>
+<section id="cadena-de-evidencia" class="level2">
+<h2 class="anchored" data-anchor-id="cadena-de-evidencia">Cadena de evidencia</h2>
+<div class="ma-evidence-ribbon">
+<a class="ma-chain__segment is-atmosphere" href="sentinel5p.html"><strong>Atmósfera</strong><span>TROPOMI · AL30 · AE33</span>
 <p>
-Viento, capa límite y precipitación conectan fuente y receptor.
+Exposición y aerosoles.
 </p>
-</div>
-<div class="ma-chain__node">
-<strong>Depósito</strong>
+</a> <a class="ma-chain__segment is-meteo" href="meteorologia-glaciar.html"><strong>Meteorología</strong><span>AWS · ERA5 · CHIRPS</span>
 <p>
-SP2 e iones observan lo retenido en nieve/hielo.
+Transporte y confusores.
 </p>
-</div>
-<div class="ma-chain__node">
-<strong>Forzamiento</strong>
+</a> <a class="ma-chain__segment is-deposit" href="carbono-negro.html"><strong>Depósito</strong><span>SP2 · iones · isótopos</span>
 <p>
-Albedo y balance energético traducen oscurecimiento en absorción.
+Partículas retenidas.
 </p>
-</div>
-<div class="ma-chain__node">
-<strong>Respuesta</strong>
+</a> <a class="ma-chain__segment is-energy" href="albedo-energia.html"><strong>Energía</strong><span>Albedo · SW/LW · Rn</span>
 <p>
-ICESat‑2 e InSAR observan cambio geométrico y movimiento.
+Absorción y fusión potencial.
 </p>
-</div>
+</a> <a class="ma-chain__segment is-response" href="cambio-elevacion.html"><strong>Respuesta</strong><span>ICESat-2 · InSAR</span>
+<p>
+Cambio geométrico y movimiento.
+</p>
+</a><p><a class="ma-chain__segment is-response" href="cambio-elevacion.html"></a></p>
 </div>
 </section>
-<section id="jerarquía-de-resultados" class="level2">
-<h2 class="anchored" data-anchor-id="jerarquía-de-resultados">Jerarquía de resultados</h2>
+<section id="matriz-de-resultados" class="level2">
+<h2 class="anchored" data-anchor-id="matriz-de-resultados">Matriz de resultados</h2>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 33%">
@@ -497,13 +308,13 @@ ICESat‑2 e InSAR observan cambio geométrico y movimiento.
 <tr class="header">
 <th>Componente</th>
 <th>Resultado actual</th>
-<th>Nivel</th>
+<th>Nivel de evidencia</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>ICESat‑2 Vilcanota</td>
-<td>−1.463 m año⁻¹ ponderado por hipsometría</td>
+<td>−1,463 m año⁻¹; IC95 %: −2,357 a −0,596</td>
 <td>Consolidado/auditado</td>
 </tr>
 <tr class="even">
@@ -513,12 +324,12 @@ ICESat‑2 e InSAR observan cambio geométrico y movimiento.
 </tr>
 <tr class="odd">
 <td>Hidrometeorología</td>
-<td>Paneles y tablas por AOI/año; climatología maestra pendiente</td>
-<td>Avanzado</td>
+<td>Paneles por AOI/año; síntesis multianual pendiente</td>
+<td>Diagnóstico avanzado</td>
 </tr>
 <tr class="even">
 <td>Albedo/energía</td>
-<td>Ecuaciones, QC y forzantes implementados</td>
+<td>Ecuaciones, QA/QC y forzantes implementados</td>
 <td>Implementado, no cerrado</td>
 </tr>
 <tr class="odd">
@@ -539,41 +350,26 @@ ICESat‑2 e InSAR observan cambio geométrico y movimiento.
 </tbody>
 </table>
 </section>
-<section id="líneas" class="level2">
-<h2 class="anchored" data-anchor-id="líneas">Líneas</h2>
+<section id="líneas-temáticas" class="level2">
+<h2 class="anchored" data-anchor-id="líneas-temáticas">Líneas temáticas</h2>
 <ul>
 <li><a href="../investigacion/cambio-elevacion.html">Cambio de elevación con ICESat‑2</a></li>
-<li><a href="../investigacion/insar.html">Dinámica InSAR</a></li>
+<li><a href="../investigacion/insar.html">Dinámica glaciar con InSAR</a></li>
 <li><a href="../investigacion/meteorologia-glaciar.html">Meteorología glaciar</a></li>
 <li><a href="../investigacion/carbono-negro.html">Carbono negro y aerosoles</a></li>
-<li><a href="../investigacion/albedo-energia.html">Albedo y energía</a></li>
-<li><a href="../investigacion/sentinel5p.html">Estado de Sentinel‑5P</a></li>
+<li><a href="../investigacion/albedo-energia.html">Albedo y energía superficial</a></li>
+<li><a href="../investigacion/sentinel5p.html">Sentinel‑5P y exposición a incendios</a></li>
 </ul>
 
-
-<!-- -->
 
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a></main> <!-- /main -->
 <div id="ma-reading-progress" aria-hidden="true"></div>
-<div id="ma-elevation-spine" aria-hidden="true"></div>
+<div class="ma-spectrum-thread" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
 <script type="module" src="../assets/js/main.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    // Ensure there is a toggle, if there isn't float one in the top right
-    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-      const i = window.document.createElement("i");
-      i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
-    }
-    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -581,119 +377,6 @@ ICESat‑2 e InSAR observan cambio geométrico y movimiento.
       icon: icon
     };
     anchorJS.add('.anchored');
-    const isCodeAnnotation = (el) => {
-      for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
-          return true;
-        }
-      }
-      return false;
-    }
-    const onCopySuccess = function(e) {
-      // button target
-      const button = e.trigger;
-      // don't keep focus
-      button.blur();
-      // flash "checked"
-      button.classList.add('code-copy-button-checked');
-      var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copiado");
-      let tooltip;
-      if (window.bootstrap) {
-        button.setAttribute("data-bs-toggle", "tooltip");
-        button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copiado");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
-            customClass: "code-copy-button-tooltip",
-            offset: [0, -8]});
-        tooltip.show();    
-      }
-      setTimeout(function() {
-        if (tooltip) {
-          tooltip.hide();
-          button.removeAttribute("data-bs-title");
-          button.removeAttribute("data-bs-toggle");
-          button.removeAttribute("data-bs-placement");
-        }
-        button.setAttribute("title", currentTitle);
-        button.classList.remove('code-copy-button-checked');
-      }, 1000);
-      // clear code selection
-      e.clearSelection();
-    }
-    const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-      text: getTextToCopy
-    });
-    clipboard.on('success', onCopySuccess);
-    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-        text: getTextToCopy,
-        container: window.document.getElementById('quarto-embedded-source-code-modal')
-      });
-      clipboardModal.on('success', onCopySuccess);
-    }
-    const viewSource = window.document.getElementById('quarto-view-source') ||
-                       window.document.getElementById('quarto-code-tools-source');
-    if (viewSource) {
-      const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
-      viewSource.addEventListener("click", function(e) {
-        if (sourceUrl) {
-          // rstudio viewer pane
-          if (/\bcapabilities=\b/.test(window.location)) {
-            window.open(sourceUrl);
-          } else {
-            window.location.href = sourceUrl;
-          }
-        } else {
-          const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
-          modal.show();
-        }
-        return false;
-      });
-    }
-    function toggleCodeHandler(show) {
-      return function(e) {
-        const cellDetails = window.document.querySelectorAll(".cell details.code-fold");
-        for (let i=0; i<cellDetails.length; i++) {
-          const details = cellDetails[i];
-          if (show) {
-            details.open = true;
-          } else {
-            details.removeAttribute("open");
-          }
-        }
-        const cellCodeDivs = window.document.querySelectorAll(".cell div.sourceCode.cell-code");
-        const fromCls = show ? "hidden" : "unhidden";
-        const toCls = show ? "unhidden" : "hidden";
-        for (let i=0; i<cellCodeDivs.length; i++) {
-          const codeDiv = cellCodeDivs[i];
-          if (codeDiv.classList.contains(fromCls)) {
-            codeDiv.classList.remove(fromCls);
-            codeDiv.classList.add(toCls);
-          } 
-        }
-        return false;
-      }
-    }
-    const hideAllCode = window.document.getElementById("quarto-hide-all-code");
-    if (hideAllCode) {
-      hideAllCode.addEventListener("click", toggleCodeHandler(false));
-    }
-    const showAllCode = window.document.getElementById("quarto-show-all-code");
-    if (showAllCode) {
-      showAllCode.addEventListener("click", toggleCodeHandler(true));
-    }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
         var filterRegex = new RegExp("https:\/\/meteoandes\.com");
@@ -1029,45 +712,7 @@ ICESat‑2 e InSAR observan cambio geométrico y movimiento.
       }
     }
   });
-  </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Ejecutar el código</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Investigación"</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">description:</span><span class="co"> "Arquitectura científica de MeteoAndes: criósfera, meteorología, carbono negro y energía."</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">## Pregunta integradora</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>¿Cómo evolucionan la elevación y la dinámica de los glaciares tropicales peruanos, y qué papel pueden desempeñar la meteorología y las partículas absorbentes en esa respuesta?</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-chain"</span><span class="dt">&gt;</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-chain__node"</span><span class="dt">&gt;&lt;</span><span class="kw">strong</span><span class="dt">&gt;</span>Exposición<span class="dt">&lt;/</span><span class="kw">strong</span><span class="dt">&gt;&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Incendios y otras fuentes generan aerosoles.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-chain__node"</span><span class="dt">&gt;&lt;</span><span class="kw">strong</span><span class="dt">&gt;</span>Transporte<span class="dt">&lt;/</span><span class="kw">strong</span><span class="dt">&gt;&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Viento, capa límite y precipitación conectan fuente y receptor.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-chain__node"</span><span class="dt">&gt;&lt;</span><span class="kw">strong</span><span class="dt">&gt;</span>Depósito<span class="dt">&lt;/</span><span class="kw">strong</span><span class="dt">&gt;&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>SP2 e iones observan lo retenido en nieve/hielo.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-chain__node"</span><span class="dt">&gt;&lt;</span><span class="kw">strong</span><span class="dt">&gt;</span>Forzamiento<span class="dt">&lt;/</span><span class="kw">strong</span><span class="dt">&gt;&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Albedo y balance energético traducen oscurecimiento en absorción.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-chain__node"</span><span class="dt">&gt;&lt;</span><span class="kw">strong</span><span class="dt">&gt;</span>Respuesta<span class="dt">&lt;/</span><span class="kw">strong</span><span class="dt">&gt;&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>ICESat‑2 e InSAR observan cambio geométrico y movimiento.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="fu">## Jerarquía de resultados</span></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Componente <span class="pp">|</span> Resultado actual <span class="pp">|</span> Nivel <span class="pp">|</span></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="pp">|---|---|---|</span></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> ICESat‑2 Vilcanota <span class="pp">|</span> −1.463 m año⁻¹ ponderado por hipsometría <span class="pp">|</span> Consolidado/auditado <span class="pp">|</span></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> InSAR Vilcanota <span class="pp">|</span> Geometría adecuada; señal mensual cercana al ruido <span class="pp">|</span> Diagnóstico avanzado <span class="pp">|</span></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Hidrometeorología <span class="pp">|</span> Paneles y tablas por AOI/año; climatología maestra pendiente <span class="pp">|</span> Avanzado <span class="pp">|</span></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Albedo/energía <span class="pp">|</span> Ecuaciones, QC y forzantes implementados <span class="pp">|</span> Implementado, no cerrado <span class="pp">|</span></span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> AL30/AE33 <span class="pp">|</span> Variabilidad preliminar de eBC <span class="pp">|</span> Preliminar <span class="pp">|</span></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> SP2/iones <span class="pp">|</span> Perfiles y análisis multivariados preliminares <span class="pp">|</span> Preliminar de laboratorio <span class="pp">|</span></span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Sentinel‑5P <span class="pp">|</span> Sin producto final validado <span class="pp">|</span> Pendiente <span class="pp">|</span></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="fu">## Líneas</span></span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Cambio de elevación con ICESat‑2</span><span class="co">](cambio-elevacion.qmd)</span></span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Dinámica InSAR</span><span class="co">](insar.qmd)</span></span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Meteorología glaciar</span><span class="co">](meteorologia-glaciar.qmd)</span></span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Carbono negro y aerosoles</span><span class="co">](carbono-negro.qmd)</span></span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Albedo y energía</span><span class="co">](albedo-energia.qmd)</span></span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Estado de Sentinel‑5P</span><span class="co">](sentinel5p.qmd)</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
-</div></div></div></div></div>
+  </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -1092,7 +737,7 @@ ICESat‑2 e InSAR observan cambio geométrico y movimiento.
 </a>
   </li>  
 </ul>
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/Chis01/meteoandes.github.io/blob/main/investigacion/index.qmd" class="toc-action"><i class="bi bi-github"></i>Ver el código</a></li><li><a href="https://github.com/Chis01/meteoandes.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Informar sobre problema</a></li></ul></div></div>
+    </div>
     <div class="nav-footer-right">
 <p>Ciencia abierta desde los Andes</p>
 </div>

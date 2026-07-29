@@ -27,41 +27,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -78,14 +43,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bb62276ab45c84d9efd712f51ff97b5a.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-5a1953863e1f72ef3b996ef827f01ca7.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bb62276ab45c84d9efd712f51ff97b5a.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bb62276ab45c84d9efd712f51ff97b5a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-869f98707b5359c685b2de81c0e92a10.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-4fc6975cdb7f2874070673a9ac62ff51.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-869f98707b5359c685b2de81c0e92a10.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-e49c5a1de1479fc8090e30ca1b85834a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": true,
@@ -113,202 +74,41 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
-<meta name="theme-color" content="#0E7C99">
-<meta name="color-scheme" content="light dark">
-<link rel="preload" href="../assets/img/brand/logo-mark.svg" as="image" type="image/svg+xml">
-<script>
-  document.documentElement.classList.add('ma-js');
-</script>
-
+<meta name="theme-color" content="#FCFCFA">
+<meta name="color-scheme" content="light">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650;700;800&amp;family=JetBrains+Mono:wght@400;500;600&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&amp;display=swap" rel="stylesheet">
+<link rel="preload" href="../assets/img/photos/transect/01-laguna-puna.webp" as="image" type="image/webp" fetchpriority="high">
+<script>document.documentElement.classList.add("ma-js");</script>
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
-  "@type":"WebSite",
+  "@type":"ResearchProject",
   "name":"MeteoAndes",
   "url":"https://meteoandes.com",
   "description":"Investigación en glaciares tropicales del Perú, meteorología, InSAR y carbono negro.",
-  "author":{"@type":"Person","name":"Christian Riveros","url":"https://github.com/Chis01"}
+  "founder":{"@type":"Person","name":"Christian Riveros","url":"https://github.com/Chis01"}
 }
 </script>
+<link rel="alternate" hreflang="es" href="https://meteoandes.com/glaciares/">
+<link rel="alternate" hreflang="en" href="https://meteoandes.com/en/glaciers/">
+<link rel="alternate" hreflang="x-default" href="https://meteoandes.com/glaciares/">
 
 
-<link rel="stylesheet" href="../assets/css/extra.css">
+<link rel="stylesheet" href="../assets/css/site.css">
 <meta property="og:title" content="Glaciares y sitios de estudio – MeteoAndes">
 <meta property="og:description" content="Galería filtrable de sitios glaciares estudiados por MeteoAndes.">
-<meta property="og:image" content="https://meteoandes.com/assets/img/glaciares/vilcanota.svg">
+<meta property="og:image" content="https://meteoandes.com/assets/img/og/glaciares.jpg">
 <meta property="og:site_name" content="MeteoAndes">
 <meta property="og:locale" content="es_PE">
-<meta property="og:image:alt" content="Ilustración científica del campo glaciar de la Cordillera Vilcanota">
 <meta name="twitter:title" content="Glaciares y sitios de estudio – MeteoAndes">
 <meta name="twitter:description" content="Galería filtrable de sitios glaciares estudiados por MeteoAndes.">
-<meta name="twitter:image" content="https://meteoandes.com/assets/img/glaciares/vilcanota.svg">
+<meta name="twitter:image" content="https://meteoandes.com/assets/img/og/glaciares.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image:alt" content="Ilustración científica del campo glaciar de la Cordillera Vilcanota">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
-    const toggleBodyColorMode = (bsSheetEl) => {
-      const mode = bsSheetEl.getAttribute("data-mode");
-      const bodyEl = window.document.querySelector("body");
-      if (mode === "dark") {
-        bodyEl.classList.add("quarto-dark");
-        bodyEl.classList.remove("quarto-light");
-      } else {
-        bodyEl.classList.add("quarto-light");
-        bodyEl.classList.remove("quarto-dark");
-      }
-    }
-    const toggleBodyColorPrimary = () => {
-      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
-      if (bsSheetEl) {
-        toggleBodyColorMode(bsSheetEl);
-      }
-    }
-    const setColorSchemeToggle = (alternate) => {
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
-    };
-    const toggleColorMode = (alternate) => {
-      // Switch the stylesheets
-      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
-      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-      manageTransitions('#quarto-margin-sidebar .nav-link', false);
-      if (alternate) {
-        // note: dark is layered on light, we don't disable primary!
-        enableStylesheet(alternateStylesheets);
-        for (const sheetNode of alternateStylesheets) {
-          if (sheetNode.id === "quarto-bootstrap") {
-            toggleBodyColorMode(sheetNode);
-          }
-        }
-      } else {
-        disableStylesheet(alternateStylesheets);
-        enableStylesheet(primaryStylesheets)
-        toggleBodyColorPrimary();
-      }
-      manageTransitions('#quarto-margin-sidebar .nav-link', true);
-      // Switch the toggles
-      setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
-      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-        manageTransitions("body", false);
-        window.scrollTo(0, 1);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-          manageTransitions("body", true);
-        }, 40);
-      }
-    }
-    const disableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        stylesheet.rel = 'disabled-stylesheet';
-      }
-    }
-    const enableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
-          stylesheet.rel = 'stylesheet';
-        }
-      }
-    }
-    const manageTransitions = (selector, allowTransitions) => {
-      const els = window.document.querySelectorAll(selector);
-      for (let i=0; i < els.length; i++) {
-        const el = els[i];
-        if (allowTransitions) {
-          el.classList.remove('notransition');
-        } else {
-          el.classList.add('notransition');
-        }
-      }
-    }
-    const isFileUrl = () => {
-      return window.location.protocol === 'file:';
-    }
-    const hasAlternateSentinel = () => {
-      let styleSentinel = getColorSchemeSentinel();
-      if (styleSentinel !== null) {
-        return styleSentinel === "alternate";
-      } else {
-        return false;
-      }
-    }
-    const setStyleSentinel = (alternate) => {
-      const value = alternate ? "alternate" : "default";
-      if (!isFileUrl()) {
-        window.localStorage.setItem("quarto-color-scheme", value);
-      } else {
-        localAlternateSentinel = value;
-      }
-    }
-    const getColorSchemeSentinel = () => {
-      if (!isFileUrl()) {
-        const storageValue = window.localStorage.getItem("quarto-color-scheme");
-        return storageValue != null ? storageValue : localAlternateSentinel;
-      } else {
-        return localAlternateSentinel;
-      }
-    }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(authorPrefersDark) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    };
-    const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-    // Dark / light mode switch
-    window.quartoToggleColorScheme = () => {
-      // Read the current dark / light value
-      let toAlternate = !hasAlternateSentinel();
-      toggleColorMode(toAlternate);
-      setStyleSentinel(toAlternate);
-      toggleGiscusIfUsed(toAlternate, darkModeDefault);
-      window.dispatchEvent(new Event('resize'));
-    };
-    // Switch to dark mode if need be
-    if (hasAlternateSentinel()) {
-      toggleColorMode(true);
-    } else {
-      toggleColorMode(false);
-    }
-  </script>
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -316,8 +116,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../assets/img/brand/logo-mark.svg" alt="MeteoAndes" class="navbar-logo light-content">
-    <img src="../assets/img/brand/logo-mark.svg" alt="MeteoAndes" class="navbar-logo dark-content">
+    <img src="../assets/img/brand/logo-mark.svg" alt="Símbolo de MeteoAndes" class="navbar-logo light-content">
+    <img src="../assets/img/brand/logo-mark.svg" alt="Símbolo de MeteoAndes" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">MeteoAndes</span>
@@ -403,7 +203,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -414,12 +213,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
-
+<main class="content page-columns page-full column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title">Glaciares y sitios de estudio</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Código</button></div></div>
+<h1 class="title">Glaciares y sitios de estudio</h1>
 </div>
 
 <div>
@@ -441,136 +239,141 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<div class="ma-section-wide ma-hero-mini">
-<div class="ma-eyebrow">
-Red de observación
+<section class="ma-section ma-deposit page-columns page-full" data-gallery-scope="">
+<div class="ma-section-rule">
+
 </div>
-<section id="glaciares-y-sitios-de-estudio" class="level1">
-<h1>Glaciares y sitios de estudio</h1>
-<p class="ma-lede">
-Cinco unidades de análisis conectan criósfera, meteorología, carbono negro y química de hielo. Use los filtros para explorar por cordillera o línea de investigación.
+<div class="ma-section-grid page-columns page-full">
+<div class="ma-section-index">
+RED
+</div>
+<div class="ma-section-copy">
+<p class="ma-eyebrow">
+Observación de alta montaña
 </p>
-</section>
+<p class="ma-section-lead">
+Cinco unidades de análisis conectan criósfera, meteorología, carbono negro y química de hielo. Los filtros permiten explorar por cordillera y línea de investigación.
+</p>
 </div>
-<div class="ma-section-wide ma-filterbar" role="search" aria-label="Filtros de sitios glaciares">
-<p><input type="search" data-gallery-search="" aria-label="Buscar sitio, cordillera o región" placeholder="Buscar por nombre, cordillera o región…"> <button class="ma-filter-chip" data-filter-value="all" aria-pressed="true">Todos</button> <button class="ma-filter-chip" data-filter-value="vilcanota" aria-pressed="false">Vilcanota</button> <button class="ma-filter-chip" data-filter-value="central" aria-pressed="false">Andes centrales</button> <button class="ma-filter-chip" data-filter-value="blanca" aria-pressed="false">Cordillera Blanca</button> <button class="ma-filter-chip" data-filter-value="carbono" aria-pressed="false">Carbono negro</button> <button class="ma-filter-chip" data-filter-value="criosfera" aria-pressed="false">Criósfera</button> <span class="ma-gallery-status" data-gallery-status="">Mostrando 5 de 5 sitios</span></p>
+<aside class="ma-marginalia">
+Las fotografías son del archivo de campo suministrado para el rediseño. El sitio exacto y la autoría de cada toma deben verificarse en la tabla de metadatos antes de una publicación formal.
+</aside>
 </div>
-<div class="ma-section-wide ma-card-grid" data-glacier-gallery="">
-<a class="ma-card" data-glacier-card="" data-tags="vilcanota criosfera insar meteorologia" data-search="cordillera vilcanota cusco icesat-2 insar meteorologia" href="vilcanota.html">
-<div class="ma-card__media">
-<img src="../assets/img/glaciares/vilcanota.svg" alt="Ilustración científica del campo glaciar de la Cordillera Vilcanota" width="900" height="600">
+<div class="ma-filterbar" role="group" aria-label="Filtros de sitios glaciares">
+<p><input type="search" data-gallery-search="" aria-label="Buscar sitio, cordillera o región" placeholder="Buscar por nombre, cordillera o método"> <button class="ma-filter-chip" type="button" data-filter="all" aria-pressed="true">Todos</button> <button class="ma-filter-chip" type="button" data-filter="vilcanota" aria-pressed="false">Vilcanota</button> <button class="ma-filter-chip" type="button" data-filter="central" aria-pressed="false">Andes centrales</button> <button class="ma-filter-chip" type="button" data-filter="blanca" aria-pressed="false">Cordillera Blanca</button> <button class="ma-filter-chip" type="button" data-filter="carbono" aria-pressed="false">Carbono negro</button> <span class="ma-gallery-status" data-gallery-status="" aria-live="polite"></span></p>
 </div>
-<div class="ma-card__body">
-<div class="ma-eyebrow">
+<div class="ma-card-grid" data-gallery="">
+<a class="ma-site-card" data-site-card="" data-state="consolidated" data-tags="vilcanota criosfera insar meteorologia" data-search="cordillera vilcanota cusco icesat-2 insar meteorologia" href="vilcanota.html">
+<div class="ma-site-card__media">
+<img src="../assets/img/photos/cards/vilcanota.webp" alt="Formaciones de hielo estratificado y nieve en alta montaña" width="900" height="600" loading="lazy"><span class="ma-photo-credit">Archivo MeteoAndes · 2026</span>
+</div>
+<div class="ma-site-card__body">
+<p class="ma-eyebrow">
 Cordillera Vilcanota
-</div>
+</p>
 <h3 class="anchored">
 Conjunto glaciar regional
 </h3>
 <p>
-ICESat‑2 2018–2026, InSAR Sentinel‑1 e hidrometeorología.
+ICESat-2 2018–2026, InSAR Sentinel-1 e hidrometeorología.
 </p>
-<div class="ma-card__meta">
-4 597–6 364 m · 190 polígonos en AOI
+<div class="ma-site-card__meta">
+4 597–6 364 m · 190 polígonos en el AOI
 </div>
+<svg class="ma-card-arrow" aria-hidden="true" viewbox="0 0 24 24">
+<path d="M5 12h14M13 6l6 6-6 6"></path>
+</svg>
 </div>
-</a> <a class="ma-card" data-glacier-card="" data-tags="vilcanota carbono meteorologia" data-search="quelccaya quelqaya qori kalis cusco vilcanota carbono negro meteorologia" href="quelccaya.html">
-<div class="ma-card__media">
-<img src="../assets/img/glaciares/quelccaya.svg" alt="Ilustración científica del casquete glaciar Quelccaya" width="900" height="600">
+</a> <a class="ma-site-card" data-site-card="" data-state="preliminary" data-tags="vilcanota carbono meteorologia" data-search="quelccaya cusco vilcanota carbono negro meteorologia" href="quelccaya.html">
+<div class="ma-site-card__media">
+<img src="../assets/img/photos/cards/quelccaya.webp" alt="Casquete de hielo con cornisas y capas de nieve" width="900" height="600" loading="lazy"><span class="ma-photo-credit">Archivo MeteoAndes · 2026</span>
 </div>
-<div class="ma-card__body">
-<div class="ma-eyebrow">
+<div class="ma-site-card__body">
+<p class="ma-eyebrow">
 Cusco · Vilcanota
-</div>
+</p>
 <h3 class="anchored">
 Quelccaya
 </h3>
 <p>
 48 muestras, AL30, meteorología y comparación SP2/iones.
 </p>
-<div class="ma-card__meta">
-5 200–5 680 m · campaña 2026
+<div class="ma-site-card__meta">
+Campaña 2026 · evidencia preliminar
 </div>
+<svg class="ma-card-arrow" aria-hidden="true" viewbox="0 0 24 24">
+<path d="M5 12h14M13 6l6 6-6 6"></path>
+</svg>
 </div>
-</a> <a class="ma-card" data-glacier-card="" data-tags="central carbono meteorologia criosfera" data-search="huaytapallana cochas junin carbono negro ae33 al30 icesat-2" href="huaytapallana.html">
-<div class="ma-card__media">
-<img src="../assets/img/glaciares/huaytapallana.svg" alt="Ilustración científica de los glaciares de Huaytapallana" width="900" height="600">
+</a> <a class="ma-site-card" data-site-card="" data-state="preliminary" data-tags="central carbono meteorologia criosfera" data-search="huaytapallana cochas junin carbono negro ae33 al30 icesat-2" href="huaytapallana.html">
+<div class="ma-site-card__media">
+<img src="../assets/img/photos/cards/huaytapallana.webp" alt="Laguna altoandina frente a una montaña nevada" width="900" height="600" loading="lazy"><span class="ma-photo-credit">Archivo MeteoAndes · 2026</span>
 </div>
-<div class="ma-card__body">
-<div class="ma-eyebrow">
+<div class="ma-site-card__body">
+<p class="ma-eyebrow">
 Junín · Huaytapallana
-</div>
+</p>
 <h3 class="anchored">
 Huaytapallana / Cochas
 </h3>
 <p>
 Dos jornadas AL30, serie AE33 descrita y 25 muestras.
 </p>
+<svg class="ma-card-arrow" aria-hidden="true" viewbox="0 0 24 24">
+<path d="M5 12h14M13 6l6 6-6 6"></path>
+</svg>
 </div>
-</a> <a class="ma-card" data-glacier-card="" data-tags="central carbono" data-search="tunshu junin andes centrales carbono negro al30 hielo" href="tunshu.html">
-<div class="ma-card__media">
-<img src="../assets/img/glaciares/tunshu.svg" alt="Ilustración científica del glaciar Tunshu en los Andes centrales" width="900" height="600">
+</a> <a class="ma-site-card" data-site-card="" data-state="preliminary" data-tags="central carbono" data-search="tunshu junin andes centrales carbono negro al30 hielo" href="tunshu.html">
+<div class="ma-site-card__media">
+<img src="../assets/img/photos/cards/tunshu.webp" alt="Equipo de campo caminando sobre una superficie de nieve" width="900" height="600" loading="lazy"><span class="ma-photo-credit">Archivo MeteoAndes · 2026</span>
 </div>
-<div class="ma-card__body">
-<div class="ma-eyebrow">
+<div class="ma-site-card__body">
+<p class="ma-eyebrow">
 Junín · Andes centrales
-</div>
+</p>
 <h3 class="anchored">
 Tunshu
 </h3>
 <p>
 21 muestras y campaña atmosférica de alta montaña.
 </p>
+<svg class="ma-card-arrow" aria-hidden="true" viewbox="0 0 24 24">
+<path d="M5 12h14M13 6l6 6-6 6"></path>
+</svg>
 </div>
-</a> <a class="ma-card" data-glacier-card="" data-tags="blanca carbono" data-search="mateo contrayerba ancash cordillera blanca carbono negro altitud" href="mateo.html">
-<div class="ma-card__media">
-<img src="../assets/img/glaciares/mateo.svg" alt="Ilustración científica del glaciar Mateo o sector Contrayerba" width="900" height="600">
+</a> <a class="ma-site-card" data-site-card="" data-state="preliminary" data-tags="blanca carbono" data-search="mateo contrayerba ancash cordillera blanca carbono negro altitud" href="mateo.html">
+<div class="ma-site-card__media">
+<img src="../assets/img/photos/cards/mateo.webp" alt="Bofedal altoandino y cordillera nevada" width="900" height="600" loading="lazy"><span class="ma-photo-credit">Archivo MeteoAndes · 2026</span>
 </div>
-<div class="ma-card__body">
-<div class="ma-eyebrow">
+<div class="ma-site-card__body">
+<p class="ma-eyebrow">
 Áncash · Cordillera Blanca
-</div>
+</p>
 <h3 class="anchored">
 Mateo / Contrayerba
 </h3>
 <p>
 Perfil 0–95 cm, 19 muestras y mediciones AL30 por altitud.
 </p>
+<svg class="ma-card-arrow" aria-hidden="true" viewbox="0 0 24 24">
+<path d="M5 12h14M13 6l6 6-6 6"></path>
+</svg>
 </div>
-</a><p><a class="ma-card" data-glacier-card="" data-tags="blanca carbono" data-search="mateo contrayerba ancash cordillera blanca carbono negro altitud" href="mateo.html"></a></p>
+</a><p><a class="ma-site-card" data-site-card="" data-state="preliminary" data-tags="blanca carbono" data-search="mateo contrayerba ancash cordillera blanca carbono negro altitud" href="mateo.html"></a></p>
 </div>
-<div class="ma-section-wide ma-empty-state" data-gallery-empty="">
-<h3 class="anchored">
-Ningún sitio coincide con esos filtros.
-</h3>
-<button class="ma-filter-chip" data-gallery-clear="">
-Limpiar filtros
-</button>
+<div class="ma-empty-state" data-gallery-empty="">
+No hay sitios que coincidan con los filtros activos.
 </div>
+</section>
 
-
-<!-- -->
 
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a></main> <!-- /main -->
 <div id="ma-reading-progress" aria-hidden="true"></div>
-<div id="ma-elevation-spine" aria-hidden="true"></div>
+<div class="ma-spectrum-thread" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
 <script type="module" src="../assets/js/main.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    // Ensure there is a toggle, if there isn't float one in the top right
-    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-      const i = window.document.createElement("i");
-      i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
-    }
-    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -578,119 +381,6 @@ Limpiar filtros
       icon: icon
     };
     anchorJS.add('.anchored');
-    const isCodeAnnotation = (el) => {
-      for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
-          return true;
-        }
-      }
-      return false;
-    }
-    const onCopySuccess = function(e) {
-      // button target
-      const button = e.trigger;
-      // don't keep focus
-      button.blur();
-      // flash "checked"
-      button.classList.add('code-copy-button-checked');
-      var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copiado");
-      let tooltip;
-      if (window.bootstrap) {
-        button.setAttribute("data-bs-toggle", "tooltip");
-        button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copiado");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
-            customClass: "code-copy-button-tooltip",
-            offset: [0, -8]});
-        tooltip.show();    
-      }
-      setTimeout(function() {
-        if (tooltip) {
-          tooltip.hide();
-          button.removeAttribute("data-bs-title");
-          button.removeAttribute("data-bs-toggle");
-          button.removeAttribute("data-bs-placement");
-        }
-        button.setAttribute("title", currentTitle);
-        button.classList.remove('code-copy-button-checked');
-      }, 1000);
-      // clear code selection
-      e.clearSelection();
-    }
-    const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-      text: getTextToCopy
-    });
-    clipboard.on('success', onCopySuccess);
-    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-        text: getTextToCopy,
-        container: window.document.getElementById('quarto-embedded-source-code-modal')
-      });
-      clipboardModal.on('success', onCopySuccess);
-    }
-    const viewSource = window.document.getElementById('quarto-view-source') ||
-                       window.document.getElementById('quarto-code-tools-source');
-    if (viewSource) {
-      const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
-      viewSource.addEventListener("click", function(e) {
-        if (sourceUrl) {
-          // rstudio viewer pane
-          if (/\bcapabilities=\b/.test(window.location)) {
-            window.open(sourceUrl);
-          } else {
-            window.location.href = sourceUrl;
-          }
-        } else {
-          const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
-          modal.show();
-        }
-        return false;
-      });
-    }
-    function toggleCodeHandler(show) {
-      return function(e) {
-        const cellDetails = window.document.querySelectorAll(".cell details.code-fold");
-        for (let i=0; i<cellDetails.length; i++) {
-          const details = cellDetails[i];
-          if (show) {
-            details.open = true;
-          } else {
-            details.removeAttribute("open");
-          }
-        }
-        const cellCodeDivs = window.document.querySelectorAll(".cell div.sourceCode.cell-code");
-        const fromCls = show ? "hidden" : "unhidden";
-        const toCls = show ? "unhidden" : "hidden";
-        for (let i=0; i<cellCodeDivs.length; i++) {
-          const codeDiv = cellCodeDivs[i];
-          if (codeDiv.classList.contains(fromCls)) {
-            codeDiv.classList.remove(fromCls);
-            codeDiv.classList.add(toCls);
-          } 
-        }
-        return false;
-      }
-    }
-    const hideAllCode = window.document.getElementById("quarto-hide-all-code");
-    if (hideAllCode) {
-      hideAllCode.addEventListener("click", toggleCodeHandler(false));
-    }
-    const showAllCode = window.document.getElementById("quarto-show-all-code");
-    if (showAllCode) {
-      showAllCode.addEventListener("click", toggleCodeHandler(true));
-    }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
         var filterRegex = new RegExp("https:\/\/meteoandes\.com");
@@ -1026,43 +716,7 @@ Limpiar filtros
       }
     }
   });
-  </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Ejecutar el código</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Glaciares y sitios de estudio"</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">description:</span><span class="co"> "Galería filtrable de sitios glaciares estudiados por MeteoAndes."</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">page-layout:</span><span class="co"> full</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">toc:</span><span class="co"> false</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-section-wide ma-hero-mini"</span><span class="dt">&gt;</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-eyebrow"</span><span class="dt">&gt;</span>Red de observación<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu"># Glaciares y sitios de estudio</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">p</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-lede"</span><span class="dt">&gt;</span>Cinco unidades de análisis conectan criósfera, meteorología, carbono negro y química de hielo. Use los filtros para explorar por cordillera o línea de investigación.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-section-wide ma-filterbar"</span><span class="ot"> role</span><span class="op">=</span><span class="st">"search"</span><span class="ot"> aria-label</span><span class="op">=</span><span class="st">"Filtros de sitios glaciares"</span><span class="dt">&gt;</span></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">input</span><span class="ot"> type</span><span class="op">=</span><span class="st">"search"</span><span class="ot"> data-gallery-search aria-label</span><span class="op">=</span><span class="st">"Buscar sitio, cordillera o región"</span><span class="ot"> placeholder</span><span class="op">=</span><span class="st">"Buscar por nombre, cordillera o región…"</span><span class="dt">&gt;</span></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">button</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-filter-chip"</span><span class="ot"> data-filter-value</span><span class="op">=</span><span class="st">"all"</span><span class="ot"> aria-pressed</span><span class="op">=</span><span class="st">"true"</span><span class="dt">&gt;</span>Todos<span class="dt">&lt;/</span><span class="kw">button</span><span class="dt">&gt;</span></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">button</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-filter-chip"</span><span class="ot"> data-filter-value</span><span class="op">=</span><span class="st">"vilcanota"</span><span class="ot"> aria-pressed</span><span class="op">=</span><span class="st">"false"</span><span class="dt">&gt;</span>Vilcanota<span class="dt">&lt;/</span><span class="kw">button</span><span class="dt">&gt;</span></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">button</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-filter-chip"</span><span class="ot"> data-filter-value</span><span class="op">=</span><span class="st">"central"</span><span class="ot"> aria-pressed</span><span class="op">=</span><span class="st">"false"</span><span class="dt">&gt;</span>Andes centrales<span class="dt">&lt;/</span><span class="kw">button</span><span class="dt">&gt;</span></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">button</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-filter-chip"</span><span class="ot"> data-filter-value</span><span class="op">=</span><span class="st">"blanca"</span><span class="ot"> aria-pressed</span><span class="op">=</span><span class="st">"false"</span><span class="dt">&gt;</span>Cordillera Blanca<span class="dt">&lt;/</span><span class="kw">button</span><span class="dt">&gt;</span></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">button</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-filter-chip"</span><span class="ot"> data-filter-value</span><span class="op">=</span><span class="st">"carbono"</span><span class="ot"> aria-pressed</span><span class="op">=</span><span class="st">"false"</span><span class="dt">&gt;</span>Carbono negro<span class="dt">&lt;/</span><span class="kw">button</span><span class="dt">&gt;</span></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">button</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-filter-chip"</span><span class="ot"> data-filter-value</span><span class="op">=</span><span class="st">"criosfera"</span><span class="ot"> aria-pressed</span><span class="op">=</span><span class="st">"false"</span><span class="dt">&gt;</span>Criósfera<span class="dt">&lt;/</span><span class="kw">button</span><span class="dt">&gt;</span></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">span</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-gallery-status"</span><span class="ot"> data-gallery-status</span><span class="dt">&gt;</span>Mostrando 5 de 5 sitios<span class="dt">&lt;/</span><span class="kw">span</span><span class="dt">&gt;</span></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-section-wide ma-card-grid"</span><span class="ot"> data-glacier-gallery</span><span class="dt">&gt;</span></span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card"</span><span class="ot"> data-glacier-card data-tags</span><span class="op">=</span><span class="st">"vilcanota criosfera insar meteorologia"</span><span class="ot"> data-search</span><span class="op">=</span><span class="st">"cordillera vilcanota cusco icesat-2 insar meteorologia"</span><span class="ot"> href</span><span class="op">=</span><span class="st">"vilcanota.html"</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card__media"</span><span class="dt">&gt;&lt;</span><span class="kw">img</span><span class="ot"> src</span><span class="op">=</span><span class="st">"/assets/img/glaciares/vilcanota.svg"</span><span class="ot"> alt</span><span class="op">=</span><span class="st">"Ilustración científica del campo glaciar de la Cordillera Vilcanota"</span><span class="ot"> width</span><span class="op">=</span><span class="st">"900"</span><span class="ot"> height</span><span class="op">=</span><span class="st">"600"</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card__body"</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-eyebrow"</span><span class="dt">&gt;</span>Cordillera Vilcanota<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">h3</span><span class="dt">&gt;</span>Conjunto glaciar regional<span class="dt">&lt;/</span><span class="kw">h3</span><span class="dt">&gt;&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>ICESat‑2 2018–2026, InSAR Sentinel‑1 e hidrometeorología.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card__meta"</span><span class="dt">&gt;</span>4 597–6 364 m · 190 polígonos en AOI<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card"</span><span class="ot"> data-glacier-card data-tags</span><span class="op">=</span><span class="st">"vilcanota carbono meteorologia"</span><span class="ot"> data-search</span><span class="op">=</span><span class="st">"quelccaya quelqaya qori kalis cusco vilcanota carbono negro meteorologia"</span><span class="ot"> href</span><span class="op">=</span><span class="st">"quelccaya.html"</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card__media"</span><span class="dt">&gt;&lt;</span><span class="kw">img</span><span class="ot"> src</span><span class="op">=</span><span class="st">"/assets/img/glaciares/quelccaya.svg"</span><span class="ot"> alt</span><span class="op">=</span><span class="st">"Ilustración científica del casquete glaciar Quelccaya"</span><span class="ot"> width</span><span class="op">=</span><span class="st">"900"</span><span class="ot"> height</span><span class="op">=</span><span class="st">"600"</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card__body"</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-eyebrow"</span><span class="dt">&gt;</span>Cusco · Vilcanota<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">h3</span><span class="dt">&gt;</span>Quelccaya<span class="dt">&lt;/</span><span class="kw">h3</span><span class="dt">&gt;&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>48 muestras, AL30, meteorología y comparación SP2/iones.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card__meta"</span><span class="dt">&gt;</span>5 200–5 680 m · campaña 2026<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card"</span><span class="ot"> data-glacier-card data-tags</span><span class="op">=</span><span class="st">"central carbono meteorologia criosfera"</span><span class="ot"> data-search</span><span class="op">=</span><span class="st">"huaytapallana cochas junin carbono negro ae33 al30 icesat-2"</span><span class="ot"> href</span><span class="op">=</span><span class="st">"huaytapallana.html"</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card__media"</span><span class="dt">&gt;&lt;</span><span class="kw">img</span><span class="ot"> src</span><span class="op">=</span><span class="st">"/assets/img/glaciares/huaytapallana.svg"</span><span class="ot"> alt</span><span class="op">=</span><span class="st">"Ilustración científica de los glaciares de Huaytapallana"</span><span class="ot"> width</span><span class="op">=</span><span class="st">"900"</span><span class="ot"> height</span><span class="op">=</span><span class="st">"600"</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card__body"</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-eyebrow"</span><span class="dt">&gt;</span>Junín · Huaytapallana<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">h3</span><span class="dt">&gt;</span>Huaytapallana / Cochas<span class="dt">&lt;/</span><span class="kw">h3</span><span class="dt">&gt;&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Dos jornadas AL30, serie AE33 descrita y 25 muestras.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card"</span><span class="ot"> data-glacier-card data-tags</span><span class="op">=</span><span class="st">"central carbono"</span><span class="ot"> data-search</span><span class="op">=</span><span class="st">"tunshu junin andes centrales carbono negro al30 hielo"</span><span class="ot"> href</span><span class="op">=</span><span class="st">"tunshu.html"</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card__media"</span><span class="dt">&gt;&lt;</span><span class="kw">img</span><span class="ot"> src</span><span class="op">=</span><span class="st">"/assets/img/glaciares/tunshu.svg"</span><span class="ot"> alt</span><span class="op">=</span><span class="st">"Ilustración científica del glaciar Tunshu en los Andes centrales"</span><span class="ot"> width</span><span class="op">=</span><span class="st">"900"</span><span class="ot"> height</span><span class="op">=</span><span class="st">"600"</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card__body"</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-eyebrow"</span><span class="dt">&gt;</span>Junín · Andes centrales<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">h3</span><span class="dt">&gt;</span>Tunshu<span class="dt">&lt;/</span><span class="kw">h3</span><span class="dt">&gt;&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>21 muestras y campaña atmosférica de alta montaña.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card"</span><span class="ot"> data-glacier-card data-tags</span><span class="op">=</span><span class="st">"blanca carbono"</span><span class="ot"> data-search</span><span class="op">=</span><span class="st">"mateo contrayerba ancash cordillera blanca carbono negro altitud"</span><span class="ot"> href</span><span class="op">=</span><span class="st">"mateo.html"</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card__media"</span><span class="dt">&gt;&lt;</span><span class="kw">img</span><span class="ot"> src</span><span class="op">=</span><span class="st">"/assets/img/glaciares/mateo.svg"</span><span class="ot"> alt</span><span class="op">=</span><span class="st">"Ilustración científica del glaciar Mateo o sector Contrayerba"</span><span class="ot"> width</span><span class="op">=</span><span class="st">"900"</span><span class="ot"> height</span><span class="op">=</span><span class="st">"600"</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card__body"</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-eyebrow"</span><span class="dt">&gt;</span>Áncash · Cordillera Blanca<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">h3</span><span class="dt">&gt;</span>Mateo / Contrayerba<span class="dt">&lt;/</span><span class="kw">h3</span><span class="dt">&gt;&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Perfil 0–95 cm, 19 muestras y mediciones AL30 por altitud.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-section-wide ma-empty-state"</span><span class="ot"> data-gallery-empty</span><span class="dt">&gt;&lt;</span><span class="kw">h3</span><span class="dt">&gt;</span>Ningún sitio coincide con esos filtros.<span class="dt">&lt;/</span><span class="kw">h3</span><span class="dt">&gt;&lt;</span><span class="kw">button</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-filter-chip"</span><span class="ot"> data-gallery-clear</span><span class="dt">&gt;</span>Limpiar filtros<span class="dt">&lt;/</span><span class="kw">button</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
-</div></div></div></div></div>
+  </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -1087,7 +741,7 @@ Limpiar filtros
 </a>
   </li>  
 </ul>
-    <div class="toc-actions"><ul><li><a href="https://github.com/Chis01/meteoandes.github.io/blob/main/glaciares/index.qmd" class="toc-action"><i class="bi bi-github"></i>Ver el código</a></li><li><a href="https://github.com/Chis01/meteoandes.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Informar sobre problema</a></li></ul></div></div>
+    </div>
     <div class="nav-footer-right">
 <p>Ciencia abierta desde los Andes</p>
 </div>

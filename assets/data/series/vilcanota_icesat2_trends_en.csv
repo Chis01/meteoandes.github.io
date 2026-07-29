@@ -1,0 +1,6 @@
+estimator,slope_m_yr,lower_limit,upper_limit,evidence
+Dry-season h prime,-1.590,-2.229,-1.053,Consolidated
+All observations h prime,-1.523,-1.953,-1.114,Consolidated
+Raw dh,-1.356,-1.740,-0.980,Diagnostic
+Hypsometry weighted,-1.463,-2.357,-0.596,Regional result
+Hypsometric resampling,-1.600,-1.732,-1.434,Sensitivity P5-P95

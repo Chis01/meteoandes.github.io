@@ -1,0 +1,24 @@
+{
+  "skip": "Ir al contenido",
+  "nav": {
+    "glaciers": "Glaciares",
+    "research": "Investigación",
+    "overview": "Panorama",
+    "elevation": "Cambio de elevación",
+    "insar": "Dinámica InSAR",
+    "meteo": "Meteorología glaciar",
+    "blackcarbon": "Carbono negro",
+    "albedo": "Albedo y energía",
+    "sentinel": "Sentinel-5P",
+    "methods": "Métodos",
+    "data": "Datos",
+    "publications": "Publicaciones",
+    "fieldlog": "Bitácora"
+  },
+  "gallery": {
+    "count": "{n} sitios visibles",
+    "empty": "No hay sitios que coincidan con el filtro."
+  },
+  "language": "Cambiar a la versión en inglés",
+  "footer": "Ciencia abierta desde los Andes"
+}
