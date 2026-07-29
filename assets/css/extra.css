@@ -10,7 +10,7 @@ main.content { max-width: 1120px; }
   position:relative; min-height:min(820px,88vh); display:grid; align-items:end; overflow:hidden;
   margin-top:-1px; border-radius:0 0 28px 28px; background:#0c1d27; color:white;
 }
-.ma-hero__bg { position:absolute; inset:0; background:url('../..assets/img/hero/hero-glacier.svg') center/cover no-repeat; animation:ma-kenburns 18s linear infinite alternate; }
+.ma-hero__bg { position:absolute; inset:0; background:url('..\..assets/img/hero/hero-glacier.svg') center/cover no-repeat; animation:ma-kenburns 18s linear infinite alternate; }
 .ma-hero__veil { position:absolute; inset:0; background:linear-gradient(90deg,rgba(6,18,26,.88) 0%,rgba(6,18,26,.62) 49%,rgba(6,18,26,.16) 100%),linear-gradient(0deg,rgba(6,18,26,.92),transparent 58%); }
 .ma-hero__content { position:relative; z-index:2; width:min(1320px,calc(100% - 2rem)); margin:0 auto; padding:clamp(6rem,14vh,10rem) 0 clamp(3rem,8vh,6rem); }
 .ma-hero h1 { color:white; font-size:clamp(3.3rem,8.5vw,7.8rem); line-height:.88; max-width:10ch; margin:.25rem 0 1.2rem; letter-spacing:-.065em; text-wrap:balance; }
