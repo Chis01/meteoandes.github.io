@@ -6,7 +6,7 @@ lang: es
 
 website:
   title: "MeteoAndes"
-  site-url: "https://chis01.github.io/meteoandes.github.io"
+  site-url: "https://meteoandes.com"
   description: "Ciencia climática, glaciares, atmósfera, teledetección y datos ambientales en los Andes."
 
   navbar:
