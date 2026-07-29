@@ -1,0 +1,22 @@
+/*-- scss:defaults --*/
+$primary: #55bdd6;
+$secondary: #aeb8c2;
+$body-bg: #0d1114;
+$body-color: #e9eef2;
+$link-color: #71c9df;
+$font-family-sans-serif: "Aptos", "Segoe UI Variable", "Segoe UI", system-ui, -apple-system, sans-serif;
+$headings-font-family: "Aptos Display", "Arial Narrow", "Segoe UI Variable Display", system-ui, sans-serif;
+$font-size-base: 1.04rem;
+$line-height-base: 1.66;
+
+/*-- scss:rules --*/
+@import "tokens";
+@import "components";
+@import "animations";
+:root { --ma-snow:#11171b; --ma-firn:#161e23; --ma-rime:#2b3942; --ma-soot-900:#eef4f7; --ma-soot-700:#cbd5db; --ma-soot-500:#98a8b2; --ma-shadow-sm:0 8px 28px rgba(0,0,0,.25); --ma-shadow-lg:0 22px 70px rgba(0,0,0,.45); }
+body { background:#0d1114; color:#e9eef2; }
+.navbar { background:rgba(13,17,20,.93)!important; backdrop-filter:blur(16px); border-bottom:1px solid #28343b; }
+.navbar.ma-compact { box-shadow:0 6px 22px rgba(0,0,0,.35); }
+h1,h2,h3,h4 { color:#f3f8fa; }
+.ma-card,.ma-kpi,.ma-station,.ma-science-figure { background:#11171b; }
+.ma-result-table th { background:#e9eef2; color:#12151a; }

@@ -1,0 +1,9 @@
+metric,value,unit,status
+Ascending acquisitions,33,count,Audited
+Descending acquisitions,35,count,Audited
+Grid rows,2341,pixels,Audited
+Grid columns,2324,pixels,Audited
+Spatial resolution,40,m,Audited
+Stable residual,0.64,cm,Audited range 0.63-0.65
+December 2023 example dU,0.23,cm,Diagnostic
+January 2024 example dU,-0.58,cm,Diagnostic

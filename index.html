@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Datos propios medidos sobre el hielo: ICESat-2, InSAR, meteorología y carbono negro en glaciares tropicales del Perú.">
 
 <title>MeteoAndes</title>
 <style>
@@ -65,29 +66,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./assets/img/brand/favicon.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bb62276ab45c84d9efd712f51ff97b5a.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-5a1953863e1f72ef3b996ef827f01ca7.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bb62276ab45c84d9efd712f51ff97b5a.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e7bd1abf2a7eff3efb8de55f069401c5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-89fd62e8f24b1fe3e81c9a5439f94a97.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-e7bd1abf2a7eff3efb8de55f069401c5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a2f08b393245419b30cb681d6445a4fa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-034e105b6dad7f2b2ac3ab13cc6e3188.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-a2f08b393245419b30cb681d6445a4fa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
-  "copy-button": false,
+  "copy-button": true,
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
@@ -97,7 +98,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "/",
     "s"
   ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No se han encontrado resultados",
     "search-matching-documents-text": "documentos encontrados",
@@ -113,15 +113,37 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<meta name="theme-color" content="#0E7C99">
+<meta name="color-scheme" content="light dark">
+<link rel="preload" href="./assets/img/brand/logo-mark.svg" as="image" type="image/svg+xml">
+<script>
+  document.documentElement.classList.add('ma-js');
+</script>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"MeteoAndes",
+  "url":"https://meteoandes.com",
+  "description":"Investigación en glaciares tropicales del Perú, meteorología, InSAR y carbono negro.",
+  "author":{"@type":"Person","name":"Christian Riveros","url":"https://github.com/Chis01"}
+}
+</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="assets/css/extra.css">
 <meta property="og:title" content="MeteoAndes">
-<meta property="og:description" content="Clima, glaciares, atmósfera y observación de la Tierra">
+<meta property="og:description" content="Datos propios medidos sobre el hielo: ICESat-2, InSAR, meteorología y carbono negro en glaciares tropicales del Perú.">
+<meta property="og:image" content="https://meteoandes.com/assets/img/charts/icesat2-forest.svg">
 <meta property="og:site_name" content="MeteoAndes">
+<meta property="og:locale" content="es_PE">
+<meta property="og:image:alt" content="Gráfico forest plot con cinco estimadores negativos del cambio de elevación superficial en Vilcanota">
 <meta name="twitter:title" content="MeteoAndes">
-<meta name="twitter:description" content="Clima, glaciares, atmósfera y observación de la Tierra">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:description" content="Datos propios medidos sobre el hielo: ICESat-2, InSAR, meteorología y carbono negro en glaciares tropicales del Perú.">
+<meta name="twitter:image" content="https://meteoandes.com/assets/img/charts/icesat2-forest.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image:alt" content="Gráfico forest plot con cinco estimadores negativos del cambio de elevación superficial en Vilcanota">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -289,10 +311,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </script>
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./assets/img/brand/logo-mark.svg" alt="MeteoAndes" class="navbar-logo light-content">
+    <img src="./assets/img/brand/logo-mark.svg" alt="MeteoAndes" class="navbar-logo dark-content">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">MeteoAndes</span>
     </a>
@@ -304,148 +330,418 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Inicio</span></a>
+    <a class="nav-link" href="./glaciares/index.html"> 
+<span class="menu-text">Glaciares</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-investigación" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Investigación</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-investigación">    
+        <li>
+    <a class="dropdown-item" href="./investigacion/index.html">
+ <span class="dropdown-text">Panorama</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./investigacion/cambio-elevacion.html">
+ <span class="dropdown-text">Cambio de elevación</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./investigacion/insar.html">
+ <span class="dropdown-text">Dinámica InSAR</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./investigacion/meteorologia-glaciar.html">
+ <span class="dropdown-text">Meteorología glaciar</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./investigacion/carbono-negro.html">
+ <span class="dropdown-text">Carbono negro</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./investigacion/albedo-energia.html">
+ <span class="dropdown-text">Albedo y energía</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./investigacion/sentinel5p.html">
+ <span class="dropdown-text">Sentinel-5P</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./metodos/index.html"> 
+<span class="menu-text">Métodos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
-<span class="menu-text">Investigación</span></a>
+    <a class="nav-link" href="./datos/index.html"> 
+<span class="menu-text">Datos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
-<span class="menu-text">Proyectos</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
+    <a class="nav-link" href="./publicaciones/index.html"> 
 <span class="menu-text">Publicaciones</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
-<span class="menu-text">Blog</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">Sobre mí</span></a>
+    <a class="nav-link" href="./bitacora/index.html"> 
+<span class="menu-text">Bitácora</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./en/index.html"> 
+<span class="menu-text">EN</span></a>
+  </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/Chis01"> <i class="bi bi-github" role="img" aria-label="GitHub de Christian Riveros">
+    <a class="nav-link" href="https://github.com/Chis01/meteoandes.github.io"> <i class="bi bi-github" role="img" aria-label="Repositorio de MeteoAndes en GitHub">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="./blog.xml"> <i class="bi bi-rss" role="img" aria-label="Canal RSS de MeteoAndes">
+  <li class="nav-item">
+    <a class="nav-link" href="./sobre/contacto.html"> <i class="bi bi-envelope" role="img" aria-label="Contacto">
 </i> 
-<span class="menu-text"></span></a>
+<span class="menu-text">Contacto</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro"><i class="bi"></i></a>
-  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Alternar modo lector">
-  <div class="quarto-reader-toggle-btn">
-  <i class="bi"></i>
-  </div>
-</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <div class="quarto-title-block"><div><h1 class="title">MeteoAndes</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Código</button></div></div>
-            <p class="subtitle lead">Clima, glaciares, atmósfera y observación de la Tierra</p>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">En esta página</h2>
-   
-  <ul>
-  <li><a href="#ciencia-ambiental-desde-los-andes" id="toc-ciencia-ambiental-desde-los-andes" class="nav-link active" data-scroll-target="#ciencia-ambiental-desde-los-andes">Ciencia ambiental desde los Andes</a></li>
-  <li><a href="#áreas-principales" id="toc-áreas-principales" class="nav-link" data-scroll-target="#áreas-principales">Áreas principales</a></li>
-  <li><a href="#objetivo" id="toc-objetivo" class="nav-link" data-scroll-target="#objetivo">Objetivo</a></li>
-  <li><a href="#publicaciones-recientes" id="toc-publicaciones-recientes" class="nav-link" data-scroll-target="#publicaciones-recientes">Publicaciones recientes</a></li>
-  <li><a href="#autor" id="toc-autor" class="nav-link" data-scroll-target="#autor">Autor</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<div class="quarto-title-block"><div><h1 class="title">MeteoAndes</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Código</button></div></div>
+</div>
+
+<div>
+  <div class="description">
+    Datos propios medidos sobre el hielo: ICESat-2, InSAR, meteorología y carbono negro en glaciares tropicales del Perú.
+  </div>
+</div>
 
 
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
 
 
-<section id="ciencia-ambiental-desde-los-andes" class="level2">
-<h2 class="anchored" data-anchor-id="ciencia-ambiental-desde-los-andes">Ciencia ambiental desde los Andes</h2>
-<p><strong>MeteoAndes</strong> es una plataforma de comunicación e investigación científica creada por <strong>Christian Riveros</strong>.</p>
-<p>El sitio reúne estudios, metodologías, resultados, mapas, datos y herramientas relacionadas con el clima, los glaciares, la contaminación atmosférica, la teledetección y el análisis ambiental.</p>
-</section>
-<section id="áreas-principales" class="level2">
-<h2 class="anchored" data-anchor-id="áreas-principales">Áreas principales</h2>
-<div class="grid">
-<section id="clima-y-atmósfera" class="level3 g-col-12 g-col-md-4">
-<h3 class="anchored" data-anchor-id="clima-y-atmósfera">Clima y atmósfera</h3>
-<p>Análisis de variables meteorológicas, aerosoles, contaminación atmosférica, carbono negro y procesos climáticos en regiones de montaña.</p>
-</section>
-<section id="glaciares-tropicales" class="level3 g-col-12 g-col-md-4">
-<h3 class="anchored" data-anchor-id="glaciares-tropicales">Glaciares tropicales</h3>
-<p>Evaluación de cambios glaciares mediante campañas de campo, sensores ambientales, imágenes satelitales y series temporales.</p>
-</section>
-<section id="observación-de-la-tierra" class="level3 g-col-12 g-col-md-4">
-<h3 class="anchored" data-anchor-id="observación-de-la-tierra">Observación de la Tierra</h3>
-<p>Aplicación de InSAR, Sentinel-1, LiDAR, modelos digitales de elevación, Python, R y sistemas de información geográfica.</p>
+</header>
+
+
+<div class="ma-hero ma-section-wide">
+<div class="ma-hero__bg" aria-hidden="true">
+
+</div>
+<div class="ma-hero__veil" aria-hidden="true">
+
+</div>
+<div class="ma-hero__content">
+<pre><code>&lt;div class="ma-eyebrow" style="color:#9ce1ef"&gt;Programa científico · Perú · 2018–2026&lt;/div&gt;
+&lt;h1&gt;Medimos el hielo que queda.&lt;/h1&gt;
+&lt;p class="ma-hero__lead"&gt;Altimetría satelital, radar, estaciones meteorológicas y muestreo de carbono negro para observar cómo cambian los glaciares tropicales del Perú —y separar lo demostrado de lo que aún está en evaluación.&lt;/p&gt;
+&lt;div class="ma-hero__actions"&gt;
+  &lt;a class="ma-btn ma-btn--primary" href="investigacion/cambio-elevacion.html"&gt;Ver el resultado principal →&lt;/a&gt;
+  &lt;a class="ma-btn ma-btn--ghost" href="datos/index.html"&gt;Explorar datos&lt;/a&gt;
+&lt;/div&gt;</code></pre>
+</div>
+<div class="ma-scroll-cue" aria-hidden="true">
+↓
+</div>
+</div>
+<div class="ma-section-wide ma-section">
+<div class="ma-kpi-grid" aria-live="off" data-reveal="">
+<pre><code>&lt;div class="ma-kpi"&gt;&lt;span class="ma-kpi__value" data-count-to="113"&gt;113&lt;/span&gt;&lt;span class="ma-kpi__label"&gt;muestras de nieve y hielo inventariadas en 2026&lt;/span&gt;&lt;/div&gt;
+&lt;div class="ma-kpi"&gt;&lt;span class="ma-kpi__value" data-count-to="68"&gt;68&lt;/span&gt;&lt;span class="ma-kpi__label"&gt;adquisiciones Sentinel‑1 auditadas en Vilcanota&lt;/span&gt;&lt;/div&gt;
+&lt;div class="ma-kpi"&gt;&lt;span class="ma-kpi__value" data-count-to="129"&gt;129&lt;/span&gt;&lt;span class="ma-kpi__label"&gt;pasadas ICESat‑2 en la serie regional revisada&lt;/span&gt;&lt;/div&gt;
+&lt;div class="ma-kpi"&gt;&lt;span class="ma-kpi__value" data-count-to="-1.463" data-decimals="3"&gt;−1.463&lt;/span&gt;&lt;span class="ma-kpi__label"&gt;m año⁻¹ · descenso regional ponderado por hipsometría&lt;/span&gt;&lt;/div&gt;</code></pre>
+</div>
+</div>
+<div class="ma-section-wide ma-section ma-section--tint">
+<div class="ma-section-header" data-reveal="">
+<div class="ma-eyebrow">
+Resultado central
+</div>
+<section id="un-descenso-regional-robusto-en-vilcanota" class="level2">
+<h2 class="anchored" data-anchor-id="un-descenso-regional-robusto-en-vilcanota">Un descenso regional robusto en Vilcanota</h2>
+<p>La serie ICESat‑2 ATL06‑SR de diciembre de 2018 a febrero de 2026 converge en una pérdida superficial cercana a <strong>1.5 m por año</strong>. La estimación ponderada por área hipsométrica es <strong>−1.463 m año⁻¹</strong> (IC95%: −2.357 a −0.596) y representa 96.5% del área analizada. La señal es más negativa en cotas bajas y medias-bajas, aproximadamente entre 5 000 y 5 400 m.</p>
 </section>
 </div>
+<figure class="ma-science-figure figure" data-reveal="">
+<img src="./assets/img/charts/icesat2-forest.svg" alt="Gráfico forest plot con cinco estimadores negativos del cambio de elevación superficial en Vilcanota" width="1100" height="530" loading="lazy" class="figure-img">
+<figcaption>
+Cinco estimadores independientes convergen en signo y magnitud. El remuestreo hipsométrico reporta percentiles 5–95, no un intervalo de confianza convencional.
+</figcaption>
+</figure>
+<div class="ma-callout ma-callout--uncertainty" data-reveal="">
+<strong>Incertidumbre que permanece.</strong> El sesgo central del terreno estable quedó casi nulo tras el co‑registro, pero el NMAD residual permanece alto (~4.63 m). El resultado multianual es sólido; la incertidumbre puntual y la máscara estable aún requieren pruebas de sensibilidad.
+</div>
+</div>
+<div class="ma-section-wide ma-section">
+<div class="ma-section-header" data-reveal="">
+<div class="ma-eyebrow">
+Sistema de evidencia
+</div>
+<section id="una-cadena-multifuente-no-una-sola-imagen" class="level2">
+<h2 class="anchored" data-anchor-id="una-cadena-multifuente-no-una-sola-imagen">Una cadena multifuente, no una sola imagen</h2>
+<p>Cada instrumento observa una parte distinta del sistema. MeteoAndes conserva esas diferencias físicas para evitar equivalencias incorrectas entre desplazamiento radar, cambio de elevación, concentración atmosférica y deposición.</p>
 </section>
-<section id="objetivo" class="level2">
-<h2 class="anchored" data-anchor-id="objetivo">Objetivo</h2>
-<p>El objetivo de MeteoAndes es comunicar conocimiento científico de manera clara, visual, abierta y reproducible.</p>
-<p>Los contenidos incluirán:</p>
-<ul>
-<li>Resultados de investigación.</li>
-<li>Análisis de campañas de campo.</li>
-<li>Mapas y figuras científicas.</li>
-<li>Procesamiento de datos ambientales.</li>
-<li>Notebooks en Python y R.</li>
-<li>Métodos de teledetección.</li>
-<li>Estudios sobre glaciares y carbono negro.</li>
-<li>Recursos para estudiantes e investigadores.</li>
-</ul>
+</div>
+<div class="ma-chain" data-reveal="">
+<div class="ma-chain__node">
+<div class="ma-eyebrow">
+Atmósfera
+</div>
+<strong>AL30 · AE33 · Sentinel‑5P</strong>
+<p>
+Exposición y transporte de aerosoles.
+</p>
+</div>
+<div class="ma-chain__node">
+<div class="ma-eyebrow">
+Meteorología
+</div>
+<strong>AWS · ERA5 · CHIRPS</strong>
+<p>
+Temperatura, precipitación, nubosidad y viento.
+</p>
+</div>
+<div class="ma-chain__node">
+<div class="ma-eyebrow">
+Depósito
+</div>
+<strong>SP2 · iones · capas</strong>
+<p>
+rBC y composición química en nieve/hielo.
+</p>
+</div>
+<div class="ma-chain__node">
+<div class="ma-eyebrow">
+Energía
+</div>
+<strong>Albedo · SW/LW · Rn</strong>
+<p>
+Absorción radiativa y fusión potencial.
+</p>
+</div>
+<div class="ma-chain__node">
+<div class="ma-eyebrow">
+Respuesta
+</div>
+<strong>ICESat‑2 · InSAR</strong>
+<p>
+Cambio de elevación y movimiento coherente.
+</p>
+</div>
+</div>
+</div>
+<div class="ma-section-wide ma-section ma-section--dark">
+<div class="ma-section-header" data-reveal="">
+<div class="ma-eyebrow" style="color:#7fcfe3">
+Estado científico
+</div>
+<section id="lo-consolidado-lo-preliminar-y-lo-pendiente" class="level2">
+<h2 class="anchored" data-anchor-id="lo-consolidado-lo-preliminar-y-lo-pendiente">Lo consolidado, lo preliminar y lo pendiente</h2>
+<p>MeteoAndes muestra el nivel de madurez de cada afirmación. Una arquitectura completa no equivale automáticamente a una conclusión causal.</p>
 </section>
-<section id="publicaciones-recientes" class="level2">
-<h2 class="anchored" data-anchor-id="publicaciones-recientes">Publicaciones recientes</h2>
-<p>Las últimas investigaciones y notas aparecerán en la sección <a href="./blog.html">Blog</a>.</p>
+</div>
+<div class="ma-evidence-grid">
+<div class="ma-evidence" data-reveal="">
+<span class="ma-status ma-status--solid">Consolidado</span><strong>ICESat‑2 Vilcanota</strong>
+<p>
+Descenso regional multianual, estimadores robustos y diagnóstico hipsométrico.
+</p>
+</div>
+<div class="ma-evidence" data-reveal="" data-reveal-delay="80">
+<span class="ma-status ma-status--advanced">Diagnóstico</span><strong>InSAR Vilcanota</strong>
+<p>
+Geometría bien condicionada; señal mensual cercana al piso de ruido; acumulado final pendiente.
+</p>
+</div>
+<div class="ma-evidence" data-reveal="" data-reveal-delay="160">
+<span class="ma-status ma-status--prelim">Preliminar</span><strong>Carbono negro</strong>
+<p>
+Variabilidad AL30 y perfiles SP2/iones; falta cerrar QA/QC y sincronización temporal.
+</p>
+</div>
+<div class="ma-evidence" data-reveal="" data-reveal-delay="240">
+<span class="ma-status ma-status--pending">Pendiente</span><strong>Atribución a incendios</strong>
+<p>
+Sentinel‑5P y catálogo de eventos aún no producen evidencia causal final.
+</p>
+</div>
+</div>
+</div>
+<div class="ma-section-wide ma-section">
+<div class="ma-section-header" data-reveal="">
+<div class="ma-eyebrow">
+Sitios y campañas
+</div>
+<section id="cinco-unidades-de-estudio-tres-cordilleras" class="level2">
+<h2 class="anchored" data-anchor-id="cinco-unidades-de-estudio-tres-cordilleras">Cinco unidades de estudio, tres cordilleras</h2>
+<p>La red combina el campo de hielo regional de Vilcanota y cuatro sitios de campaña criogeoquímica. Las tarjetas distinguen resultados regionales de mediciones de sesión.</p>
 </section>
-<section id="autor" class="level2">
-<h2 class="anchored" data-anchor-id="autor">Autor</h2>
-<p><strong>Christian Riveros</strong> es el creador de MeteoAndes.</p>
-<p>Los códigos y proyectos relacionados pueden consultarse en <a href="https://github.com/Chis01">GitHub</a>.</p>
+</div>
+<div class="ma-card-grid">
+<a class="ma-card" href="glaciares/vilcanota.html" data-reveal="">
+<div class="ma-card__media">
+<img src="./assets/img/glaciares/vilcanota.svg" alt="Ilustración científica de la Cordillera Vilcanota" width="900" height="600" loading="lazy">
+</div>
+<div class="ma-card__body">
+<div class="ma-eyebrow">
+Cordillera Vilcanota
+</div>
+<h3 class="anchored">
+Campo de hielo regional
+</h3>
+<p>
+Resultado ICESat‑2 consolidado e InSAR diagnóstico.
+</p>
+<div class="ma-card__meta">
+2018–2026 · 254.01 km² efectivos
+</div>
+</div>
+</a> <a class="ma-card" href="glaciares/quelccaya.html" data-reveal="" data-reveal-delay="80">
+<div class="ma-card__media">
+<img src="./assets/img/glaciares/quelccaya.svg" alt="Ilustración científica del casquete Quelccaya" width="900" height="600" loading="lazy">
+</div>
+<div class="ma-card__body">
+<div class="ma-eyebrow">
+Cusco · Vilcanota
+</div>
+<h3 class="anchored">
+Quelccaya
+</h3>
+<p>
+Meteorología, AL30 y 48 muestras de nieve/hielo.
+</p>
+<div class="ma-card__meta">
+5 200–5 680 m · campaña 2026
+</div>
+</div>
+</a> <a class="ma-card" href="glaciares/huaytapallana.html" data-reveal="" data-reveal-delay="160">
+<div class="ma-card__media">
+<img src="./assets/img/glaciares/huaytapallana.svg" alt="Ilustración científica del sector glaciar Huaytapallana" width="900" height="600" loading="lazy">
+</div>
+<div class="ma-card__body">
+<div class="ma-eyebrow">
+Junín · Huaytapallana
+</div>
+<h3 class="anchored">
+Huaytapallana / Cochas
+</h3>
+<p>
+AL30 de campaña, AE33 2022–2024 y 25 muestras.
+</p>
+<div class="ma-card__meta">
+eBC preliminar · dos jornadas
+</div>
+</div>
+</a> <a class="ma-card" href="glaciares/tunshu.html" data-reveal="">
+<div class="ma-card__media">
+<img src="./assets/img/glaciares/tunshu.svg" alt="Ilustración científica del glaciar Tunshu" width="900" height="600" loading="lazy">
+</div>
+<div class="ma-card__body">
+<div class="ma-eyebrow">
+Junín · Andes centrales
+</div>
+<h3 class="anchored">
+Tunshu
+</h3>
+<p>
+Campaña AL30 y 21 muestras para SP2, iones e isótopos.
+</p>
+</div>
+</a> <a class="ma-card" href="glaciares/mateo.html" data-reveal="" data-reveal-delay="80">
+<div class="ma-card__media">
+<img src="./assets/img/glaciares/mateo.svg" alt="Ilustración científica del glaciar Mateo o sector Contrayerba" width="900" height="600" loading="lazy">
+</div>
+<div class="ma-card__body">
+<div class="ma-eyebrow">
+Áncash · Cordillera Blanca
+</div>
+<h3 class="anchored">
+Mateo / Contrayerba
+</h3>
+<p>
+Gradiente altitudinal AL30 y perfil de 19 muestras entre 0–95 cm.
+</p>
+</div>
+</a> <a class="ma-card" href="datos/index.html" data-reveal="" data-reveal-delay="160">
+<div class="ma-card__media">
+<img src="./assets/img/charts/sample-inventory.svg" alt="Gráfico del inventario de 113 muestras glaciares de 2026" width="960" height="500" loading="lazy">
+</div>
+<div class="ma-card__body">
+<div class="ma-eyebrow">
+Ciencia abierta
+</div>
+<h3 class="anchored">
+Catálogo de datos
+</h3>
+<p>
+Tablas ligeras, estado de evidencia y metadatos de reutilización.
+</p>
+</div>
+</a><p><a class="ma-card" href="datos/index.html" data-reveal="" data-reveal-delay="160"></a></p>
+</div>
+</div>
+<div class="ma-section-wide ma-section ma-section--tint">
+<div class="ma-two-col">
+<div data-reveal="">
+<div class="ma-eyebrow">
+Albedo
+</div>
+<section id="del-hielo-brillante-a-una-superficie-más-absorbente" class="level2">
+<h2 class="anchored" data-anchor-id="del-hielo-brillante-a-una-superficie-más-absorbente">Del hielo brillante a una superficie más absorbente</h2>
+<p>El comparador ilustra el mecanismo físico —no una observación cuantitativa de una campaña específica—: una reducción del albedo aumenta la radiación de onda corta neta absorbida. Bajo 600 W m⁻², una reducción instantánea de 0.05 implicaría aproximadamente 30 W m⁻² adicionales de absorción, antes de considerar nubosidad, temperatura superficial y flujos turbulentos.</p>
+</section>
+</div>
+<div class="ma-albedo" data-albedo-slider="" data-reveal="" aria-label="Comparador conceptual de superficie glaciar limpia y oscurecida">
+<img src="./assets/img/albedo/superficie-oscura.svg" alt="Ilustración conceptual de una superficie glaciar oscurecida por partículas y sedimentos" width="1200" height="675"> <img class="ma-albedo__after" src="./assets/img/albedo/superficie-limpia.svg" alt="Ilustración conceptual de una superficie glaciar limpia y altamente reflectante" width="1200" height="675"> <span class="ma-albedo__label ma-albedo__label--left">superficie limpia</span><span class="ma-albedo__label ma-albedo__label--right">superficie oscurecida</span>
+<div class="ma-albedo__handle" aria-hidden="true">
+
+</div>
+<button class="ma-albedo__knob" role="slider" aria-label="Posición del comparador de albedo" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+↔︎
+</button>
+</div>
+</div>
+</div>
+<div class="ma-section-wide ma-section">
+<div class="ma-section-header" data-reveal="">
+<div class="ma-eyebrow">
+Transparencia
+</div>
+<section id="la-afirmación-causal-todavía-no-está-cerrada" class="level2">
+<h2 class="anchored" data-anchor-id="la-afirmación-causal-todavía-no-está-cerrada">La afirmación causal todavía no está cerrada</h2>
+<p>El descenso glaciar observado no puede atribuirse todavía a incendios forestales específicos. Faltan una serie Sentinel‑5P validada, un catálogo de eventos, ventanas antes–durante–después, trayectorias, controles meteorológicos y sincronización con eBC/rBC, albedo y respuesta geométrica.</p>
+</section>
+</div>
+<div class="ma-callout ma-callout--warning" data-reveal="">
+<strong>Regla editorial.</strong> MeteoAndes no presenta dU mensual de InSAR como balance de masa, eBC atmosférico como deposición, una anomalía anual positiva como recuperación estructural, ni un trazador químico aislado como prueba inequívoca de fuente.
+</div>
+</div>
 
 
 <!-- -->
 
-</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a></main> <!-- /main -->
+<div id="ma-reading-progress" aria-hidden="true"></div>
+<div id="ma-elevation-spine" aria-hidden="true"></div>
+<script type="module" src="./assets/js/main.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -602,6 +898,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
             if (link.getAttribute("rel") === null) {
               link.setAttribute("rel", "noopener");
             }
+            // default icon
+            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -915,85 +1213,161 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
   });
   </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Ejecutar el código</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "MeteoAndes"</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">subtitle:</span><span class="co"> "Clima, glaciares, atmósfera y observación de la Tierra"</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">page-layout:</span><span class="co"> full</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">title-block-banner:</span><span class="co"> true</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">## Ciencia ambiental desde los Andes</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>**MeteoAndes** es una plataforma de comunicación e investigación científica creada por **Christian Riveros**.</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>El sitio reúne estudios, metodologías, resultados, mapas, datos y herramientas relacionadas con el clima, los glaciares, la contaminación atmosférica, la teledetección y el análisis ambiental.</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">## Áreas principales</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>::: {.grid}</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>::: {.g-col-12 .g-col-md-4}</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="fu">### Clima y atmósfera</span></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>Análisis de variables meteorológicas, aerosoles, contaminación atmosférica, carbono negro y procesos climáticos en regiones de montaña.</span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>::: {.g-col-12 .g-col-md-4}</span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">### Glaciares tropicales</span></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>Evaluación de cambios glaciares mediante campañas de campo, sensores ambientales, imágenes satelitales y series temporales.</span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>::: {.g-col-12 .g-col-md-4}</span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="fu">### Observación de la Tierra</span></span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>Aplicación de InSAR, Sentinel-1, LiDAR, modelos digitales de elevación, Python, R y sistemas de información geográfica.</span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="fu">## Objetivo</span></span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>El objetivo de MeteoAndes es comunicar conocimiento científico de manera clara, visual, abierta y reproducible.</span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>Los contenidos incluirán:</span>
-<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Resultados de investigación.</span>
-<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Análisis de campañas de campo.</span>
-<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Mapas y figuras científicas.</span>
-<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Procesamiento de datos ambientales.</span>
-<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Notebooks en Python y R.</span>
-<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Métodos de teledetección.</span>
-<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Estudios sobre glaciares y carbono negro.</span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Recursos para estudiantes e investigadores.</span>
-<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a><span class="fu">## Publicaciones recientes</span></span>
-<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>Las últimas investigaciones y notas aparecerán en la sección <span class="co">[</span><span class="ot">Blog</span><span class="co">](blog.qmd)</span>.</span>
-<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a><span class="fu">## Autor</span></span>
-<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>**Christian Riveros** es el creador de MeteoAndes.</span>
-<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>Los códigos y proyectos relacionados pueden consultarse en <span class="co">[</span><span class="ot">GitHub</span><span class="co">](https://github.com/Chis01)</span>.</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "MeteoAndes"</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="an">description:</span><span class="co"> "Datos propios medidos sobre el hielo: ICESat-2, InSAR, meteorología y carbono negro en glaciares tropicales del Perú."</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="an">page-layout:</span><span class="co"> full</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="an">toc:</span><span class="co"> false</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-hero ma-section-wide"</span><span class="dt">&gt;</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-hero__bg"</span><span class="ot"> aria-hidden</span><span class="op">=</span><span class="st">"true"</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-hero__veil"</span><span class="ot"> aria-hidden</span><span class="op">=</span><span class="st">"true"</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-hero__content"</span><span class="dt">&gt;</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-eyebrow"</span><span class="ot"> style</span><span class="op">=</span><span class="st">"color:#9ce1ef"</span><span class="dt">&gt;</span>Programa científico · Perú · 2018–2026<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">h1</span><span class="dt">&gt;</span>Medimos el hielo que queda.<span class="dt">&lt;/</span><span class="kw">h1</span><span class="dt">&gt;</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">p</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-hero__lead"</span><span class="dt">&gt;</span>Altimetría satelital, radar, estaciones meteorológicas y muestreo de carbono negro para observar cómo cambian los glaciares tropicales del Perú —y separar lo demostrado de lo que aún está en evaluación.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-hero__actions"</span><span class="dt">&gt;</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>      <span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-btn ma-btn--primary"</span><span class="ot"> href</span><span class="op">=</span><span class="st">"investigacion/cambio-elevacion.html"</span><span class="dt">&gt;</span>Ver el resultado principal →<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>      <span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-btn ma-btn--ghost"</span><span class="ot"> href</span><span class="op">=</span><span class="st">"datos/index.html"</span><span class="dt">&gt;</span>Explorar datos<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-scroll-cue"</span><span class="ot"> aria-hidden</span><span class="op">=</span><span class="st">"true"</span><span class="dt">&gt;</span>↓<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-section-wide ma-section"</span><span class="dt">&gt;</span></span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-kpi-grid"</span><span class="ot"> aria-live</span><span class="op">=</span><span class="st">"off"</span><span class="ot"> data-reveal</span><span class="dt">&gt;</span></span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-kpi"</span><span class="dt">&gt;&lt;</span><span class="kw">span</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-kpi__value"</span><span class="ot"> data-count-to</span><span class="op">=</span><span class="st">"113"</span><span class="dt">&gt;</span>113<span class="dt">&lt;/</span><span class="kw">span</span><span class="dt">&gt;&lt;</span><span class="kw">span</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-kpi__label"</span><span class="dt">&gt;</span>muestras de nieve y hielo inventariadas en 2026<span class="dt">&lt;/</span><span class="kw">span</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-kpi"</span><span class="dt">&gt;&lt;</span><span class="kw">span</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-kpi__value"</span><span class="ot"> data-count-to</span><span class="op">=</span><span class="st">"68"</span><span class="dt">&gt;</span>68<span class="dt">&lt;/</span><span class="kw">span</span><span class="dt">&gt;&lt;</span><span class="kw">span</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-kpi__label"</span><span class="dt">&gt;</span>adquisiciones Sentinel‑1 auditadas en Vilcanota<span class="dt">&lt;/</span><span class="kw">span</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-kpi"</span><span class="dt">&gt;&lt;</span><span class="kw">span</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-kpi__value"</span><span class="ot"> data-count-to</span><span class="op">=</span><span class="st">"129"</span><span class="dt">&gt;</span>129<span class="dt">&lt;/</span><span class="kw">span</span><span class="dt">&gt;&lt;</span><span class="kw">span</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-kpi__label"</span><span class="dt">&gt;</span>pasadas ICESat‑2 en la serie regional revisada<span class="dt">&lt;/</span><span class="kw">span</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-kpi"</span><span class="dt">&gt;&lt;</span><span class="kw">span</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-kpi__value"</span><span class="ot"> data-count-to</span><span class="op">=</span><span class="st">"-1.463"</span><span class="ot"> data-decimals</span><span class="op">=</span><span class="st">"3"</span><span class="dt">&gt;</span>−1.463<span class="dt">&lt;/</span><span class="kw">span</span><span class="dt">&gt;&lt;</span><span class="kw">span</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-kpi__label"</span><span class="dt">&gt;</span>m año⁻¹ · descenso regional ponderado por hipsometría<span class="dt">&lt;/</span><span class="kw">span</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-section-wide ma-section ma-section--tint"</span><span class="dt">&gt;</span></span>
+<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-section-header"</span><span class="ot"> data-reveal</span><span class="dt">&gt;</span></span>
+<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-eyebrow"</span><span class="dt">&gt;</span>Resultado central<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a><span class="fu">## Un descenso regional robusto en Vilcanota</span></span>
+<span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a>La serie ICESat‑2 ATL06‑SR de diciembre de 2018 a febrero de 2026 converge en una pérdida superficial cercana a **1.5 m por año**. La estimación ponderada por área hipsométrica es **−1.463 m año⁻¹** (IC95%: −2.357 a −0.596) y representa 96.5% del área analizada. La señal es más negativa en cotas bajas y medias-bajas, aproximadamente entre 5 000 y 5 400 m.</span>
+<span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-41"><a href="#cb3-41" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">figure</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-science-figure"</span><span class="ot"> data-reveal</span><span class="dt">&gt;&lt;</span><span class="kw">img</span><span class="ot"> src</span><span class="op">=</span><span class="st">"/assets/img/charts/icesat2-forest.svg"</span><span class="ot"> alt</span><span class="op">=</span><span class="st">"Gráfico forest plot con cinco estimadores negativos del cambio de elevación superficial en Vilcanota"</span><span class="ot"> width</span><span class="op">=</span><span class="st">"1100"</span><span class="ot"> height</span><span class="op">=</span><span class="st">"530"</span><span class="ot"> loading</span><span class="op">=</span><span class="st">"lazy"</span><span class="dt">&gt;&lt;</span><span class="kw">figcaption</span><span class="dt">&gt;</span>Cinco estimadores independientes convergen en signo y magnitud. El remuestreo hipsométrico reporta percentiles 5–95, no un intervalo de confianza convencional.<span class="dt">&lt;/</span><span class="kw">figcaption</span><span class="dt">&gt;&lt;/</span><span class="kw">figure</span><span class="dt">&gt;</span></span>
+<span id="cb3-42"><a href="#cb3-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-callout ma-callout--uncertainty"</span><span class="ot"> data-reveal</span><span class="dt">&gt;&lt;</span><span class="kw">strong</span><span class="dt">&gt;</span>Incertidumbre que permanece.<span class="dt">&lt;/</span><span class="kw">strong</span><span class="dt">&gt;</span> El sesgo central del terreno estable quedó casi nulo tras el co‑registro, pero el NMAD residual permanece alto (~4.63 m). El resultado multianual es sólido; la incertidumbre puntual y la máscara estable aún requieren pruebas de sensibilidad.<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-44"><a href="#cb3-44" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-45"><a href="#cb3-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-46"><a href="#cb3-46" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-section-wide ma-section"</span><span class="dt">&gt;</span></span>
+<span id="cb3-47"><a href="#cb3-47" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-section-header"</span><span class="ot"> data-reveal</span><span class="dt">&gt;</span></span>
+<span id="cb3-48"><a href="#cb3-48" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-eyebrow"</span><span class="dt">&gt;</span>Sistema de evidencia<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-49"><a href="#cb3-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-50"><a href="#cb3-50" aria-hidden="true" tabindex="-1"></a><span class="fu">## Una cadena multifuente, no una sola imagen</span></span>
+<span id="cb3-51"><a href="#cb3-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-52"><a href="#cb3-52" aria-hidden="true" tabindex="-1"></a>Cada instrumento observa una parte distinta del sistema. MeteoAndes conserva esas diferencias físicas para evitar equivalencias incorrectas entre desplazamiento radar, cambio de elevación, concentración atmosférica y deposición.</span>
+<span id="cb3-53"><a href="#cb3-53" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-54"><a href="#cb3-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-55"><a href="#cb3-55" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-chain"</span><span class="ot"> data-reveal</span><span class="dt">&gt;</span></span>
+<span id="cb3-56"><a href="#cb3-56" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-chain__node"</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-eyebrow"</span><span class="dt">&gt;</span>Atmósfera<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">strong</span><span class="dt">&gt;</span>AL30 · AE33 · Sentinel‑5P<span class="dt">&lt;/</span><span class="kw">strong</span><span class="dt">&gt;&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Exposición y transporte de aerosoles.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-57"><a href="#cb3-57" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-chain__node"</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-eyebrow"</span><span class="dt">&gt;</span>Meteorología<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">strong</span><span class="dt">&gt;</span>AWS · ERA5 · CHIRPS<span class="dt">&lt;/</span><span class="kw">strong</span><span class="dt">&gt;&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Temperatura, precipitación, nubosidad y viento.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-58"><a href="#cb3-58" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-chain__node"</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-eyebrow"</span><span class="dt">&gt;</span>Depósito<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">strong</span><span class="dt">&gt;</span>SP2 · iones · capas<span class="dt">&lt;/</span><span class="kw">strong</span><span class="dt">&gt;&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>rBC y composición química en nieve/hielo.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-59"><a href="#cb3-59" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-chain__node"</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-eyebrow"</span><span class="dt">&gt;</span>Energía<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">strong</span><span class="dt">&gt;</span>Albedo · SW/LW · Rn<span class="dt">&lt;/</span><span class="kw">strong</span><span class="dt">&gt;&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Absorción radiativa y fusión potencial.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-60"><a href="#cb3-60" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-chain__node"</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-eyebrow"</span><span class="dt">&gt;</span>Respuesta<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">strong</span><span class="dt">&gt;</span>ICESat‑2 · InSAR<span class="dt">&lt;/</span><span class="kw">strong</span><span class="dt">&gt;&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Cambio de elevación y movimiento coherente.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-61"><a href="#cb3-61" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-62"><a href="#cb3-62" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-63"><a href="#cb3-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-64"><a href="#cb3-64" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-section-wide ma-section ma-section--dark"</span><span class="dt">&gt;</span></span>
+<span id="cb3-65"><a href="#cb3-65" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-section-header"</span><span class="ot"> data-reveal</span><span class="dt">&gt;</span></span>
+<span id="cb3-66"><a href="#cb3-66" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-eyebrow"</span><span class="ot"> style</span><span class="op">=</span><span class="st">"color:#7fcfe3"</span><span class="dt">&gt;</span>Estado científico<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-67"><a href="#cb3-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-68"><a href="#cb3-68" aria-hidden="true" tabindex="-1"></a><span class="fu">## Lo consolidado, lo preliminar y lo pendiente</span></span>
+<span id="cb3-69"><a href="#cb3-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-70"><a href="#cb3-70" aria-hidden="true" tabindex="-1"></a>MeteoAndes muestra el nivel de madurez de cada afirmación. Una arquitectura completa no equivale automáticamente a una conclusión causal.</span>
+<span id="cb3-71"><a href="#cb3-71" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-72"><a href="#cb3-72" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-73"><a href="#cb3-73" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-evidence-grid"</span><span class="dt">&gt;</span></span>
+<span id="cb3-74"><a href="#cb3-74" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-evidence"</span><span class="ot"> data-reveal</span><span class="dt">&gt;&lt;</span><span class="kw">span</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-status ma-status--solid"</span><span class="dt">&gt;</span>Consolidado<span class="dt">&lt;/</span><span class="kw">span</span><span class="dt">&gt;&lt;</span><span class="kw">strong</span><span class="dt">&gt;</span>ICESat‑2 Vilcanota<span class="dt">&lt;/</span><span class="kw">strong</span><span class="dt">&gt;&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Descenso regional multianual, estimadores robustos y diagnóstico hipsométrico.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-75"><a href="#cb3-75" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-evidence"</span><span class="ot"> data-reveal data-reveal-delay</span><span class="op">=</span><span class="st">"80"</span><span class="dt">&gt;&lt;</span><span class="kw">span</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-status ma-status--advanced"</span><span class="dt">&gt;</span>Diagnóstico<span class="dt">&lt;/</span><span class="kw">span</span><span class="dt">&gt;&lt;</span><span class="kw">strong</span><span class="dt">&gt;</span>InSAR Vilcanota<span class="dt">&lt;/</span><span class="kw">strong</span><span class="dt">&gt;&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Geometría bien condicionada; señal mensual cercana al piso de ruido; acumulado final pendiente.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-76"><a href="#cb3-76" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-evidence"</span><span class="ot"> data-reveal data-reveal-delay</span><span class="op">=</span><span class="st">"160"</span><span class="dt">&gt;&lt;</span><span class="kw">span</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-status ma-status--prelim"</span><span class="dt">&gt;</span>Preliminar<span class="dt">&lt;/</span><span class="kw">span</span><span class="dt">&gt;&lt;</span><span class="kw">strong</span><span class="dt">&gt;</span>Carbono negro<span class="dt">&lt;/</span><span class="kw">strong</span><span class="dt">&gt;&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Variabilidad AL30 y perfiles SP2/iones; falta cerrar QA/QC y sincronización temporal.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-77"><a href="#cb3-77" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-evidence"</span><span class="ot"> data-reveal data-reveal-delay</span><span class="op">=</span><span class="st">"240"</span><span class="dt">&gt;&lt;</span><span class="kw">span</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-status ma-status--pending"</span><span class="dt">&gt;</span>Pendiente<span class="dt">&lt;/</span><span class="kw">span</span><span class="dt">&gt;&lt;</span><span class="kw">strong</span><span class="dt">&gt;</span>Atribución a incendios<span class="dt">&lt;/</span><span class="kw">strong</span><span class="dt">&gt;&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Sentinel‑5P y catálogo de eventos aún no producen evidencia causal final.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-78"><a href="#cb3-78" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-79"><a href="#cb3-79" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-80"><a href="#cb3-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-81"><a href="#cb3-81" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-section-wide ma-section"</span><span class="dt">&gt;</span></span>
+<span id="cb3-82"><a href="#cb3-82" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-section-header"</span><span class="ot"> data-reveal</span><span class="dt">&gt;</span></span>
+<span id="cb3-83"><a href="#cb3-83" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-eyebrow"</span><span class="dt">&gt;</span>Sitios y campañas<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-84"><a href="#cb3-84" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-85"><a href="#cb3-85" aria-hidden="true" tabindex="-1"></a><span class="fu">## Cinco unidades de estudio, tres cordilleras</span></span>
+<span id="cb3-86"><a href="#cb3-86" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-87"><a href="#cb3-87" aria-hidden="true" tabindex="-1"></a>La red combina el campo de hielo regional de Vilcanota y cuatro sitios de campaña criogeoquímica. Las tarjetas distinguen resultados regionales de mediciones de sesión.</span>
+<span id="cb3-88"><a href="#cb3-88" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-89"><a href="#cb3-89" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-90"><a href="#cb3-90" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card-grid"</span><span class="dt">&gt;</span></span>
+<span id="cb3-91"><a href="#cb3-91" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card"</span><span class="ot"> href</span><span class="op">=</span><span class="st">"glaciares/vilcanota.html"</span><span class="ot"> data-reveal</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card__media"</span><span class="dt">&gt;&lt;</span><span class="kw">img</span><span class="ot"> src</span><span class="op">=</span><span class="st">"/assets/img/glaciares/vilcanota.svg"</span><span class="ot"> alt</span><span class="op">=</span><span class="st">"Ilustración científica de la Cordillera Vilcanota"</span><span class="ot"> width</span><span class="op">=</span><span class="st">"900"</span><span class="ot"> height</span><span class="op">=</span><span class="st">"600"</span><span class="ot"> loading</span><span class="op">=</span><span class="st">"lazy"</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card__body"</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-eyebrow"</span><span class="dt">&gt;</span>Cordillera Vilcanota<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">h3</span><span class="dt">&gt;</span>Campo de hielo regional<span class="dt">&lt;/</span><span class="kw">h3</span><span class="dt">&gt;&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Resultado ICESat‑2 consolidado e InSAR diagnóstico.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card__meta"</span><span class="dt">&gt;</span>2018–2026 · 254.01 km² efectivos<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
+<span id="cb3-92"><a href="#cb3-92" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card"</span><span class="ot"> href</span><span class="op">=</span><span class="st">"glaciares/quelccaya.html"</span><span class="ot"> data-reveal data-reveal-delay</span><span class="op">=</span><span class="st">"80"</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card__media"</span><span class="dt">&gt;&lt;</span><span class="kw">img</span><span class="ot"> src</span><span class="op">=</span><span class="st">"/assets/img/glaciares/quelccaya.svg"</span><span class="ot"> alt</span><span class="op">=</span><span class="st">"Ilustración científica del casquete Quelccaya"</span><span class="ot"> width</span><span class="op">=</span><span class="st">"900"</span><span class="ot"> height</span><span class="op">=</span><span class="st">"600"</span><span class="ot"> loading</span><span class="op">=</span><span class="st">"lazy"</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card__body"</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-eyebrow"</span><span class="dt">&gt;</span>Cusco · Vilcanota<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">h3</span><span class="dt">&gt;</span>Quelccaya<span class="dt">&lt;/</span><span class="kw">h3</span><span class="dt">&gt;&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Meteorología, AL30 y 48 muestras de nieve/hielo.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card__meta"</span><span class="dt">&gt;</span>5 200–5 680 m · campaña 2026<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
+<span id="cb3-93"><a href="#cb3-93" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card"</span><span class="ot"> href</span><span class="op">=</span><span class="st">"glaciares/huaytapallana.html"</span><span class="ot"> data-reveal data-reveal-delay</span><span class="op">=</span><span class="st">"160"</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card__media"</span><span class="dt">&gt;&lt;</span><span class="kw">img</span><span class="ot"> src</span><span class="op">=</span><span class="st">"/assets/img/glaciares/huaytapallana.svg"</span><span class="ot"> alt</span><span class="op">=</span><span class="st">"Ilustración científica del sector glaciar Huaytapallana"</span><span class="ot"> width</span><span class="op">=</span><span class="st">"900"</span><span class="ot"> height</span><span class="op">=</span><span class="st">"600"</span><span class="ot"> loading</span><span class="op">=</span><span class="st">"lazy"</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card__body"</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-eyebrow"</span><span class="dt">&gt;</span>Junín · Huaytapallana<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">h3</span><span class="dt">&gt;</span>Huaytapallana / Cochas<span class="dt">&lt;/</span><span class="kw">h3</span><span class="dt">&gt;&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>AL30 de campaña, AE33 2022–2024 y 25 muestras.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card__meta"</span><span class="dt">&gt;</span>eBC preliminar · dos jornadas<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
+<span id="cb3-94"><a href="#cb3-94" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card"</span><span class="ot"> href</span><span class="op">=</span><span class="st">"glaciares/tunshu.html"</span><span class="ot"> data-reveal</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card__media"</span><span class="dt">&gt;&lt;</span><span class="kw">img</span><span class="ot"> src</span><span class="op">=</span><span class="st">"/assets/img/glaciares/tunshu.svg"</span><span class="ot"> alt</span><span class="op">=</span><span class="st">"Ilustración científica del glaciar Tunshu"</span><span class="ot"> width</span><span class="op">=</span><span class="st">"900"</span><span class="ot"> height</span><span class="op">=</span><span class="st">"600"</span><span class="ot"> loading</span><span class="op">=</span><span class="st">"lazy"</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card__body"</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-eyebrow"</span><span class="dt">&gt;</span>Junín · Andes centrales<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">h3</span><span class="dt">&gt;</span>Tunshu<span class="dt">&lt;/</span><span class="kw">h3</span><span class="dt">&gt;&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Campaña AL30 y 21 muestras para SP2, iones e isótopos.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
+<span id="cb3-95"><a href="#cb3-95" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card"</span><span class="ot"> href</span><span class="op">=</span><span class="st">"glaciares/mateo.html"</span><span class="ot"> data-reveal data-reveal-delay</span><span class="op">=</span><span class="st">"80"</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card__media"</span><span class="dt">&gt;&lt;</span><span class="kw">img</span><span class="ot"> src</span><span class="op">=</span><span class="st">"/assets/img/glaciares/mateo.svg"</span><span class="ot"> alt</span><span class="op">=</span><span class="st">"Ilustración científica del glaciar Mateo o sector Contrayerba"</span><span class="ot"> width</span><span class="op">=</span><span class="st">"900"</span><span class="ot"> height</span><span class="op">=</span><span class="st">"600"</span><span class="ot"> loading</span><span class="op">=</span><span class="st">"lazy"</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card__body"</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-eyebrow"</span><span class="dt">&gt;</span>Áncash · Cordillera Blanca<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">h3</span><span class="dt">&gt;</span>Mateo / Contrayerba<span class="dt">&lt;/</span><span class="kw">h3</span><span class="dt">&gt;&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Gradiente altitudinal AL30 y perfil de 19 muestras entre 0–95 cm.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
+<span id="cb3-96"><a href="#cb3-96" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card"</span><span class="ot"> href</span><span class="op">=</span><span class="st">"datos/index.html"</span><span class="ot"> data-reveal data-reveal-delay</span><span class="op">=</span><span class="st">"160"</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card__media"</span><span class="dt">&gt;&lt;</span><span class="kw">img</span><span class="ot"> src</span><span class="op">=</span><span class="st">"/assets/img/charts/sample-inventory.svg"</span><span class="ot"> alt</span><span class="op">=</span><span class="st">"Gráfico del inventario de 113 muestras glaciares de 2026"</span><span class="ot"> width</span><span class="op">=</span><span class="st">"960"</span><span class="ot"> height</span><span class="op">=</span><span class="st">"500"</span><span class="ot"> loading</span><span class="op">=</span><span class="st">"lazy"</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-card__body"</span><span class="dt">&gt;&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-eyebrow"</span><span class="dt">&gt;</span>Ciencia abierta<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">h3</span><span class="dt">&gt;</span>Catálogo de datos<span class="dt">&lt;/</span><span class="kw">h3</span><span class="dt">&gt;&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Tablas ligeras, estado de evidencia y metadatos de reutilización.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
+<span id="cb3-97"><a href="#cb3-97" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-98"><a href="#cb3-98" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-99"><a href="#cb3-99" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-100"><a href="#cb3-100" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-section-wide ma-section ma-section--tint"</span><span class="dt">&gt;</span></span>
+<span id="cb3-101"><a href="#cb3-101" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-two-col"</span><span class="dt">&gt;</span></span>
+<span id="cb3-102"><a href="#cb3-102" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> data-reveal</span><span class="dt">&gt;</span></span>
+<span id="cb3-103"><a href="#cb3-103" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-eyebrow"</span><span class="dt">&gt;</span>Albedo<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-104"><a href="#cb3-104" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-105"><a href="#cb3-105" aria-hidden="true" tabindex="-1"></a><span class="fu">## Del hielo brillante a una superficie más absorbente</span></span>
+<span id="cb3-106"><a href="#cb3-106" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-107"><a href="#cb3-107" aria-hidden="true" tabindex="-1"></a>El comparador ilustra el mecanismo físico —no una observación cuantitativa de una campaña específica—: una reducción del albedo aumenta la radiación de onda corta neta absorbida. Bajo 600 W m⁻², una reducción instantánea de 0.05 implicaría aproximadamente 30 W m⁻² adicionales de absorción, antes de considerar nubosidad, temperatura superficial y flujos turbulentos.</span>
+<span id="cb3-108"><a href="#cb3-108" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-109"><a href="#cb3-109" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> data-albedo-slider class</span><span class="op">=</span><span class="st">"ma-albedo"</span><span class="ot"> data-reveal aria-label</span><span class="op">=</span><span class="st">"Comparador conceptual de superficie glaciar limpia y oscurecida"</span><span class="dt">&gt;</span></span>
+<span id="cb3-110"><a href="#cb3-110" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">img</span><span class="ot"> src</span><span class="op">=</span><span class="st">"/assets/img/albedo/superficie-oscura.svg"</span><span class="ot"> alt</span><span class="op">=</span><span class="st">"Ilustración conceptual de una superficie glaciar oscurecida por partículas y sedimentos"</span><span class="ot"> width</span><span class="op">=</span><span class="st">"1200"</span><span class="ot"> height</span><span class="op">=</span><span class="st">"675"</span><span class="dt">&gt;</span></span>
+<span id="cb3-111"><a href="#cb3-111" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">img</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-albedo__after"</span><span class="ot"> src</span><span class="op">=</span><span class="st">"/assets/img/albedo/superficie-limpia.svg"</span><span class="ot"> alt</span><span class="op">=</span><span class="st">"Ilustración conceptual de una superficie glaciar limpia y altamente reflectante"</span><span class="ot"> width</span><span class="op">=</span><span class="st">"1200"</span><span class="ot"> height</span><span class="op">=</span><span class="st">"675"</span><span class="dt">&gt;</span></span>
+<span id="cb3-112"><a href="#cb3-112" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">span</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-albedo__label ma-albedo__label--left"</span><span class="dt">&gt;</span>superficie limpia<span class="dt">&lt;/</span><span class="kw">span</span><span class="dt">&gt;&lt;</span><span class="kw">span</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-albedo__label ma-albedo__label--right"</span><span class="dt">&gt;</span>superficie oscurecida<span class="dt">&lt;/</span><span class="kw">span</span><span class="dt">&gt;</span></span>
+<span id="cb3-113"><a href="#cb3-113" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-albedo__handle"</span><span class="ot"> aria-hidden</span><span class="op">=</span><span class="st">"true"</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;&lt;</span><span class="kw">button</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-albedo__knob"</span><span class="ot"> role</span><span class="op">=</span><span class="st">"slider"</span><span class="ot"> aria-label</span><span class="op">=</span><span class="st">"Posición del comparador de albedo"</span><span class="ot"> aria-valuemin</span><span class="op">=</span><span class="st">"0"</span><span class="ot"> aria-valuemax</span><span class="op">=</span><span class="st">"100"</span><span class="ot"> aria-valuenow</span><span class="op">=</span><span class="st">"50"</span><span class="dt">&gt;</span>↔<span class="dt">&lt;/</span><span class="kw">button</span><span class="dt">&gt;</span></span>
+<span id="cb3-114"><a href="#cb3-114" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-115"><a href="#cb3-115" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-116"><a href="#cb3-116" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-117"><a href="#cb3-117" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-118"><a href="#cb3-118" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-section-wide ma-section"</span><span class="dt">&gt;</span></span>
+<span id="cb3-119"><a href="#cb3-119" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-section-header"</span><span class="ot"> data-reveal</span><span class="dt">&gt;</span></span>
+<span id="cb3-120"><a href="#cb3-120" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-eyebrow"</span><span class="dt">&gt;</span>Transparencia<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-121"><a href="#cb3-121" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-122"><a href="#cb3-122" aria-hidden="true" tabindex="-1"></a><span class="fu">## La afirmación causal todavía no está cerrada</span></span>
+<span id="cb3-123"><a href="#cb3-123" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-124"><a href="#cb3-124" aria-hidden="true" tabindex="-1"></a>El descenso glaciar observado no puede atribuirse todavía a incendios forestales específicos. Faltan una serie Sentinel‑5P validada, un catálogo de eventos, ventanas antes–durante–después, trayectorias, controles meteorológicos y sincronización con eBC/rBC, albedo y respuesta geométrica.</span>
+<span id="cb3-125"><a href="#cb3-125" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-126"><a href="#cb3-126" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-callout ma-callout--warning"</span><span class="ot"> data-reveal</span><span class="dt">&gt;&lt;</span><span class="kw">strong</span><span class="dt">&gt;</span>Regla editorial.<span class="dt">&lt;/</span><span class="kw">strong</span><span class="dt">&gt;</span> MeteoAndes no presenta dU mensual de InSAR como balance de masa, eBC atmosférico como deposición, una anomalía anual positiva como recuperación estructural, ni un trazador químico aislado como prueba inequívoca de fuente.<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-127"><a href="#cb3-127" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2026 MeteoAndes — Christian Riveros</p>
+<p>© 2026 MeteoAndes · Christian Riveros · Contenido <a href="LICENSE-CONTENT">CC BY 4.0</a> · Código <a href="LICENSE">MIT</a></p>
 </div>   
     <div class="nav-footer-center">
-      &nbsp;
-    </div>
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="./datos/index.html">
+<p>Datos</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./sobre/index.html#como-citar">
+<p>Cómo citar</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./sobre/contacto.html">
+<p>Contacto</p>
+</a>
+  </li>  
+</ul>
+    <div class="toc-actions"><ul><li><a href="https://github.com/Chis01/meteoandes.github.io/blob/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Ver el código</a></li><li><a href="https://github.com/Chis01/meteoandes.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Informar sobre problema</a></li></ul></div></div>
     <div class="nav-footer-right">
-<p>Creado con Quarto y GitHub Pages</p>
+<p>Ciencia abierta desde los Andes</p>
 </div>
   </div>
 </footer>

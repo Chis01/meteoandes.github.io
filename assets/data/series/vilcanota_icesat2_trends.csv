@@ -1,0 +1,6 @@
+estimador,pendiente_m_anio,limite_inferior,limite_superior,nivel
+Estación seca h prima,-1.590,-2.229,-1.053,Consolidado
+Todas las observaciones h prima,-1.523,-1.953,-1.114,Consolidado
+dh crudo,-1.356,-1.740,-0.980,Diagnóstico
+Ponderado por hipsometría,-1.463,-2.357,-0.596,Resultado regional
+Remuestreo hipsométrico,-1.600,-1.732,-1.434,Sensibilidad P5-P95

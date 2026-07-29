@@ -1,8 +1,11 @@
 [
   {
-    "listing": "/blog.html",
+    "listing": "/bitacora/index.html",
     "items": [
-      "/posts/2026-07-29-bienvenida-meteoandes/index.html"
+      "/bitacora/posts/2026-07-mateo/index.html",
+      "/bitacora/posts/2026-07-tunshu/index.html",
+      "/bitacora/posts/2026-06-huaytapallana/index.html",
+      "/bitacora/posts/2026-05-22-quelccaya/index.html"
     ]
   }
 ]

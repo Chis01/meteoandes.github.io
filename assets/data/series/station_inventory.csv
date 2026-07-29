@@ -1,0 +1,4 @@
+station,period,elevation_m,variables,status
+Quisoquipina,2011-09-29 to 2024-07-14,5200,"T,RH,wind,SW/LW,Rn,albedo",Series available; calibration required
+Quelccaya,Multiple years,not consolidated,"T,RH,wind,precipitation",Local plus ERA5-Land/CHIRPS workflow
+Huaytapallana,2022-2024,not stated,"AE33 eBC at 1-min resolution",Dataset described; integration pending

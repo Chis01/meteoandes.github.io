@@ -1,0 +1,25 @@
+/*-- scss:defaults --*/
+$primary: #0e7c99;
+$secondary: #5b6672;
+$body-bg: #fbfcfd;
+$body-color: #12151a;
+$link-color: #0a6f89;
+$font-family-sans-serif: "Aptos", "Segoe UI Variable", "Segoe UI", system-ui, -apple-system, sans-serif;
+$headings-font-family: "Aptos Display", "Arial Narrow", "Segoe UI Variable Display", system-ui, sans-serif;
+$font-size-base: 1.04rem;
+$line-height-base: 1.66;
+$border-radius: .5rem;
+
+/*-- scss:rules --*/
+@import "tokens";
+@import "components";
+@import "animations";
+body { background:var(--ma-snow); color:var(--ma-soot-900); }
+.navbar { background:rgba(251,252,253,.93)!important; backdrop-filter:blur(16px); border-bottom:1px solid rgba(220,229,235,.85); transition:padding var(--ma-dur-fast), box-shadow var(--ma-dur-fast); }
+.navbar.ma-compact { box-shadow:0 6px 22px rgba(18,21,26,.08); }
+.navbar-brand { font-weight:800; letter-spacing:-.02em; }
+.navbar-logo { max-height:34px; }
+h1,h2,h3,h4 { letter-spacing:-.025em; color:var(--ma-soot-900); }
+h1 { font-weight:800; }
+a { text-underline-offset:.17em; text-decoration-thickness:.07em; }
+code, pre, .sourceCode { font-family:"Cascadia Code","IBM Plex Mono",ui-monospace,monospace; }

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use MeteoAndes, cite the site and the specific dataset or method page."
+title: "MeteoAndes: glaciares, atmósfera y observación de la Tierra en los Andes"
+type: software
+authors:
+  - family-names: "Riveros"
+    given-names: "Christian"
+repository-code: "https://github.com/Chis01/meteoandes.github.io"
+url: "https://meteoandes.com"
+license: MIT
+version: 1.0.0
+date-released: 2026-07-29

@@ -1,0 +1,16 @@
+figure.facecolor: #FBFCFD
+axes.facecolor: #FBFCFD
+axes.edgecolor: #5B6672
+axes.labelcolor: #2C333C
+axes.titleweight: bold
+text.color: #12151A
+xtick.color: #5B6672
+ytick.color: #5B6672
+grid.color: #DDE5EA
+grid.alpha: 0.8
+font.family: sans-serif
+font.sans-serif: DejaVu Sans, Arial, sans-serif
+lines.linewidth: 2.0
+figure.dpi: 150
+savefig.dpi: 300
+savefig.bbox: tight
