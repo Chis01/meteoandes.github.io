@@ -1,0 +1,70 @@
+project:
+  type: website
+  output-dir: _site
+
+lang: es
+
+website:
+  title: "MeteoAndes"
+  site-url: "https://chis01.github.io/meteoandes.github.io"
+  description: "Ciencia climática, glaciares, atmósfera, teledetección y datos ambientales en los Andes."
+
+  navbar:
+    background: primary
+    foreground: light
+    search: true
+    left:
+      - href: index.qmd
+        text: Inicio
+
+      - href: research.qmd
+        text: Investigación
+
+      - href: projects.qmd
+        text: Proyectos
+
+      - href: publications.qmd
+        text: Publicaciones
+
+      - href: blog.qmd
+        text: Blog
+
+      - href: about.qmd
+        text: Sobre mí
+
+    right:
+      - icon: github
+        href: "https://github.com/Chis01"
+        aria-label: GitHub de Christian Riveros
+
+      - icon: rss
+        href: blog.xml
+        aria-label: Canal RSS de MeteoAndes
+
+  reader-mode: true
+  back-to-top-navigation: true
+
+  page-footer:
+    left: "© 2026 MeteoAndes — Christian Riveros"
+    right: "Creado con Quarto y GitHub Pages"
+
+  open-graph: true
+  twitter-card: true
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    code-tools: true
+    code-copy: true
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+
+execute:
+  freeze: auto
