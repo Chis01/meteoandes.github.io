@@ -1,0 +1,46 @@
+---
+title: "Publicaciones"
+description: "Artículos científicos, manuscritos, pósteres y presentaciones."
+---
+
+## Artículos científicos
+
+Esta sección reunirá las publicaciones científicas de **Christian Riveros**.
+
+Cada publicación podrá incluir:
+
+- Título.
+- Autores.
+- Revista.
+- Año.
+- DOI.
+- Resumen.
+- Figuras.
+- Código relacionado.
+- Datos complementarios.
+- Enlace al documento.
+
+## Manuscritos en preparación
+
+### Carbono negro en ambientes glaciares
+
+Estudio de las concentraciones, la variabilidad espacial y el comportamiento temporal del carbono negro en glaciares tropicales.
+
+### Dinámica glaciar mediante InSAR
+
+Evaluación multitemporal de desplazamientos y cambios superficiales mediante imágenes Sentinel-1.
+
+### Monitoreo atmosférico de alta montaña
+
+Integración de mediciones atmosféricas, meteorología y observaciones de campo.
+
+## Presentaciones científicas
+
+Esta sección contendrá:
+
+- Ponencias.
+- Pósteres científicos.
+- Seminarios.
+- Congresos.
+- Talleres.
+- Material de divulgación.

@@ -1,0 +1,43 @@
+---
+title: "Proyectos"
+description: "Proyectos científicos y ambientales desarrollados en MeteoAndes."
+---
+
+## Proyectos de MeteoAndes
+
+Esta sección presenta campañas de campo, proyectos de investigación, desarrollos metodológicos y productos científicos.
+
+## Monitoreo de carbono negro
+
+Evaluación de concentraciones de carbono negro en ambientes urbanos, rurales y glaciares.
+
+### Componentes
+
+- Campañas de medición.
+- Control de calidad.
+- Corrección de flujo, temperatura y presión.
+- Comparación entre ubicaciones y elevaciones.
+- Integración con variables meteorológicas.
+- Elaboración de gráficos científicos.
+
+## Dinámica glaciar mediante InSAR
+
+Análisis multitemporal de cambios y desplazamientos superficiales utilizando imágenes Sentinel-1.
+
+### Componentes
+
+- Órbitas ascendentes y descendentes.
+- Procesamiento con MintPy.
+- Series temporales.
+- Años hidrológicos.
+- Estadísticas espaciales.
+- Mapas de velocidad.
+- Comparación entre sectores glaciares.
+
+## Atlas ambiental de los Andes
+
+Creación de mapas, series temporales, fotografías, infografías y productos geoespaciales sobre glaciares, atmósfera y clima.
+
+## Ciencia abierta
+
+Publicación de notebooks, metodologías y códigos para facilitar la revisión y reproducción de los análisis.

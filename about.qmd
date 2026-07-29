@@ -1,19 +1,59 @@
 ---
-title: "About"
-image: profile.jpg
+title: "Sobre mí"
 about:
   template: jolla
   links:
-    - icon: bluesky
-      text: Bluesky
-      href: https://bsky.app/
+    - icon: github
+      text: GitHub
+      href: https://github.com/Chis01
+
+    - icon: envelope
+      text: Correo electrónico
+      href: mailto:TU_CORREO
+
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
-    - icon: github
-      text: Github
-      href: https://github.com
+      href: https://www.linkedin.com/in/TU_PERFIL
 
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=TU_CODIGO
+
+    - icon: person-circle
+      text: ORCID
+      href: https://orcid.org/TU_ORCID
 ---
 
-About this blog
+## Christian Riveros
+
+Soy investigador interesado en clima, glaciares, contaminación atmosférica, teledetección, sistemas de información geográfica y análisis científico de datos.
+
+Soy el creador de **MeteoAndes**, una plataforma orientada a comunicar investigaciones, metodologías, herramientas computacionales y resultados ambientales relacionados con la región andina.
+
+## Intereses científicos
+
+- Meteorología.
+- Cambio climático.
+- Glaciares tropicales.
+- Carbono negro.
+- Aerosoles atmosféricos.
+- Teledetección.
+- InSAR.
+- LiDAR.
+- Programación científica.
+- Visualización de datos.
+
+## Herramientas
+
+Trabajo con:
+
+- Python.
+- R.
+- Jupyter Notebook.
+- Quarto.
+- GitHub.
+- MintPy.
+- Sentinel-1.
+- QGIS.
+- ArcGIS.
+- Google Earth Engine.

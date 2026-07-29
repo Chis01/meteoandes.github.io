@@ -1,0 +1,65 @@
+---
+title: "Investigación"
+description: "Líneas de investigación desarrolladas en MeteoAndes."
+---
+
+## Líneas de investigación
+
+MeteoAndes integra observaciones de campo, sensores ambientales, imágenes satelitales y análisis computacional para estudiar procesos climáticos y ambientales en los Andes.
+
+## Meteorología y clima
+
+Esta línea comprende:
+
+- Temperatura, presión y humedad.
+- Precipitación y radiación.
+- Variabilidad meteorológica.
+- Climatología de alta montaña.
+- Eventos extremos.
+- Series temporales ambientales.
+
+## Carbono negro y aerosoles
+
+Se analizan:
+
+- Concentraciones de carbono negro.
+- Variabilidad temporal y espacial.
+- Correcciones instrumentales.
+- Transporte de contaminantes.
+- Interacción entre atmósfera, nieve y hielo.
+- Influencia de fuentes urbanas y regionales.
+
+## Glaciares tropicales
+
+Las investigaciones incluyen:
+
+- Cambios de superficie.
+- Velocidad y desplazamiento glaciar.
+- Variabilidad estacional.
+- Comparación entre años hidrológicos.
+- Influencia de elevación y topografía.
+- Monitoreo ambiental de alta montaña.
+
+## Teledetección e InSAR
+
+Se emplean herramientas como:
+
+- Sentinel-1.
+- Interferometría SAR.
+- MintPy.
+- Modelos digitales de elevación.
+- LiDAR.
+- Sistemas de información geográfica.
+- Google Earth Engine.
+
+## Ciencia reproducible
+
+Los análisis se desarrollan mediante:
+
+- Python.
+- R.
+- Jupyter Notebook.
+- Quarto.
+- Git y GitHub.
+- Estadística ambiental.
+- Visualización científica.

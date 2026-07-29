@@ -1,15 +1,67 @@
 ---
 title: "MeteoAndes"
-listing:
-  contents: posts
-  feed: true
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
+subtitle: "Clima, glaciares, atmósfera y observación de la Tierra"
 page-layout: full
 title-block-banner: true
 ---
 
+## Ciencia ambiental desde los Andes
 
+**MeteoAndes** es una plataforma de comunicación e investigación científica creada por **Christian Riveros**.
+
+El sitio reúne estudios, metodologías, resultados, mapas, datos y herramientas relacionadas con el clima, los glaciares, la contaminación atmosférica, la teledetección y el análisis ambiental.
+
+## Áreas principales
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+
+### Clima y atmósfera
+
+Análisis de variables meteorológicas, aerosoles, contaminación atmosférica, carbono negro y procesos climáticos en regiones de montaña.
+
+:::
+
+::: {.g-col-12 .g-col-md-4}
+
+### Glaciares tropicales
+
+Evaluación de cambios glaciares mediante campañas de campo, sensores ambientales, imágenes satelitales y series temporales.
+
+:::
+
+::: {.g-col-12 .g-col-md-4}
+
+### Observación de la Tierra
+
+Aplicación de InSAR, Sentinel-1, LiDAR, modelos digitales de elevación, Python, R y sistemas de información geográfica.
+
+:::
+
+:::
+
+## Objetivo
+
+El objetivo de MeteoAndes es comunicar conocimiento científico de manera clara, visual, abierta y reproducible.
+
+Los contenidos incluirán:
+
+- Resultados de investigación.
+- Análisis de campañas de campo.
+- Mapas y figuras científicas.
+- Procesamiento de datos ambientales.
+- Notebooks en Python y R.
+- Métodos de teledetección.
+- Estudios sobre glaciares y carbono negro.
+- Recursos para estudiantes e investigadores.
+
+## Publicaciones recientes
+
+Las últimas investigaciones y notas aparecerán en la sección [Blog](blog.qmd).
+
+## Autor
+
+**Christian Riveros** es el creador de MeteoAndes.
+
+Los códigos y proyectos relacionados pueden consultarse en [GitHub](https://github.com/Chis01).
