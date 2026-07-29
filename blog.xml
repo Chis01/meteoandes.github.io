@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>MeteoAndes</title>
-<link>https://chis01.github.io/meteoandes.github.io/blog.html</link>
-<atom:link href="https://chis01.github.io/meteoandes.github.io/blog.xml" rel="self" type="application/rss+xml"/>
+<link>https://meteoandes.com/blog.html</link>
+<atom:link href="https://meteoandes.com/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Notas científicas, campañas, metodologías y análisis ambientales.</description>
 <generator>quarto-1.10.18</generator>
 <lastBuildDate>Tue, 28 Jul 2026 22:00:00 GMT</lastBuildDate>
 <item>
   <title>Bienvenido a MeteoAndes</title>
   <dc:creator>Christian Riveros</dc:creator>
-  <link>https://chis01.github.io/meteoandes.github.io/posts/2026-07-29-bienvenida-meteoandes/</link>
+  <link>https://meteoandes.com/posts/2026-07-29-bienvenida-meteoandes/</link>
   <description><![CDATA[ 
 
 
@@ -61,7 +61,7 @@
   <category>Clima</category>
   <category>Glaciares</category>
   <category>Teledetección</category>
-  <guid>https://chis01.github.io/meteoandes.github.io/posts/2026-07-29-bienvenida-meteoandes/</guid>
+  <guid>https://meteoandes.com/posts/2026-07-29-bienvenida-meteoandes/</guid>
   <pubDate>Tue, 28 Jul 2026 22:00:00 GMT</pubDate>
 </item>
 </channel>
