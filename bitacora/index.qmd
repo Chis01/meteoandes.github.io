@@ -1,0 +1,11 @@
+---
+title: "Bitácora de campo"
+description: "Campañas, protocolos y notas de campo de MeteoAndes."
+listing:
+  contents: posts
+  sort: "date desc"
+  type: grid
+  categories: true
+  page-size: 12
+page-layout: full
+---

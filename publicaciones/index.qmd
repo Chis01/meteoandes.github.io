@@ -1,0 +1,26 @@
+---
+title: "Publicaciones y productos"
+description: "Manuscritos, informes técnicos y productos reproducibles de MeteoAndes."
+---
+
+## Manuscritos en desarrollo
+
+### 1. Cambio de elevación superficial en Vilcanota
+
+Producto de mayor madurez. Integra ICESat‑2 ATL06‑SR, COP30, co‑registro, corrección hipsométrica, tendencias robustas y soporte por elevación.
+
+**Resultado central:** descenso regional ponderado de −1.463 m año⁻¹ durante la era ICESat‑2.
+
+### 2. Dinámica InSAR y validación multifuente
+
+Se enfocará en dE/dU bajo dN=0, acumulados, calidad, piso de ruido y complementariedad con ICESat‑2. No se presentará como velocidad 3D completa ni balance de masa.
+
+### 3. Aerosoles, carbono negro y respuesta energética
+
+Depende del cierre de Sentinel‑5P, AE33/AL30, SP2/iones y albedo. La unidad de inferencia será un evento con exposición, transporte, depósito y respuesta retardada.
+
+## Cómo citar el sitio
+
+> Riveros, C. (2026). *MeteoAndes: glaciares, atmósfera y observación de la Tierra en los Andes*. https://meteoandes.com
+
+Para resultados cuantitativos, cite además el dataset o manuscrito específico cuando tenga DOI.

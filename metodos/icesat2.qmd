@@ -1,0 +1,19 @@
+---
+title: "Método ICESat‑2"
+description: "Arquitectura de estimación de cambio de elevación superficial con ATL06-SR."
+---
+
+## Flujo
+
+1. Inventario glaciar y AOI en CRS métrico adecuado.
+2. Consulta ATL06‑SR y conservación de granule/RGT/ciclo/fecha.
+3. Filtros de calidad y separación glaciar/terreno estable.
+4. Conversión vertical COP30 EGM2008 → altura elipsoidal.
+5. Co‑registro horizontal/vertical con terreno estable.
+6. Modelo dh(z), anomalía h′ y ponderación hipsométrica.
+7. Theil–Sen, bootstrap, Hamed–Rao, FDR y sensibilidades.
+8. Reporte de soporte por año, pasada, RGT y banda.
+
+## Resultado reproducible
+
+Los CSV de síntesis se encuentran en `assets/data/series/`. Los notebooks analíticos pesados deben incorporarse después de eliminar rutas absolutas y conservar `_freeze/`.

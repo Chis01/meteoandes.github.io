@@ -1,0 +1,23 @@
+---
+title: "Método de carbono negro"
+description: "QA/QC AL30/AE33, SP2, muestreo estratigráfico e iones solubles."
+---
+
+## AL30 / AE33
+
+- Eliminar estabilización inicial con regla documentada.
+- Mantener eBC crudo y registrar fracción negativa.
+- Revisar flujo, ATN, errores, temperatura y RH.
+- Comparar media, mediana, P95 y métodos de suavizado.
+- Conservar zona horaria y duración válida.
+
+## SP2 y muestras
+
+- Cadena fría y herramientas descontaminadas.
+- Estándares Aquadag y control de flujo/láser.
+- Blancos, duplicados, LOD/LOQ y profundidad.
+- rBC por partícula, iones e isótopos según volumen.
+
+## Atribución
+
+Se requiere coincidencia multivariada, meteorología y trayectorias. K⁺ aislado no prueba quema de biomasa; Ca²⁺/Mg²⁺ ayudan a separar polvo mineral.

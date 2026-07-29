@@ -1,0 +1,22 @@
+---
+title: "Sobre MeteoAndes"
+description: "Programa científico y principios editoriales de MeteoAndes."
+---
+
+## Qué es
+
+MeteoAndes es un sitio público de investigación creado por **Christian Riveros** para comunicar resultados sobre glaciares tropicales peruanos de forma navegable, citable y reproducible.
+
+## Principios
+
+- Mostrar datos propios y su incertidumbre.
+- Separar resultado consolidado, diagnóstico, preliminar y pendiente.
+- No confundir correlación con causalidad.
+- Publicar métodos, metadatos y código cuando sea posible.
+- Diseñar para pares científicos, gestores, estudiantes y público general.
+
+## Cómo citar
+
+> Riveros, Christian. 2026. *MeteoAndes: glaciares, atmósfera y observación de la Tierra en los Andes*. https://meteoandes.com
+
+Consulte también `CITATION.cff` en el repositorio.

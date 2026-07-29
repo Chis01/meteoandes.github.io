@@ -1,0 +1,36 @@
+datasets:
+  - id: vilcanota-icesat2-summary-2018-2026
+    title: "Síntesis auditada de cambio de elevación ICESat-2, Vilcanota"
+    line: criosfera
+    period: "2018-12 a 2026-02"
+    status: internal-audited
+    file: ../assets/data/series/vilcanota_icesat2_trends.csv
+    license: CC-BY-4.0
+  - id: vilcanota-hydro-years
+    title: "Cambios diagnósticos por año hidrológico"
+    line: criosfera
+    period: "HY2020–HY2025"
+    status: diagnostic
+    file: ../assets/data/series/vilcanota_hydro_year_changes.csv
+    license: CC-BY-4.0
+  - id: vilcanota-insar-audit
+    title: "Resumen de auditoría InSAR ASC/DESC"
+    line: insar
+    period: "serie revisada a julio 2026"
+    status: diagnostic-advanced
+    file: ../assets/data/series/insar_vilcanota_summary.csv
+    license: CC-BY-4.0
+  - id: al30-preliminary-campaigns
+    title: "Medias preliminares AL30 por sesión"
+    line: carbono-negro
+    period: "campañas 2026"
+    status: preliminary
+    file: ../assets/data/series/al30_preliminary_sessions.csv
+    license: CC-BY-4.0
+  - id: glacier-samples-2026
+    title: "Inventario de muestras glaciares 2026"
+    line: quimica-hielo
+    period: "mayo–julio 2026"
+    status: inventory
+    file: ../assets/data/series/glacier_samples_2026.csv
+    license: CC-BY-4.0

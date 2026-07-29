@@ -1,6 +1,24 @@
+# Quarto
 /.quarto/
 /_site/
+*.html.md
+
+# Mantener _freeze versionado cuando existan notebooks ejecutados
+# /_freeze/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
 .ipynb_checkpoints/
+
+# Sistema
 .DS_Store
 Thumbs.db
+
+# Imágenes originales no optimizadas
+/assets/img/**/_originals/
+.env
+
 **/*.quarto_ipynb

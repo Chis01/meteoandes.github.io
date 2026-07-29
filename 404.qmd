@@ -1,0 +1,7 @@
+---
+title: "Página no encontrada"
+page-layout: full
+toc: false
+---
+
+<div class="ma-section-wide ma-section" style="text-align:center;min-height:65vh;display:grid;place-items:center"><div><div class="ma-eyebrow">Error 404</div><h1>Esta ruta se perdió entre las nubes.</h1><p>Regrese a la portada o use la búsqueda para encontrar glaciares, métodos y datos.</p><a class="ma-btn" style="background:#0e7c99;color:white" href="/">Volver a MeteoAndes</a></div></div>

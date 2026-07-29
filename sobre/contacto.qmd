@@ -1,0 +1,12 @@
+---
+title: "Contacto"
+description: "Contacto científico de MeteoAndes."
+---
+
+## Christian Riveros
+
+- Correo del proyecto: [contacto@meteoandes.com](mailto:contacto@meteoandes.com)
+- GitHub: [Chis01](https://github.com/Chis01)
+- Repositorio: [meteoandes.github.io](https://github.com/Chis01/meteoandes.github.io)
+
+Para solicitar datos no publicados, indique el conjunto, periodo, finalidad y producto esperado. La disponibilidad depende de QA/QC, permisos, licencias y estado del manuscrito.

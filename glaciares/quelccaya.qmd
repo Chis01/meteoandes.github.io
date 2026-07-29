@@ -1,0 +1,34 @@
+---
+title: "Quelccaya"
+subtitle: "Meteorología, carbono negro y muestreo estratigráfico"
+description: "Campañas de meteorología y carbono negro en el casquete Quelccaya, Cordillera Vilcanota."
+image: ../assets/img/glaciares/quelccaya.svg
+categories: [Quelccaya, Vilcanota, carbono negro, meteorología]
+date-modified: 2026-07-29
+---
+
+<div class="ma-page-meta"><span class="ma-status ma-status--prelim">Carbono negro preliminar</span><span class="ma-status ma-status--advanced">Meteorología avanzada</span></div>
+
+## Sitio de integración {data-elevation="5680"}
+
+Quelccaya es el sitio central para conectar meteorología de alta montaña, muestreo de nieve/hielo, eBC atmosférico y análisis SP2/iones. La campaña de 2026 produjo **48 muestras** codificadas QUEL2026_01–48, con volumen nominal máximo de 2.40 L.
+
+## Campaña y estratigrafía {data-elevation="5520"}
+
+La inspección de campo describió nieve visualmente limpia, alta reflectancia y estratificación con cambios de compactación. La apariencia visual no permite inferir ausencia de partículas absorbentes; la interpretación depende de blancos, duplicados, profundidad, cronología y laboratorio.
+
+<div class="ma-callout ma-callout--method"><strong>Protocolo.</strong> Muestreo por intervalos, herramientas descontaminadas, registro inmediato de profundidad y metadatos, cadena fría y análisis rBC/iones. Las capas pueden conservar episodios de deposición, pero un máximo sin datación no puede asignarse a un incendio específico.</div>
+
+## eBC atmosférico {data-elevation="5380"}
+
+La tabla comparativa del AL30 incluye una medición instantánea de contexto de **222 ng m⁻³**. No es una media estacional ni una medición de deposición; debe interpretarse junto con duración, ATN, flujo, humedad, meteorología y log instrumental.
+
+<figure class="ma-science-figure"><img src="/assets/img/charts/al30-sessions.svg" alt="Comparación preliminar de eBC entre Quelccaya y dos sesiones de Huaytapallana" width="980" height="470"><figcaption>Valores preliminares de contexto. La comparación causal entre sitios requiere homologar duración, altitud, hora, flujo y meteorología.</figcaption></figure>
+
+## Meteorología {data-elevation="5200"}
+
+El flujo integra observaciones locales con ERA5‑Land, nubosidad ERA5 y precipitación CHIRPS mediante medias espaciales ponderadas por la intersección de celdas con el AOI. Existen paneles anuales y reportes de cobertura, pero la climatología numérica maestra todavía debe consolidarse.
+
+## Laboratorio SP2 e iones
+
+Los resultados preliminares incluyen ocho muestras asociadas a Quelccaya/Vilcanota con composición iónica relativa y marcadores de carbono negro. Su interpretación debe integrar profundidad, fecha, trazadores de fuente y QA/QC. No se publica todavía una tabla definitiva de concentraciones, blancos e incertidumbres.

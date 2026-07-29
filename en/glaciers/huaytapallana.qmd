@@ -1,0 +1,9 @@
+---
+title: "Huaytapallana / Cochas"
+lang: en
+description: "MeteoAndes field and remote-sensing evidence for Huaytapallana / Cochas."
+---
+
+Two preliminary AL30 sessions had mean eBC values of 174 and 654 ng m⁻³. The contrast demonstrates session variability, not source attribution. A one-minute AE33 series for 2022–2024 is described but still requires integrated QA/QC.
+
+[Back to English home](../index.qmd)

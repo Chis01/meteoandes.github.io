@@ -1,0 +1,9 @@
+---
+title: "Publications"
+lang: en
+description: "MeteoAndes manuscripts and research products."
+---
+
+1. **Vilcanota surface-elevation change with ICESat‑2** — highest maturity.
+2. **InSAR surface dynamics and multi-sensor validation** — final accumulated analysis pending.
+3. **Aerosols, black carbon and glacier energy response** — depends on the Sentinel‑5P and integrated BC closure.

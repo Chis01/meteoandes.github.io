@@ -1,0 +1,26 @@
+---
+title: "Sentinel‑5P y exposición a incendios"
+subtitle: "Un componente metodológicamente diseñado, todavía sin producto final"
+description: "Estado transparente del análisis TROPOMI para aerosoles e incendios en el proyecto MeteoAndes."
+categories: [Sentinel-5P, TROPOMI, incendios]
+---
+
+<div class="ma-page-meta"><span class="ma-status ma-status--pending">Pendiente de ejecución final</span></div>
+
+## Estado actual
+
+No existe todavía una serie Sentinel‑5P validada, un catálogo definitivo de eventos, mapas de anomalía ni ventanas de exposición sincronizadas. Por ello, no es científicamente válido atribuir el descenso observado en Vilcanota a incendios específicos.
+
+## Productos candidatos
+
+| Producto | Papel | Limitación |
+|---|---|---|
+| UV Aerosol Index | Aerosol absorbente y plumas | No mide masa de BC ni deposición |
+| CO | Trazador de combustión/transporte | Vida larga y mezcla regional |
+| NO₂ | Combustión urbana/fósil e incendios | Fuentes urbanas y resolución |
+| HCHO | Química asociada a biomasa | Señal débil y fuentes biogénicas |
+| SO₂ | Control de volcanismo/combustión puntual | No es trazador principal de incendios |
+
+## Criterio de cierre
+
+Se requieren compuestos diarios y móviles, climatología por día del año, anomalías, focos de calor, trayectorias, controles negativos emparejados, rezagos y validación con AL30/AE33. El sitio mantendrá este módulo como pendiente hasta que esos productos sean auditables.

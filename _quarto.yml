@@ -1,70 +1,132 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - CNAME
+    - .nojekyll
+    - robots.txt
+    - LICENSE
+    - LICENSE-CONTENT
+    - CITATION.cff
+    - assets/**
+  preview:
+    port: 4200
+    browser: true
 
-lang: es
+execute:
+  freeze: auto
+  echo: fenced
+  warning: false
 
 website:
   title: "MeteoAndes"
   site-url: "https://meteoandes.com"
-  description: "Ciencia climática, glaciares, atmósfera, teledetección y datos ambientales en los Andes."
+  repo-url: "https://github.com/Chis01/meteoandes.github.io"
+  repo-actions: [source, issue]
+  favicon: assets/img/brand/favicon.svg
+  image: assets/img/og/default.png
+  description: >
+    Investigación de campo y observación de la Tierra en glaciares tropicales
+    del Perú: cambio de elevación, dinámica InSAR, meteorología, albedo y carbono negro.
+
+  open-graph:
+    locale: es_PE
+  twitter-card:
+    card-style: summary_large_image
 
   navbar:
-    background: primary
-    foreground: light
-    search: true
+    logo: assets/img/brand/logo-mark.svg
+    logo-alt: "MeteoAndes"
+    title: "MeteoAndes"
+    pinned: true
+    collapse-below: lg
     left:
-      - href: index.qmd
-        text: Inicio
-
-      - href: research.qmd
-        text: Investigación
-
-      - href: projects.qmd
-        text: Proyectos
-
-      - href: publications.qmd
-        text: Publicaciones
-
-      - href: blog.qmd
-        text: Blog
-
-      - href: about.qmd
-        text: Sobre mí
-
+      - text: "Glaciares"
+        href: glaciares/index.qmd
+      - text: "Investigación"
+        menu:
+          - text: "Panorama"
+            href: investigacion/index.qmd
+          - text: "Cambio de elevación"
+            href: investigacion/cambio-elevacion.qmd
+          - text: "Dinámica InSAR"
+            href: investigacion/insar.qmd
+          - text: "Meteorología glaciar"
+            href: investigacion/meteorologia-glaciar.qmd
+          - text: "Carbono negro"
+            href: investigacion/carbono-negro.qmd
+          - text: "Albedo y energía"
+            href: investigacion/albedo-energia.qmd
+          - text: "Sentinel-5P"
+            href: investigacion/sentinel5p.qmd
+      - text: "Métodos"
+        href: metodos/index.qmd
+      - text: "Datos"
+        href: datos/index.qmd
+      - text: "Publicaciones"
+        href: publicaciones/index.qmd
+      - text: "Bitácora"
+        href: bitacora/index.qmd
     right:
+      - text: "EN"
+        href: en/index.qmd
+        aria-label: "English version"
       - icon: github
-        href: "https://github.com/Chis01"
-        aria-label: GitHub de Christian Riveros
-
-      - icon: rss
-        href: blog.xml
-        aria-label: Canal RSS de MeteoAndes
-
-  reader-mode: true
-  back-to-top-navigation: true
+        href: https://github.com/Chis01/meteoandes.github.io
+        aria-label: "Repositorio de MeteoAndes en GitHub"
+      - icon: envelope
+        href: sobre/contacto.qmd
+        aria-label: "Contacto"
 
   page-footer:
-    left: "© 2026 MeteoAndes — Christian Riveros"
-    right: "Creado con Quarto y GitHub Pages"
+    border: true
+    left: |
+      © 2026 MeteoAndes · Christian Riveros · Contenido [CC BY 4.0](LICENSE-CONTENT) · Código [MIT](LICENSE)
+    center:
+      - text: "Datos"
+        href: datos/index.qmd
+      - text: "Cómo citar"
+        href: sobre/index.qmd#como-citar
+      - text: "Contacto"
+        href: sobre/contacto.qmd
+    right: |
+      Ciencia abierta desde los Andes
 
-  open-graph: true
-  twitter-card: true
+  search:
+    location: navbar
+    type: overlay
+    copy-button: true
+  page-navigation: true
+  back-to-top-navigation: true
+  bread-crumbs: true
 
 format:
   html:
     theme:
-      light: flatly
-      dark: darkly
-    css: styles.css
+      light: [cosmo, assets/scss/theme-light.scss]
+      dark: [darkly, assets/scss/theme-dark.scss]
+    css: assets/css/extra.css
     toc: true
     toc-depth: 3
-    code-fold: true
-    code-tools: true
-    code-copy: true
+    toc-title: "En esta página"
+    toc-location: right
     anchor-sections: true
     smooth-scroll: true
+    code-fold: true
+    code-summary: "Mostrar código"
+    code-tools: true
+    code-copy: true
+    highlight-style: github
+    link-external-icon: true
     link-external-newwindow: true
+    fig-responsive: true
+    fig-align: center
+    citations-hover: true
+    footnotes-hover: true
+    include-in-header:
+      - assets/includes/head.html
+    include-after-body:
+      - assets/includes/scripts.html
 
-execute:
-  freeze: auto
+bibliography: publicaciones/referencias.bib
+lang: es

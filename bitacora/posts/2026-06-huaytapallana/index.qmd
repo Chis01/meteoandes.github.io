@@ -1,0 +1,9 @@
+---
+title: "Dos jornadas AL30 en Huaytapallana"
+date: 2026-06-30
+author: "Christian Riveros"
+categories: [Huaytapallana, campaña 2026]
+description: "Nota técnica de campo de MeteoAndes."
+---
+
+Las dos jornadas mostraron medias preliminares contrastantes: 174 y 654 ng m⁻³. La diferencia motiva una auditoría de duración, flujo, ATN, valores negativos, meteorología y posición del instrumento antes de inferir fuentes.

@@ -1,0 +1,11 @@
+---
+title: "Muestreo estratigráfico en Quelccaya"
+date: 2026-05-22
+author: "Christian Riveros"
+categories: [Quelccaya, campaña 2026]
+description: "Nota técnica de campo de MeteoAndes."
+---
+
+La campaña documentó nieve de alta reflectancia, estratificación y cambios de compactación. Se aplicó un protocolo limpio, cadena fría y registro por profundidad. El inventario final incluye 48 muestras destinadas a rBC, iones e isótopos según volumen disponible.
+
+La apariencia visual de una superficie limpia no demuestra ausencia de partículas absorbentes. La interpretación espera QA/QC, blancos y resultados de laboratorio.

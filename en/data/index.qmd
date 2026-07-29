@@ -1,0 +1,13 @@
+---
+title: "Data catalogue"
+lang: en
+description: "Lightweight research-summary tables released by MeteoAndes."
+---
+
+| Dataset | Status | File |
+|---|---|---|
+| Vilcanota ICESat‑2 trends | Audited | [CSV](../../assets/data/series/vilcanota_icesat2_trends.csv) |
+| Hydrological-year diagnostic changes | Diagnostic | [CSV](../../assets/data/series/vilcanota_hydro_year_changes.csv) |
+| Vilcanota InSAR audit | Advanced diagnostic | [CSV](../../assets/data/series/insar_vilcanota_summary.csv) |
+| Preliminary AL30 sessions | Preliminary | [CSV](../../assets/data/series/al30_preliminary_sessions.csv) |
+| 2026 glacier sample inventory | Inventory | [CSV](../../assets/data/series/glacier_samples_2026.csv) |

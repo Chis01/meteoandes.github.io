@@ -1,0 +1,9 @@
+---
+title: "Quelccaya"
+lang: en
+description: "MeteoAndes field and remote-sensing evidence for Quelccaya."
+---
+
+Quelccaya connects glacier meteorology, atmospheric eBC and stratigraphic snow/ice sampling. The 2026 inventory contains 48 samples. A 222 ng m⁻³ AL30 value is an instantaneous context measurement, not a climatology or deposition estimate.
+
+[Back to English home](../index.qmd)

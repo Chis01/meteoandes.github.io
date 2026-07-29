@@ -1,0 +1,37 @@
+---
+title: "Investigación"
+description: "Arquitectura científica de MeteoAndes: criósfera, meteorología, carbono negro y energía."
+---
+
+## Pregunta integradora
+
+¿Cómo evolucionan la elevación y la dinámica de los glaciares tropicales peruanos, y qué papel pueden desempeñar la meteorología y las partículas absorbentes en esa respuesta?
+
+<div class="ma-chain">
+<div class="ma-chain__node"><strong>Exposición</strong><p>Incendios y otras fuentes generan aerosoles.</p></div>
+<div class="ma-chain__node"><strong>Transporte</strong><p>Viento, capa límite y precipitación conectan fuente y receptor.</p></div>
+<div class="ma-chain__node"><strong>Depósito</strong><p>SP2 e iones observan lo retenido en nieve/hielo.</p></div>
+<div class="ma-chain__node"><strong>Forzamiento</strong><p>Albedo y balance energético traducen oscurecimiento en absorción.</p></div>
+<div class="ma-chain__node"><strong>Respuesta</strong><p>ICESat‑2 e InSAR observan cambio geométrico y movimiento.</p></div>
+</div>
+
+## Jerarquía de resultados
+
+| Componente | Resultado actual | Nivel |
+|---|---|---|
+| ICESat‑2 Vilcanota | −1.463 m año⁻¹ ponderado por hipsometría | Consolidado/auditado |
+| InSAR Vilcanota | Geometría adecuada; señal mensual cercana al ruido | Diagnóstico avanzado |
+| Hidrometeorología | Paneles y tablas por AOI/año; climatología maestra pendiente | Avanzado |
+| Albedo/energía | Ecuaciones, QC y forzantes implementados | Implementado, no cerrado |
+| AL30/AE33 | Variabilidad preliminar de eBC | Preliminar |
+| SP2/iones | Perfiles y análisis multivariados preliminares | Preliminar de laboratorio |
+| Sentinel‑5P | Sin producto final validado | Pendiente |
+
+## Líneas
+
+- [Cambio de elevación con ICESat‑2](cambio-elevacion.qmd)
+- [Dinámica InSAR](insar.qmd)
+- [Meteorología glaciar](meteorologia-glaciar.qmd)
+- [Carbono negro y aerosoles](carbono-negro.qmd)
+- [Albedo y energía](albedo-energia.qmd)
+- [Estado de Sentinel‑5P](sentinel5p.qmd)

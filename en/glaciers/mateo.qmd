@@ -1,0 +1,9 @@
+---
+title: "Mateo / Contrayerba"
+lang: en
+description: "MeteoAndes field and remote-sensing evidence for Mateo / Contrayerba."
+---
+
+The field inventory includes 19 consecutive 5-cm samples from 0 to 95 cm and AL30 measurements at several elevations. No altitude trend is reported before the metadata and QA table are complete.
+
+[Back to English home](../index.qmd)

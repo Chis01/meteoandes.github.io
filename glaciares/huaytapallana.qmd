@@ -1,0 +1,28 @@
+---
+title: "Huaytapallana / Cochas"
+subtitle: "Variabilidad atmosférica de eBC y monitoreo continuo"
+description: "Campañas AL30, serie AE33 y muestreo de hielo en Huaytapallana, Junín."
+image: ../assets/img/glaciares/huaytapallana.svg
+categories: [Huaytapallana, AL30, AE33, carbono negro]
+date-modified: 2026-07-29
+---
+
+<div class="ma-page-meta"><span class="ma-status ma-status--prelim">Campañas AL30 preliminares</span><span class="ma-status ma-status--advanced">AE33 disponible, integración pendiente</span></div>
+
+## Dos sesiones, alta variabilidad {data-elevation="5100"}
+
+Las medias preliminares incorporadas en el notebook comparativo fueron **174 ng m⁻³** para el Día 1 y **654 ng m⁻³** para el Día 2. El segundo valor fue aproximadamente 3.76 veces el primero.
+
+<figure class="ma-science-figure"><img src="/assets/img/charts/al30-sessions.svg" alt="Medias preliminares de carbono negro equivalente en Huaytapallana y Quelccaya" width="980" height="470"><figcaption>La diferencia entre jornadas demuestra variabilidad de sesión, no su causa. Se requieren mediana, IQR, P95, fracción negativa, ATN, flujo y tiempo válido.</figcaption></figure>
+
+## Control de calidad AL30 {data-elevation="4950"}
+
+El flujo elimina los primeros diez minutos de estabilización, conserva la serie cruda, evalúa flujo y errores, cuantifica valores negativos y compara media/mediana móvil con un suavizado adaptativo **ONA-like**. Los negativos no deben truncarse automáticamente a cero porque sesgarían la media.
+
+## AE33 y continuidad temporal
+
+Se describe una base institucional AE33 a resolución de un minuto entre 2022 y 2024. Su integración final debe armonizar zona horaria, canales espectrales, correcciones de carga, modelo biomasa/fósil y meteorología. Es más adecuada que campañas cortas para estudiar estacionalidad y circulación valle–montaña.
+
+## Muestras 2026
+
+El inventario registra **25 muestras** HUAY26_01–25, con volumen nominal máximo de 1.25 L. La comparación con eBC atmosférico debe considerar transporte, precipitación y tasas de deposición; eBC y rBC no son magnitudes directamente intercambiables.

@@ -1,0 +1,35 @@
+---
+title: "Glaciares y sitios de estudio"
+description: "Galería filtrable de sitios glaciares estudiados por MeteoAndes."
+page-layout: full
+toc: false
+---
+
+<div class="ma-section-wide ma-hero-mini">
+<div class="ma-eyebrow">Red de observación</div>
+
+# Glaciares y sitios de estudio
+
+<p class="ma-lede">Cinco unidades de análisis conectan criósfera, meteorología, carbono negro y química de hielo. Use los filtros para explorar por cordillera o línea de investigación.</p>
+</div>
+
+<div class="ma-section-wide ma-filterbar" role="search" aria-label="Filtros de sitios glaciares">
+<input type="search" data-gallery-search aria-label="Buscar sitio, cordillera o región" placeholder="Buscar por nombre, cordillera o región…">
+<button class="ma-filter-chip" data-filter-value="all" aria-pressed="true">Todos</button>
+<button class="ma-filter-chip" data-filter-value="vilcanota" aria-pressed="false">Vilcanota</button>
+<button class="ma-filter-chip" data-filter-value="central" aria-pressed="false">Andes centrales</button>
+<button class="ma-filter-chip" data-filter-value="blanca" aria-pressed="false">Cordillera Blanca</button>
+<button class="ma-filter-chip" data-filter-value="carbono" aria-pressed="false">Carbono negro</button>
+<button class="ma-filter-chip" data-filter-value="criosfera" aria-pressed="false">Criósfera</button>
+<span class="ma-gallery-status" data-gallery-status>Mostrando 5 de 5 sitios</span>
+</div>
+
+<div class="ma-section-wide ma-card-grid" data-glacier-gallery>
+<a class="ma-card" data-glacier-card data-tags="vilcanota criosfera insar meteorologia" data-search="cordillera vilcanota cusco icesat-2 insar meteorologia" href="vilcanota.html"><div class="ma-card__media"><img src="/assets/img/glaciares/vilcanota.svg" alt="Ilustración científica del campo glaciar de la Cordillera Vilcanota" width="900" height="600"></div><div class="ma-card__body"><div class="ma-eyebrow">Cordillera Vilcanota</div><h3>Conjunto glaciar regional</h3><p>ICESat‑2 2018–2026, InSAR Sentinel‑1 e hidrometeorología.</p><div class="ma-card__meta">4 597–6 364 m · 190 polígonos en AOI</div></div></a>
+<a class="ma-card" data-glacier-card data-tags="vilcanota carbono meteorologia" data-search="quelccaya quelqaya qori kalis cusco vilcanota carbono negro meteorologia" href="quelccaya.html"><div class="ma-card__media"><img src="/assets/img/glaciares/quelccaya.svg" alt="Ilustración científica del casquete glaciar Quelccaya" width="900" height="600"></div><div class="ma-card__body"><div class="ma-eyebrow">Cusco · Vilcanota</div><h3>Quelccaya</h3><p>48 muestras, AL30, meteorología y comparación SP2/iones.</p><div class="ma-card__meta">5 200–5 680 m · campaña 2026</div></div></a>
+<a class="ma-card" data-glacier-card data-tags="central carbono meteorologia criosfera" data-search="huaytapallana cochas junin carbono negro ae33 al30 icesat-2" href="huaytapallana.html"><div class="ma-card__media"><img src="/assets/img/glaciares/huaytapallana.svg" alt="Ilustración científica de los glaciares de Huaytapallana" width="900" height="600"></div><div class="ma-card__body"><div class="ma-eyebrow">Junín · Huaytapallana</div><h3>Huaytapallana / Cochas</h3><p>Dos jornadas AL30, serie AE33 descrita y 25 muestras.</p></div></a>
+<a class="ma-card" data-glacier-card data-tags="central carbono" data-search="tunshu junin andes centrales carbono negro al30 hielo" href="tunshu.html"><div class="ma-card__media"><img src="/assets/img/glaciares/tunshu.svg" alt="Ilustración científica del glaciar Tunshu en los Andes centrales" width="900" height="600"></div><div class="ma-card__body"><div class="ma-eyebrow">Junín · Andes centrales</div><h3>Tunshu</h3><p>21 muestras y campaña atmosférica de alta montaña.</p></div></a>
+<a class="ma-card" data-glacier-card data-tags="blanca carbono" data-search="mateo contrayerba ancash cordillera blanca carbono negro altitud" href="mateo.html"><div class="ma-card__media"><img src="/assets/img/glaciares/mateo.svg" alt="Ilustración científica del glaciar Mateo o sector Contrayerba" width="900" height="600"></div><div class="ma-card__body"><div class="ma-eyebrow">Áncash · Cordillera Blanca</div><h3>Mateo / Contrayerba</h3><p>Perfil 0–95 cm, 19 muestras y mediciones AL30 por altitud.</p></div></a>
+</div>
+
+<div class="ma-section-wide ma-empty-state" data-gallery-empty><h3>Ningún sitio coincide con esos filtros.</h3><button class="ma-filter-chip" data-gallery-clear>Limpiar filtros</button></div>

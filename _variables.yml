@@ -1,0 +1,26 @@
+kpi:
+  sitios: 5
+  cordilleras: 3
+  muestras_2026: 113
+  volumen_nominal_l: 5.65
+  anios_icesat2: 8
+  adquisiciones_s1: 68
+  pasadas_icesat2: 129
+  puntos_glaciares_qc: 27160
+
+resultados:
+  dhdt_seca: "−1.590"
+  dhdt_seca_ci: "−2.229 a −1.053"
+  dhdt_ponderado: "−1.463"
+  dhdt_ponderado_ci: "−2.357 a −0.596"
+  mwe_ponderado: "−1.243"
+  area_representada: "96.5"
+  ebc_huay_d1: 174
+  ebc_huay_d2: 654
+  ebc_quelccaya: 222
+  ruido_insar: "0.63–0.65"
+
+contacto:
+  nombre: "Christian Riveros"
+  email: "contacto@meteoandes.com"
+  github: "https://github.com/Chis01"

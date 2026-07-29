@@ -1,0 +1,19 @@
+---
+title: "Nombre del glaciar"
+subtitle: "Síntesis científica"
+description: "Descripción única y verificable."
+date-modified: last-modified
+categories: [cordillera, línea-de-investigación]
+---
+
+<div class="ma-page-meta"><span class="ma-status ma-status--pending">Definir estado</span></div>
+
+## Pregunta
+
+## Datos y métodos
+
+## Resultados
+
+## Incertidumbre
+
+<div class="ma-callout ma-callout--data"><strong>Trazabilidad.</strong> Indicar notebook, versión, fecha, licencia y DOI cuando exista.</div>

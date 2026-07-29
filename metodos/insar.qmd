@@ -1,0 +1,17 @@
+---
+title: "Método InSAR"
+description: "Procesamiento Sentinel-1 ASC/DESC y descomposición Este-Vertical bajo dN=0."
+---
+
+## Productos
+
+- LOS ascendente y descendente.
+- dE, dU y |dE| bajo dN=0.
+- Tasas por intervalo y anualizadas, con duración explícita.
+- Acumulado continuo desde referencia global.
+- Cobertura, determinante, calidad y número de observaciones.
+- Series AOI y perfiles por banda de elevación.
+
+## Restricción física
+
+dU no es cambio euleriano de elevación ni balance de masa. El flujo glaciar y emergencia/submergencia intervienen. La comparación con ICESat‑2 debe usar acumulados/tasas sobre una ventana común y zonas coherentes.

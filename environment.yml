@@ -1,0 +1,7 @@
+name: meteoandes-site
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyter
+  - pyyaml

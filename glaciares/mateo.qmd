@@ -1,0 +1,24 @@
+---
+title: "Mateo / Contrayerba"
+subtitle: "Gradiente altitudinal y perfil de hielo en Cordillera Blanca"
+description: "Campaña AL30 y perfil de 19 muestras en el sector Mateo/Contrayerba, Áncash."
+image: ../assets/img/glaciares/mateo.svg
+categories: [Cordillera Blanca, Mateo, carbono negro, perfil de hielo]
+date-modified: 2026-07-29
+---
+
+<div class="ma-page-meta"><span class="ma-status ma-status--prelim">Campaña preliminar</span></div>
+
+## Perfil criogeoquímico {data-elevation="5100"}
+
+El inventario contiene **19 muestras** MAT26_01–19 en intervalos consecutivos de 5 cm entre 0 y 95 cm, con volumen nominal máximo de 0.95 L. El perfil permite evaluar la variación con profundidad cuando se incorporen blancos, estándares, densidad y cronología.
+
+<figure class="ma-science-figure"><img src="/assets/img/charts/sample-inventory.svg" alt="Número de muestras de Quelccaya, Huaytapallana, Tunshu y Mateo" width="960" height="500"><figcaption>Mateo aporta 19 de las 113 muestras inventariadas en 2026.</figcaption></figure>
+
+## AL30 por altitud
+
+Se realizaron mediciones a diferentes alturas para explorar un gradiente de eBC. El producto final requiere una tabla sincronizada de cota, hora, duración, flujo, ATN, temperatura, humedad y estadísticos robustos. Hasta entonces, la página comunica el diseño y no inventa una pendiente altitudinal.
+
+## Comparación con laboratorio de Cordillera Blanca
+
+La pasantía en IGE reporta siete muestras de Cordillera Blanca en una figura preliminar de composición iónica y carbono negro. La comparación con Quelccaya puede revelar diferencias espaciales, pero debe cerrarse con unidades, blancos, límites de detección y réplicas.

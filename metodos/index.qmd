@@ -1,0 +1,19 @@
+---
+title: "Métodos reproducibles"
+description: "Flujos técnicos de ICESat-2, InSAR, meteorología y carbono negro usados en MeteoAndes."
+---
+
+## Principios
+
+1. Cada sensor conserva su ecuación observacional y su incertidumbre.
+2. Las rutas locales, credenciales y tokens no se publican.
+3. Los notebooks ejecutados se congelan con `freeze: auto`.
+4. Toda cifra pública indica nivel de evidencia y fuente interna.
+5. Los resultados pendientes no se sustituyen por valores inferidos.
+
+<div class="ma-card-grid">
+<a class="ma-card" href="icesat2.html"><div class="ma-card__body"><div class="ma-eyebrow">Altimetría</div><h3>ICESat‑2 ATL06‑SR</h3><p>QC, datum, co‑registro, hipsometría y tendencias robustas.</p></div></a>
+<a class="ma-card" href="insar.html"><div class="ma-card__body"><div class="ma-eyebrow">Radar</div><h3>Sentinel‑1 / MintPy</h3><p>ASC/DESC, LOS, dE/dU, ruido estable y acumulados.</p></div></a>
+<a class="ma-card" href="meteorologia.html"><div class="ma-card__body"><div class="ma-eyebrow">Forzantes</div><h3>AWS / ERA5 / CHIRPS</h3><p>Extracción ponderada, cobertura y calibración.</p></div></a>
+<a class="ma-card" href="carbono-negro.html"><div class="ma-card__body"><div class="ma-eyebrow">Aerosoles</div><h3>AL30 / AE33 / SP2</h3><p>QA/QC óptico, partículas refractarias e iones.</p></div></a>
+</div>

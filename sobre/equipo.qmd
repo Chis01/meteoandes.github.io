@@ -1,0 +1,10 @@
+---
+title: "Equipo"
+description: "Autoría y colaboración científica en MeteoAndes."
+---
+
+## Christian Riveros
+
+Investigador y autor de MeteoAndes. Líneas de trabajo: teledetección glaciar, InSAR, ICESat‑2, meteorología de alta montaña, aerosoles y carbono negro.
+
+MeteoAndes reconoce que las campañas, laboratorios, estaciones y productos satelitales dependen de colaboración institucional. Los nombres, afiliaciones y contribuciones se incorporarán con autorización y taxonomía CRediT en cada producto.

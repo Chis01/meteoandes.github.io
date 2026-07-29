@@ -1,0 +1,27 @@
+---
+title: "Albedo y energía superficial"
+subtitle: "Mecanismo físico entre oscurecimiento y fusión potencial"
+description: "Módulo de albedo, radiación neta y escenarios de fusión para Quisoquipina."
+categories: [albedo, balance energético, COSIPY]
+---
+
+<div class="ma-page-meta"><span class="ma-status ma-status--advanced">Implementado · resultado numérico no cerrado</span></div>
+
+## Variables
+
+El módulo calcula albedo (SW↑/SW↓), onda corta neta, onda larga neta, radiación neta, temperatura superficial radiativa, energía potencial de fusión y forzantes COSIPY. La serie Quisoquipina 2011–2024 contiene las variables necesarias, pero no existe todavía una tabla final consolidada del balance energético.
+
+<div data-albedo-slider class="ma-albedo" aria-label="Comparador conceptual de albedo glaciar">
+<img src="/assets/img/albedo/superficie-oscura.svg" alt="Superficie glaciar conceptual con menor reflectancia" width="1200" height="675">
+<img class="ma-albedo__after" src="/assets/img/albedo/superficie-limpia.svg" alt="Superficie glaciar conceptual limpia y reflectante" width="1200" height="675">
+<span class="ma-albedo__label ma-albedo__label--left">albedo alto</span><span class="ma-albedo__label ma-albedo__label--right">albedo reducido</span>
+<div class="ma-albedo__handle" aria-hidden="true"></div><button class="ma-albedo__knob" role="slider" aria-label="Comparador de albedo" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">↔</button>
+</div>
+
+## Sensibilidad transparente
+
+Una reducción de albedo Δα = −0.05 bajo 600 W m⁻² de radiación entrante aumenta instantáneamente la absorción en ~30 W m⁻². No puede extrapolarse directamente a fusión diaria sin integrar la curva solar, nubosidad, estado térmico y flujos turbulentos.
+
+## Redacción científica correcta
+
+El resultado calculado con Rn positivo debe denominarse **fusión potencial radiativa** o escenario energético, no balance de masa observado. La atribución de una reducción de albedo a carbono negro requiere coincidencia con eBC/rBC, iones, meteorología y transporte.

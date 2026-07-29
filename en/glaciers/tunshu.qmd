@@ -1,0 +1,9 @@
+---
+title: "Tunshu"
+lang: en
+description: "MeteoAndes field and remote-sensing evidence for Tunshu."
+---
+
+The 2026 field campaign collected 21 samples for rBC, ions and isotopes. Atmospheric campaign results remain preliminary until duration, flow, attenuation and meteorology are consolidated.
+
+[Back to English home](../index.qmd)
