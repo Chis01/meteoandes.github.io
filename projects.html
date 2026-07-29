@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Proyectos científicos y ambientales desarrollados en MeteoAndes.">
 
-<title>Sobre mí – MeteoAndes</title>
+<title>Proyectos – MeteoAndes</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -75,6 +76,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -115,11 +117,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Sobre mí – MeteoAndes">
-<meta property="og:description" content="Ciencia climática, glaciares, atmósfera, teledetección y datos ambientales en los Andes.">
+<meta property="og:title" content="Proyectos – MeteoAndes">
+<meta property="og:description" content="Proyectos científicos y ambientales desarrollados en MeteoAndes.">
 <meta property="og:site_name" content="MeteoAndes">
-<meta name="twitter:title" content="Sobre mí – MeteoAndes">
-<meta name="twitter:description" content="Ciencia climática, glaciares, atmósfera, teledetección y datos ambientales en los Andes.">
+<meta name="twitter:title" content="Proyectos – MeteoAndes">
+<meta name="twitter:description" content="Proyectos científicos y ambientales desarrollados en MeteoAndes.">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -311,7 +313,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">Investigación</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link active" href="./projects.html" aria-current="page"> 
 <span class="menu-text">Proyectos</span></a>
   </li>  
   <li class="nav-item">
@@ -323,7 +325,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">Sobre mí</span></a>
   </li>  
 </ul>
@@ -358,91 +360,99 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">En esta página</h2>
+   
   <ul>
-  <li><a href="#christian-riveros" id="toc-christian-riveros" class="nav-link active" data-scroll-target="#christian-riveros">Christian Riveros</a></li>
-  <li><a href="#intereses-científicos" id="toc-intereses-científicos" class="nav-link" data-scroll-target="#intereses-científicos">Intereses científicos</a></li>
-  <li><a href="#herramientas" id="toc-herramientas" class="nav-link" data-scroll-target="#herramientas">Herramientas</a></li>
+  <li><a href="#proyectos-de-meteoandes" id="toc-proyectos-de-meteoandes" class="nav-link active" data-scroll-target="#proyectos-de-meteoandes">Proyectos de MeteoAndes</a></li>
+  <li><a href="#monitoreo-de-carbono-negro" id="toc-monitoreo-de-carbono-negro" class="nav-link" data-scroll-target="#monitoreo-de-carbono-negro">Monitoreo de carbono negro</a>
+  <ul class="collapse">
+  <li><a href="#componentes" id="toc-componentes" class="nav-link" data-scroll-target="#componentes">Componentes</a></li>
+  </ul></li>
+  <li><a href="#dinámica-glaciar-mediante-insar" id="toc-dinámica-glaciar-mediante-insar" class="nav-link" data-scroll-target="#dinámica-glaciar-mediante-insar">Dinámica glaciar mediante InSAR</a>
+  <ul class="collapse">
+  <li><a href="#componentes-1" id="toc-componentes-1" class="nav-link" data-scroll-target="#componentes-1">Componentes</a></li>
+  </ul></li>
+  <li><a href="#atlas-ambiental-de-los-andes" id="toc-atlas-ambiental-de-los-andes" class="nav-link" data-scroll-target="#atlas-ambiental-de-los-andes">Atlas ambiental de los Andes</a></li>
+  <li><a href="#ciencia-abierta" id="toc-ciencia-abierta" class="nav-link" data-scroll-target="#ciencia-abierta">Ciencia abierta</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<div class="quarto-about-jolla">
- <header id="title-block-header" class="quarto-title-block default">
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title">Sobre mí</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Código</button></div></div>
+<div class="quarto-title-block"><div><h1 class="title">Proyectos</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Código</button></div></div>
 </div>
-<div class="quarto-title-meta">
+
+<div>
+  <div class="description">
+    Proyectos científicos y ambientales desarrollados en MeteoAndes.
   </div>
-</header><main class="content" id="quarto-document-content">
+</div>
 
 
-<section id="christian-riveros" class="level2">
-<h2 data-anchor-id="christian-riveros">Christian Riveros</h2>
-<p>Soy investigador interesado en clima, glaciares, contaminación atmosférica, teledetección, sistemas de información geográfica y análisis científico de datos.</p>
-<p>Soy el creador de <strong>MeteoAndes</strong>, una plataforma orientada a comunicar investigaciones, metodologías, herramientas computacionales y resultados ambientales relacionados con la región andina.</p>
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="proyectos-de-meteoandes" class="level2">
+<h2 class="anchored" data-anchor-id="proyectos-de-meteoandes">Proyectos de MeteoAndes</h2>
+<p>Esta sección presenta campañas de campo, proyectos de investigación, desarrollos metodológicos y productos científicos.</p>
 </section>
-<section id="intereses-científicos" class="level2">
-<h2 data-anchor-id="intereses-científicos">Intereses científicos</h2>
+<section id="monitoreo-de-carbono-negro" class="level2">
+<h2 class="anchored" data-anchor-id="monitoreo-de-carbono-negro">Monitoreo de carbono negro</h2>
+<p>Evaluación de concentraciones de carbono negro en ambientes urbanos, rurales y glaciares.</p>
+<section id="componentes" class="level3">
+<h3 class="anchored" data-anchor-id="componentes">Componentes</h3>
 <ul>
-<li>Meteorología.</li>
-<li>Cambio climático.</li>
-<li>Glaciares tropicales.</li>
-<li>Carbono negro.</li>
-<li>Aerosoles atmosféricos.</li>
-<li>Teledetección.</li>
-<li>InSAR.</li>
-<li>LiDAR.</li>
-<li>Programación científica.</li>
-<li>Visualización de datos.</li>
+<li>Campañas de medición.</li>
+<li>Control de calidad.</li>
+<li>Corrección de flujo, temperatura y presión.</li>
+<li>Comparación entre ubicaciones y elevaciones.</li>
+<li>Integración con variables meteorológicas.</li>
+<li>Elaboración de gráficos científicos.</li>
 </ul>
 </section>
-<section id="herramientas" class="level2">
-<h2 data-anchor-id="herramientas">Herramientas</h2>
-<p>Trabajo con:</p>
+</section>
+<section id="dinámica-glaciar-mediante-insar" class="level2">
+<h2 class="anchored" data-anchor-id="dinámica-glaciar-mediante-insar">Dinámica glaciar mediante InSAR</h2>
+<p>Análisis multitemporal de cambios y desplazamientos superficiales utilizando imágenes Sentinel-1.</p>
+<section id="componentes-1" class="level3">
+<h3 class="anchored" data-anchor-id="componentes-1">Componentes</h3>
 <ul>
-<li>Python.</li>
-<li><ol start="18" type="A">
-<li></li>
-</ol></li>
-<li>Jupyter Notebook.</li>
-<li>Quarto.</li>
-<li>GitHub.</li>
-<li>MintPy.</li>
-<li>Sentinel-1.</li>
-<li>QGIS.</li>
-<li>ArcGIS.</li>
-<li>Google Earth Engine.</li>
+<li>Órbitas ascendentes y descendentes.</li>
+<li>Procesamiento con MintPy.</li>
+<li>Series temporales.</li>
+<li>Años hidrológicos.</li>
+<li>Estadísticas espaciales.</li>
+<li>Mapas de velocidad.</li>
+<li>Comparación entre sectores glaciares.</li>
 </ul>
+</section>
+</section>
+<section id="atlas-ambiental-de-los-andes" class="level2">
+<h2 class="anchored" data-anchor-id="atlas-ambiental-de-los-andes">Atlas ambiental de los Andes</h2>
+<p>Creación de mapas, series temporales, fotografías, infografías y productos geoespaciales sobre glaciares, atmósfera y clima.</p>
+</section>
+<section id="ciencia-abierta" class="level2">
+<h2 class="anchored" data-anchor-id="ciencia-abierta">Ciencia abierta</h2>
+<p>Publicación de notebooks, metodologías y códigos para facilitar la revisión y reproducción de los análisis.</p>
 
 
 <!-- -->
+
 </section>
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a></main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://github.com/Chis01" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="mailto:TU_CORREO" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Correo electrónico</span>
-  </a>
-  <a href="https://www.linkedin.com/in/TU_PERFIL" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://scholar.google.com/citations?user=TU_CODIGO" class="about-link" rel="" target="">
-    <i class="bi bi-mortarboard"></i>
-     <span class="about-link-text">Google Scholar</span>
-  </a>
-  <a href="https://orcid.org/TU_ORCID" class="about-link" rel="" target="">
-    <i class="bi bi-person-circle"></i>
-     <span class="about-link-text">ORCID</span>
-  </a>
-</div>
-</div>
- <!-- /main -->
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -458,6 +468,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -906,64 +923,48 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   });
   </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Ejecutar el código</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Sobre mí"</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">about:</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">  template: jolla</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">  links:</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">    - icon: github</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">      text: GitHub</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">      href: https://github.com/Chis01</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Proyectos"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">description:</span><span class="co"> "Proyectos científicos y ambientales desarrollados en MeteoAndes."</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">## Proyectos de MeteoAndes</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>Esta sección presenta campañas de campo, proyectos de investigación, desarrollos metodológicos y productos científicos.</span>
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co">    - icon: envelope</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co">      text: Correo electrónico</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co">      href: mailto:TU_CORREO</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">## Monitoreo de carbono negro</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>Evaluación de concentraciones de carbono negro en ambientes urbanos, rurales y glaciares.</span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co">    - icon: linkedin</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co">      text: LinkedIn</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co">      href: https://www.linkedin.com/in/TU_PERFIL</span></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="co">    - icon: mortarboard</span></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="co">      text: Google Scholar</span></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="co">      href: https://scholar.google.com/citations?user=TU_CODIGO</span></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="co">    - icon: person-circle</span></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="co">      text: ORCID</span></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="co">      href: https://orcid.org/TU_ORCID</span></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">### Componentes</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Campañas de medición.</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Control de calidad.</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Corrección de flujo, temperatura y presión.</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Comparación entre ubicaciones y elevaciones.</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Integración con variables meteorológicas.</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Elaboración de gráficos científicos.</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="fu">## Dinámica glaciar mediante InSAR</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>Análisis multitemporal de cambios y desplazamientos superficiales utilizando imágenes Sentinel-1.</span>
 <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="fu">## Christian Riveros</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="fu">### Componentes</span></span>
 <span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>Soy investigador interesado en clima, glaciares, contaminación atmosférica, teledetección, sistemas de información geográfica y análisis científico de datos.</span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>Soy el creador de **MeteoAndes**, una plataforma orientada a comunicar investigaciones, metodologías, herramientas computacionales y resultados ambientales relacionados con la región andina.</span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="fu">## Intereses científicos</span></span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Meteorología.</span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Cambio climático.</span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Glaciares tropicales.</span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Carbono negro.</span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Aerosoles atmosféricos.</span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Teledetección.</span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>InSAR.</span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>LiDAR.</span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Programación científica.</span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Visualización de datos.</span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="fu">## Herramientas</span></span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>Trabajo con:</span>
-<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Python.</span>
-<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>R.</span>
-<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Jupyter Notebook.</span>
-<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Quarto.</span>
-<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>GitHub.</span>
-<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>MintPy.</span>
-<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Sentinel-1.</span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>QGIS.</span>
-<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>ArcGIS.</span>
-<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Google Earth Engine.</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Órbitas ascendentes y descendentes.</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Procesamiento con MintPy.</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Series temporales.</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Años hidrológicos.</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Estadísticas espaciales.</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Mapas de velocidad.</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Comparación entre sectores glaciares.</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="fu">## Atlas ambiental de los Andes</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>Creación de mapas, series temporales, fotografías, infografías y productos geoespaciales sobre glaciares, atmósfera y clima.</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="fu">## Ciencia abierta</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>Publicación de notebooks, metodologías y códigos para facilitar la revisión y reproducción de los análisis.</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">

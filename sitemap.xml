@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://chis01.github.io/meteoandes.github.io/posts/welcome/index.html</loc>
-    <lastmod>2026-07-29T01:57:09.623Z</lastmod>
+    <loc>https://chis01.github.io/meteoandes.github.io/research.html</loc>
+    <lastmod>2026-07-29T02:43:56.368Z</lastmod>
+  </url>
+  <url>
+    <loc>https://chis01.github.io/meteoandes.github.io/projects.html</loc>
+    <lastmod>2026-07-29T02:43:56.363Z</lastmod>
   </url>
   <url>
     <loc>https://chis01.github.io/meteoandes.github.io/index.html</loc>
-    <lastmod>2026-07-29T01:57:09.616Z</lastmod>
+    <lastmod>2026-07-29T02:43:56.358Z</lastmod>
   </url>
   <url>
     <loc>https://chis01.github.io/meteoandes.github.io/about.html</loc>
-    <lastmod>2026-07-29T01:57:09.615Z</lastmod>
+    <lastmod>2026-07-29T02:43:56.358Z</lastmod>
   </url>
   <url>
-    <loc>https://chis01.github.io/meteoandes.github.io/posts/post-with-code/index.html</loc>
-    <lastmod>2026-07-29T01:57:09.621Z</lastmod>
+    <loc>https://chis01.github.io/meteoandes.github.io/blog.html</loc>
+    <lastmod>2026-07-29T02:43:56.358Z</lastmod>
+  </url>
+  <url>
+    <loc>https://chis01.github.io/meteoandes.github.io/posts/2026-07-29-bienvenida-meteoandes/index.html</loc>
+    <lastmod>2026-07-29T02:43:56.363Z</lastmod>
+  </url>
+  <url>
+    <loc>https://chis01.github.io/meteoandes.github.io/publications.html</loc>
+    <lastmod>2026-07-29T02:43:56.363Z</lastmod>
   </url>
 </urlset>
