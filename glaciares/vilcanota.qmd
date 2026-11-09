@@ -2,7 +2,7 @@
 title: "Cordillera Vilcanota"
 subtitle: "Descenso superficial regional y dinámica multifuente"
 description: "Resultados ICESat-2 e InSAR para el conjunto glaciar de Vilcanota, Perú, 2018–2026."
-image: ../assets/img/glaciares/vilcanota.svg
+image: ../assets/img/photos/cards/vilcanota.webp
 categories: [Vilcanota, ICESat-2, InSAR, criósfera]
 date-modified: 2026-07-29
 ---

@@ -1,6 +1,7 @@
 ---
 title: "MeteoAndes"
 description: "Datos propios medidos sobre el hielo: ICESat-2, InSAR, meteorología y carbono negro en glaciares tropicales del Perú."
+image: assets/img/og/home.jpg
 title-block-style: none
 page-layout: full
 toc: false
@@ -89,12 +90,31 @@ La red combina el campo de hielo regional de Vilcanota y cuatro sitios de campa�
 </div>
 
 <div class="ma-card-grid">
-<a class="ma-card" href="glaciares/vilcanota.html" data-reveal><div class="ma-card__media"><img src="/assets/img/glaciares/vilcanota.svg" alt="Ilustración científica de la Cordillera Vilcanota" width="900" height="600" loading="lazy"></div><div class="ma-card__body"><div class="ma-eyebrow">Cordillera Vilcanota</div><h3>Campo de hielo regional</h3><p>Resultado ICESat‑2 consolidado e InSAR diagnóstico.</p><div class="ma-card__meta">2018–2026 · 254.01 km² efectivos</div></div></a>
-<a class="ma-card" href="glaciares/quelccaya.html" data-reveal data-reveal-delay="80"><div class="ma-card__media"><img src="/assets/img/glaciares/quelccaya.svg" alt="Ilustración científica del casquete Quelccaya" width="900" height="600" loading="lazy"></div><div class="ma-card__body"><div class="ma-eyebrow">Cusco · Vilcanota</div><h3>Quelccaya</h3><p>Meteorología, AL30 y 48 muestras de nieve/hielo.</p><div class="ma-card__meta">5 200–5 680 m · campaña 2026</div></div></a>
-<a class="ma-card" href="glaciares/huaytapallana.html" data-reveal data-reveal-delay="160"><div class="ma-card__media"><img src="/assets/img/glaciares/huaytapallana.svg" alt="Ilustración científica del sector glaciar Huaytapallana" width="900" height="600" loading="lazy"></div><div class="ma-card__body"><div class="ma-eyebrow">Junín · Huaytapallana</div><h3>Huaytapallana / Cochas</h3><p>AL30 de campaña, AE33 2022–2024 y 25 muestras.</p><div class="ma-card__meta">eBC preliminar · dos jornadas</div></div></a>
-<a class="ma-card" href="glaciares/tunshu.html" data-reveal><div class="ma-card__media"><img src="/assets/img/glaciares/tunshu.svg" alt="Ilustración científica del glaciar Tunshu" width="900" height="600" loading="lazy"></div><div class="ma-card__body"><div class="ma-eyebrow">Junín · Andes centrales</div><h3>Tunshu</h3><p>Campaña AL30 y 21 muestras para SP2, iones e isótopos.</p></div></a>
-<a class="ma-card" href="glaciares/mateo.html" data-reveal data-reveal-delay="80"><div class="ma-card__media"><img src="/assets/img/glaciares/mateo.svg" alt="Ilustración científica del glaciar Mateo o sector Contrayerba" width="900" height="600" loading="lazy"></div><div class="ma-card__body"><div class="ma-eyebrow">Áncash · Cordillera Blanca</div><h3>Mateo / Contrayerba</h3><p>Gradiente altitudinal AL30 y perfil de 19 muestras entre 0–95 cm.</p></div></a>
-<a class="ma-card" href="datos/index.html" data-reveal data-reveal-delay="160"><div class="ma-card__media"><img src="/assets/img/charts/sample-inventory.svg" alt="Gráfico del inventario de 113 muestras glaciares de 2026" width="960" height="500" loading="lazy"></div><div class="ma-card__body"><div class="ma-eyebrow">Ciencia abierta</div><h3>Catálogo de datos</h3><p>Tablas ligeras, estado de evidencia y metadatos de reutilización.</p></div></a>
+<a class="ma-card" href="glaciares/vilcanota.html" data-reveal><div class="ma-card__media"><img src="/assets/img/photos/cards/vilcanota.webp" alt="Fotografía del frente glaciar en la Cordillera Vilcanota" width="900" height="600" loading="lazy"></div><div class="ma-card__body"><div class="ma-eyebrow">Cordillera Vilcanota</div><h3>Campo de hielo regional</h3><p>Resultado ICESat‑2 consolidado e InSAR diagnóstico.</p><div class="ma-card__meta">2018–2026 · 254.01 km² efectivos</div></div></a>
+<a class="ma-card" href="glaciares/quelccaya.html" data-reveal data-reveal-delay="80"><div class="ma-card__media"><img src="/assets/img/photos/cards/quelccaya.webp" alt="Fotografía de los seracs de hielo del casquete Quelccaya" width="900" height="600" loading="lazy"></div><div class="ma-card__body"><div class="ma-eyebrow">Cusco · Vilcanota</div><h3>Quelccaya</h3><p>Meteorología, AL30 y 48 muestras de nieve/hielo.</p><div class="ma-card__meta">5 200–5 680 m · campaña 2026</div></div></a>
+<a class="ma-card" href="glaciares/huaytapallana.html" data-reveal data-reveal-delay="160"><div class="ma-card__media"><img src="/assets/img/photos/cards/huaytapallana.webp" alt="Fotografía de la laguna y cumbres nevadas de Huaytapallana" width="900" height="600" loading="lazy"></div><div class="ma-card__body"><div class="ma-eyebrow">Junín · Huaytapallana</div><h3>Huaytapallana / Cochas</h3><p>AL30 de campaña, AE33 2022–2024 y 25 muestras.</p><div class="ma-card__meta">eBC preliminar · dos jornadas</div></div></a>
+<a class="ma-card" href="glaciares/tunshu.html" data-reveal><div class="ma-card__media"><img src="/assets/img/photos/cards/tunshu.webp" alt="Fotografía de la travesía por el campo de hielo de Tunshu" width="900" height="600" loading="lazy"></div><div class="ma-card__body"><div class="ma-eyebrow">Junín · Andes centrales</div><h3>Tunshu</h3><p>Campaña AL30 y 21 muestras para SP2, iones e isótopos.</p></div></a>
+<a class="ma-card" href="glaciares/mateo.html" data-reveal data-reveal-delay="80"><div class="ma-card__media"><img src="/assets/img/photos/cards/mateo.webp" alt="Fotografía de la laguna glaciar y el nevado Mateo (Contrayerba)" width="900" height="600" loading="lazy"></div><div class="ma-card__body"><div class="ma-eyebrow">Áncash · Cordillera Blanca</div><h3>Mateo / Contrayerba</h3><p>Gradiente altitudinal AL30 y perfil de 19 muestras entre 0–95 cm.</p></div></a>
+<a class="ma-card" href="datos/index.html" data-reveal data-reveal-delay="160"><div class="ma-card__media"><img src="/assets/img/photos/cards/datos.webp" alt="Fotografía de la extracción de un testigo de nieve en campaña" width="900" height="600" loading="lazy"></div><div class="ma-card__body"><div class="ma-eyebrow">Ciencia abierta</div><h3>Catálogo de datos</h3><p>Tablas ligeras, estado de evidencia y metadatos de reutilización.</p></div></a>
+</div>
+</div>
+
+<div class="ma-section-wide ma-section">
+<div class="ma-section-header" data-reveal>
+<div class="ma-eyebrow">Campañas de campo</div>
+
+## Mediciones a 5 000 metros
+
+Cada cifra de este sitio proviene de expediciones con instrumentos portátiles, testigos de nieve y estaciones instaladas sobre el hielo. Una selección del trabajo de campo 2024–2026 en Vilcanota, Junín y Áncash.
+</div>
+
+<div class="ma-photo-strip" data-reveal>
+<figure><img src="/assets/img/photos/transect/01-laguna-puna.webp" alt="Laguna altoandina rodeada de cumbres nevadas en la puna" width="900" height="600" loading="lazy"><figcaption>Laguna altoandina · Puna</figcaption></figure>
+<figure><img src="/assets/img/photos/transect/02-travesia-nieve.webp" alt="Equipo de campaña cruzando la meseta de hielo" width="900" height="600" loading="lazy"><figcaption>Travesía sobre el campo de hielo</figcaption></figure>
+<figure><img src="/assets/img/photos/transect/04-estratigrafia-hielo.webp" alt="Pared de hielo con estratigrafía anual visible" width="900" height="600" loading="lazy"><figcaption>Estratigrafía del hielo</figcaption></figure>
+<figure><img src="/assets/img/photos/sections/meteorologia.webp" alt="Estación meteorológica automática instalada sobre el glaciar" width="900" height="600" loading="lazy"><figcaption>Estación meteorológica en el glaciar</figcaption></figure>
+<figure><img src="/assets/img/photos/sections/agua-campo.webp" alt="Medición de parámetros de agua de deshielo con sonda multiparamétrica" width="900" height="600" loading="lazy"><figcaption>Agua de deshielo · sonda multiparamétrica</figcaption></figure>
+<figure><img src="/assets/img/photos/sections/closing.webp" alt="Siluetas del equipo de campaña sobre la nieve al atardecer" width="900" height="600" loading="lazy"><figcaption>Equipo de campaña · Vilcanota</figcaption></figure>
 </div>
 </div>
 
@@ -108,8 +128,8 @@ La red combina el campo de hielo regional de Vilcanota y cuatro sitios de campa�
 El comparador ilustra el mecanismo físico —no una observación cuantitativa de una campaña específica—: una reducción del albedo aumenta la radiación de onda corta neta absorbida. Bajo 600 W m⁻², una reducción instantánea de 0.05 implicaría aproximadamente 30 W m⁻² adicionales de absorción, antes de considerar nubosidad, temperatura superficial y flujos turbulentos.
 </div>
 <div data-albedo-slider class="ma-albedo" data-reveal aria-label="Comparador conceptual de superficie glaciar limpia y oscurecida">
-  <img src="/assets/img/albedo/superficie-oscura.svg" alt="Ilustración conceptual de una superficie glaciar oscurecida por partículas y sedimentos" width="1200" height="675">
-  <img class="ma-albedo__after" src="/assets/img/albedo/superficie-limpia.svg" alt="Ilustración conceptual de una superficie glaciar limpia y altamente reflectante" width="1200" height="675">
+  <img src="/assets/img/photos/albedo/dark.webp" alt="Superficie de alta montaña con roca oscura y nieve residual, extremo conceptual de baja reflectancia" width="1400" height="788">
+  <img class="ma-albedo__after" src="/assets/img/photos/albedo/clean.webp" alt="Superficie de nieve limpia con formas onduladas, extremo conceptual de alta reflectancia" width="1400" height="788">
   <span class="ma-albedo__label ma-albedo__label--left">superficie limpia</span><span class="ma-albedo__label ma-albedo__label--right">superficie oscurecida</span>
   <div class="ma-albedo__handle" aria-hidden="true"></div><button class="ma-albedo__knob" role="slider" aria-label="Posición del comparador de albedo" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">↔</button>
 </div>

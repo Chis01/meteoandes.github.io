@@ -2,7 +2,7 @@
 title: "Huaytapallana / Cochas"
 subtitle: "Variabilidad atmosférica de eBC y monitoreo continuo"
 description: "Campañas AL30, serie AE33 y muestreo de hielo en Huaytapallana, Junín."
-image: ../assets/img/glaciares/huaytapallana.svg
+image: ../assets/img/photos/cards/huaytapallana.webp
 categories: [Huaytapallana, AL30, AE33, carbono negro]
 date-modified: 2026-07-29
 ---

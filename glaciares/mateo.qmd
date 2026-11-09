@@ -2,7 +2,7 @@
 title: "Mateo / Contrayerba"
 subtitle: "Gradiente altitudinal y perfil de hielo en Cordillera Blanca"
 description: "Campaña AL30 y perfil de 19 muestras en el sector Mateo/Contrayerba, Áncash."
-image: ../assets/img/glaciares/mateo.svg
+image: ../assets/img/photos/cards/mateo.webp
 categories: [Cordillera Blanca, Mateo, carbono negro, perfil de hielo]
 date-modified: 2026-07-29
 ---

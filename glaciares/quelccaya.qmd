@@ -2,7 +2,7 @@
 title: "Quelccaya"
 subtitle: "Meteorología, carbono negro y muestreo estratigráfico"
 description: "Campañas de meteorología y carbono negro en el casquete Quelccaya, Cordillera Vilcanota."
-image: ../assets/img/glaciares/quelccaya.svg
+image: ../assets/img/photos/cards/quelccaya.webp
 categories: [Quelccaya, Vilcanota, carbono negro, meteorología]
 date-modified: 2026-07-29
 ---

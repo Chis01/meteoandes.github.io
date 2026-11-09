@@ -2,7 +2,7 @@
 title: "Tunshu"
 subtitle: "Campaña atmosférica y muestreo criogeoquímico"
 description: "Muestreo de carbono negro, iones e isótopos en el glaciar Tunshu, Andes centrales."
-image: ../assets/img/glaciares/tunshu.svg
+image: ../assets/img/photos/cards/tunshu.webp
 categories: [Tunshu, carbono negro, criogeoquímica]
 date-modified: 2026-07-29
 ---
