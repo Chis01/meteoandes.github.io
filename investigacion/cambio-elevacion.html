@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.11.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="description" content="Resultados auditados de cambio de elevación superficial glaciar con ICESat-2 ATL06-SR y COP30.">
 
-<title>Cambio de elevación con ICESat‑2 — MeteoAndes – MeteoAndes</title>
+<title>Cambio de elevación con ICESat‑2 – MeteoAndes</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -27,6 +27,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -39,14 +74,19 @@ ul.task-list li input[type="checkbox"] {
 <link href="../assets/img/brand/favicon.svg" rel="icon" type="image/svg+xml">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bb62276ab45c84d9efd712f51ff97b5a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-5de16f5e46225c21e2daa90d340bf64f.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-3218d7d29a29f08bc4fdf3802c3e3ca5.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-5de16f5e46225c21e2daa90d340bf64f.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-e49c5a1de1479fc8090e30ca1b85834a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-99fa459865eb827d9f881f811ab669ec.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-4813320a1059dca4edb0c92876a48e23.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-99fa459865eb827d9f881f811ab669ec.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": true,
@@ -74,57 +114,225 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
-<meta name="theme-color" content="#FCFCFA">
-<meta name="color-scheme" content="light">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650;700;800&amp;family=JetBrains+Mono:wght@400;500;600&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&amp;display=swap" rel="stylesheet">
-<link rel="preload" href="../assets/img/photos/transect/01-laguna-puna.webp" as="image" type="image/webp" fetchpriority="high">
-<script>document.documentElement.classList.add("ma-js");</script>
+<meta name="theme-color" content="#0E7C99">
+<meta name="color-scheme" content="light dark">
+<link rel="preload" href="../assets/img/brand/logo-mark.svg" as="image" type="image/svg+xml">
+<script>
+  document.documentElement.classList.add('ma-js');
+</script>
+
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
-  "@type":"ResearchProject",
+  "@type":"WebSite",
   "name":"MeteoAndes",
   "url":"https://meteoandes.com",
   "description":"Investigación en glaciares tropicales del Perú, meteorología, InSAR y carbono negro.",
-  "founder":{"@type":"Person","name":"Christian Riveros","url":"https://github.com/Chis01"}
+  "author":{"@type":"Person","name":"Christian Riveros","url":"https://github.com/Chis01"}
 }
 </script>
-<link rel="alternate" hreflang="es" href="https://meteoandes.com/investigacion/cambio-elevacion.html">
-<link rel="alternate" hreflang="en" href="https://meteoandes.com/en/research/elevation-change.html">
-<link rel="alternate" hreflang="x-default" href="https://meteoandes.com/investigacion/cambio-elevacion.html">
 
 
-<link rel="stylesheet" href="../assets/css/site.css">
-<meta property="og:title" content="Cambio de elevación con ICESat‑2 — MeteoAndes">
+<link rel="stylesheet" href="../assets/css/extra.css">
+<meta property="og:title" content="Cambio de elevación con ICESat‑2 – MeteoAndes">
 <meta property="og:description" content="Resultados auditados de cambio de elevación superficial glaciar con ICESat-2 ATL06-SR y COP30.">
-<meta property="og:image" content="https://meteoandes.com/assets/img/og/investigacion.jpg">
+<meta property="og:image" content="https://meteoandes.com/assets/img/charts/icesat2-forest.svg">
 <meta property="og:site_name" content="MeteoAndes">
 <meta property="og:locale" content="es_PE">
-<meta name="twitter:title" content="Cambio de elevación con ICESat‑2 — MeteoAndes">
+<meta property="og:image:alt" content="Comparación de cinco estimadores de cambio de elevación superficial en Vilcanota">
+<meta name="twitter:title" content="Cambio de elevación con ICESat‑2 – MeteoAndes">
 <meta name="twitter:description" content="Resultados auditados de cambio de elevación superficial glaciar con ICESat-2 ATL06-SR y COP30.">
-<meta name="twitter:image" content="https://meteoandes.com/assets/img/og/investigacion.jpg">
+<meta name="twitter:image" content="https://meteoandes.com/assets/img/charts/icesat2-forest.svg">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image:alt" content="Comparación de cinco estimadores de cambio de elevación superficial en Vilcanota">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Saltar al contenido principal</a><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          toggle.setAttribute("aria-checked", alternate ? "true" : "false");
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455).
+    // Not run on load: stylesheets are set before first paint there, and
+    // scrolling would undo the scroll to a URL fragment (#14973).
+    // The one pixel nudge keeps the reader where they were.
+    const refreshSafariScrollbar = () => {
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        const scrollY = window.scrollY;
+        window.scrollTo(0, scrollY > 0 ? scrollY - 1 : 1);
+        setTimeout(() => {
+          window.scrollTo(0, scrollY);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      refreshSafariScrollbar();
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Sitio web">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../assets/img/brand/logo-mark.svg" alt="Símbolo de MeteoAndes" class="navbar-logo light-content">
-    <img src="../assets/img/brand/logo-mark.svg" alt="Símbolo de MeteoAndes" class="navbar-logo dark-content">
+    <img src="../assets/img/brand/logo-mark.svg" alt="MeteoAndes" class="navbar-logo light-content">
+    <img src="../assets/img/brand/logo-mark.svg" alt="MeteoAndes" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">MeteoAndes</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Buscar"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -203,7 +411,9 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <button type="button" role="switch" aria-checked="false" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro" aria-label="Alternar modo oscuro"><i class="bi"></i></button>
 </div>
+            <div id="quarto-search" class="" title="Buscar"></div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -212,27 +422,30 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
   <li><a href="#datos-y-control-de-calidad" id="toc-datos-y-control-de-calidad" class="nav-link active" data-scroll-target="#datos-y-control-de-calidad">Datos y control de calidad</a></li>
   <li><a href="#tendencia-principal" id="toc-tendencia-principal" class="nav-link" data-scroll-target="#tendencia-principal">Tendencia principal</a></li>
   <li><a href="#años-hidrológicos" id="toc-años-hidrológicos" class="nav-link" data-scroll-target="#años-hidrológicos">Años hidrológicos</a></li>
-  <li><a href="#inferencia-permitida" id="toc-inferencia-permitida" class="nav-link" data-scroll-target="#inferencia-permitida">Inferencia permitida</a></li>
-  <li><a href="#incertidumbre-abierta" id="toc-incertidumbre-abierta" class="nav-link" data-scroll-target="#incertidumbre-abierta">Incertidumbre abierta</a></li>
+  <li><a href="#lo-que-puede-afirmarse" id="toc-lo-que-puede-afirmarse" class="nav-link" data-scroll-target="#lo-que-puede-afirmarse">Lo que puede afirmarse</a></li>
+  <li><a href="#lo-que-todavía-requiere-cierre" id="toc-lo-que-todavía-requiere-cierre" class="nav-link" data-scroll-target="#lo-que-todavía-requiere-cierre">Lo que todavía requiere cierre</a></li>
   </ul>
-</nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/Chis01/meteoandes.github.io/blob/main/investigacion/cambio-elevacion.qmd" class="toc-action"><i class="bi bi-github"></i>Ver el código</a></li><li><a href="https://github.com/Chis01/meteoandes.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Informar sobre problema</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content" tabindex="-1">
+
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Cambio de elevación con ICESat‑2</h1>
+<div class="quarto-title-block"><div><h1 class="title">Cambio de elevación con ICESat‑2</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Código</button></div></div>
 <p class="subtitle lead">Cordillera Vilcanota, 2018–2026</p>
   <div class="quarto-categories">
-    <div class="quarto-category">investigación</div>
+    <div class="quarto-category">ICESat-2</div>
+    <div class="quarto-category">Vilcanota</div>
+    <div class="quarto-category">criósfera</div>
   </div>
   </div>
 
@@ -255,20 +468,20 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>
-<span class="ma-inline-state" data-state="consolidated">Consolidado / auditado</span>
-</p>
+<div class="ma-page-meta">
+<span class="ma-status ma-status--solid">Consolidado/auditado</span>
+</div>
 <section id="datos-y-control-de-calidad" class="level2">
 <h2 class="anchored" data-anchor-id="datos-y-control-de-calidad">Datos y control de calidad</h2>
-<p>La consulta recuperó <strong>639 415 segmentos ATL06‑SR</strong>. Después del AOI y el control de calidad permanecieron <strong>27 160 puntos glaciares</strong> y <strong>141 868 puntos de terreno estable</strong>, distribuidos en <strong>129 pasadas</strong> y ocho RGT.</p>
-<p>El DEM COP30 fue convertido de alturas ortométricas EGM2008 a elipsoidales, con corrección geoidal cercana a <strong>47,1 m</strong>. Tras el co‑registro, la mediana estable pasó de −0,607 a −0,152 m y luego a −0,008 m con corrección residual; el NMAD final fue <strong>4,631 m</strong>.</p>
+<p>La consulta recuperó 639 415 segmentos ATL06‑SR. Después de aplicar el AOI y el control de calidad permanecieron 27 160 puntos glaciares y 141 868 puntos de terreno estable, distribuidos en 129 pasadas y ocho RGT.</p>
+<p>El DEM COP30 fue convertido de alturas ortométricas EGM2008 a elipsoidales, con corrección geoidal cercana a 47.1 m. Tras el co‑registro, la mediana estable pasó de −0.607 a −0.152 m y luego a −0.008 m con corrección residual; el NMAD final fue 4.631 m.</p>
 </section>
 <section id="tendencia-principal" class="level2">
 <h2 class="anchored" data-anchor-id="tendencia-principal">Tendencia principal</h2>
 <figure class="ma-science-figure figure">
-<img src="../assets/img/charts/icesat2-forest.svg" alt="Comparación de cinco estimadores de cambio de elevación superficial en Vilcanota, todos con pendiente negativa" width="1100" height="530" loading="lazy" class="figure-img">
+<img src="../assets/img/charts/icesat2-forest.svg" alt="Comparación de cinco estimadores de cambio de elevación superficial en Vilcanota" width="1100" height="530" class="figure-img">
 <figcaption>
-La estimación ponderada por hipsometría representa el 96,5 % del área y se adopta como resultado regional.
+La estimación ponderada por hipsometría representa 96.5% del área y se adopta como resultado regional.
 </figcaption>
 </figure>
 <table class="caption-top table">
@@ -282,40 +495,40 @@ La estimación ponderada por hipsometría representa el 96,5 % del área y se ad
 <tr class="header">
 <th>Estimador</th>
 <th style="text-align: right;">Pendiente (m año⁻¹)</th>
-<th>Incertidumbre</th>
-<th>Uso</th>
+<th>Intervalo</th>
+<th>Interpretación</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Estación seca, h′</td>
-<td style="text-align: right;">−1,590</td>
-<td>IC95 %: −2,229 a −1,053</td>
-<td>Producto primario</td>
+<td style="text-align: right;">−1.590</td>
+<td>IC95% −2.229 a −1.053</td>
+<td>Producto primario por menor influencia de nieve estacional</td>
 </tr>
 <tr class="even">
 <td>Todas las observaciones, h′</td>
-<td style="text-align: right;">−1,523</td>
-<td>IC95 %: −1,953 a −1,114</td>
+<td style="text-align: right;">−1.523</td>
+<td>IC95% −1.953 a −1.114</td>
 <td>Sensibilidad temporal</td>
 </tr>
 <tr class="odd">
 <td>dh crudo</td>
-<td style="text-align: right;">−1,356</td>
-<td>IC95 %: −1,740 a −0,980</td>
+<td style="text-align: right;">−1.356</td>
+<td>IC95% −1.740 a −0.980</td>
 <td>Sin corrección hipsométrica</td>
 </tr>
 <tr class="even">
 <td>Ponderado por hipsometría</td>
-<td style="text-align: right;"><strong>−1,463</strong></td>
-<td>IC95 %: −2,357 a −0,596</td>
+<td style="text-align: right;"><strong>−1.463</strong></td>
+<td>IC95% −2.357 a −0.596</td>
 <td>Resultado regional</td>
 </tr>
 <tr class="odd">
 <td>Remuestreo hipsométrico</td>
-<td style="text-align: right;">−1,600</td>
-<td>P5–P95: −1,732 a −1,434</td>
-<td>50 iteraciones</td>
+<td style="text-align: right;">−1.600</td>
+<td>P5–P95 −1.732 a −1.434</td>
+<td>50 iteraciones de sensibilidad</td>
 </tr>
 </tbody>
 </table>
@@ -323,34 +536,89 @@ La estimación ponderada por hipsometría representa el 96,5 % del área y se ad
 <section id="años-hidrológicos" class="level2">
 <h2 class="anchored" data-anchor-id="años-hidrológicos">Años hidrológicos</h2>
 <figure class="ma-science-figure figure">
-<img src="../assets/img/charts/hydro-years.svg" alt="Cambios diagnósticos por año hidrológico en Vilcanota, con las pérdidas mayores en 2023 y 2024" width="1100" height="540" loading="lazy" class="figure-img">
+<img src="../assets/img/charts/hydro-years.svg" alt="Serie diagnóstica de cambios por año hidrológico en Vilcanota" width="1100" height="540" class="figure-img">
 <figcaption>
-HY2023 y HY2024 registran las pérdidas diagnósticas más intensas; HY2026 es incompleto.
+HY2023 y HY2024 registran las pérdidas diagnósticas más intensas.
 </figcaption>
 </figure>
-<p>El cambio acumulado diagnóstico relativo a HY2020 alcanza <strong>−6,90 m</strong> para estación seca y <strong>−8,10 m</strong> para todas las observaciones hasta HY2025. No equivale a un balance de masa geodésico completo.</p>
+<p>La suma diagnóstica relativa a HY2020 alcanza −6.90 m para estación seca y −8.10 m para todas las observaciones hasta HY2025. No equivale a un balance de masa geodésico completo.</p>
 </section>
-<section id="inferencia-permitida" class="level2">
-<h2 class="anchored" data-anchor-id="inferencia-permitida">Inferencia permitida</h2>
+<section id="lo-que-puede-afirmarse" class="level2">
+<h2 class="anchored" data-anchor-id="lo-que-puede-afirmarse">Lo que puede afirmarse</h2>
 <ul>
-<li>Descenso superficial multianual robusto cercano a 1,5 m año⁻¹.</li>
-<li>Pérdida más intensa en cotas bajas y medias-bajas.</li>
-<li>Convergencia de estimadores independientes.</li>
+<li>Existe descenso superficial multianual robusto cercano a 1.5 m año⁻¹.</li>
+<li>La pérdida es mayor en cotas bajas y medias-bajas.</li>
+<li>Los estimadores independientes convergen.</li>
 </ul>
 </section>
-<section id="incertidumbre-abierta" class="level2">
-<h2 class="anchored" data-anchor-id="incertidumbre-abierta">Incertidumbre abierta</h2>
-<p>La máscara de terreno estable, el NMAD residual, la fuente/año del inventario y las sensibilidades leave-one-year-out y leave-one-RGT-out requieren cierre antes del manuscrito definitivo.</p>
+<section id="lo-que-todavía-requiere-cierre" class="level2">
+<h2 class="anchored" data-anchor-id="lo-que-todavía-requiere-cierre">Lo que todavía requiere cierre</h2>
+<ul>
+<li>Depurar la máscara de terreno estable y cuantificar sensibilidad del NMAD.</li>
+<li>Documentar fuente/año nominal del inventario glaciar.</li>
+<li>Ejecutar pruebas leave-one-year-out y leave-one-RGT-out.</li>
+<li>Evitar atribución causal a incendios sin evidencia atmosférica sincronizada.</li>
+</ul>
 
+
+<!-- -->
 
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a></main> <!-- /main -->
 <div id="ma-reading-progress" aria-hidden="true"></div>
-<div class="ma-spectrum-thread" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+<div id="ma-elevation-spine" aria-hidden="true"></div>
 <script type="module" src="../assets/js/main.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const toggle = window.document.createElement('button');
+      toggle.type = "button";
+      toggle.setAttribute("role", "switch");
+      toggle.setAttribute("aria-checked", "false");
+      toggle.classList.add('top-right');
+      toggle.classList.add('quarto-color-scheme-toggle');
+      toggle.setAttribute("aria-label", "Alternar modo oscuro");
+      toggle.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      toggle.appendChild(i);
+      // Put the toggle in a landmark of its own, so that landmark navigation
+      // can reach it.
+      //
+      // The container is always a fresh direct child of body, and the toggle is
+      // never moved into page furniture that the theme or the author controls.
+      // The toggle is positioned against the page, so any ancestor that
+      // establishes a containing block captures it: a positioned element or a
+      // grid for position: absolute, and transform, filter, will-change or
+      // contain for position: fixed. A direct child of body has none of these
+      // to inherit, and the shift when one appears is silent and visual.
+      //
+      // ARIA says a document should have at most one banner, and axe reports a
+      // duplicate whether or not the banners carry distinct labels. So use a
+      // header when the page has no banner yet, and a named region otherwise.
+      //
+      // A header is a banner wherever it sits, unless it is inside sectioning
+      // content, so this cannot just look at the children of body: a custom
+      // page layout wraps the title block header in a plain div. An explicit
+      // role="banner" always counts.
+      const sectioning = 'article, aside, main, nav, section, [role="article"], [role="complementary"], [role="main"], [role="navigation"], [role="region"]';
+      const hasBanner = Array.from(
+        window.document.querySelectorAll('header:not([role]), [role="banner"]')
+      ).some(function(el) {
+        return el.hasAttribute("role") || el.closest(sectioning) === null;
+      });
+      const container = window.document.createElement(hasBanner ? "div" : "header");
+      if (hasBanner) {
+        container.setAttribute("role", "region");
+        container.setAttribute("aria-label", "Alternar modo oscuro");
+      }
+      container.classList.add('quarto-color-scheme-toggle-container');
+      container.appendChild(toggle);
+      window.document.body.appendChild(container);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -358,14 +626,146 @@ HY2023 y HY2024 registran las pérdidas diagnósticas más intensas; HY2026 es i
       icon: icon
     };
     anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiado");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiado");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+    const viewSource = window.document.getElementById('quarto-view-source') ||
+                       window.document.getElementById('quarto-code-tools-source');
+    if (viewSource) {
+      const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+      viewSource.addEventListener("click", function(e) {
+        if (sourceUrl) {
+          // rstudio viewer pane
+          if (/\bcapabilities=\b/.test(window.location)) {
+            window.open(sourceUrl);
+          } else {
+            window.location.href = sourceUrl;
+          }
+        } else {
+          const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+          modal.show();
+        }
+        return false;
+      });
+    }
+    function toggleCodeHandler(show) {
+      return function(e) {
+        const cellDetails = window.document.querySelectorAll(".cell details.code-fold");
+        for (let i=0; i<cellDetails.length; i++) {
+          const details = cellDetails[i];
+          if (show) {
+            details.open = true;
+          } else {
+            details.removeAttribute("open");
+          }
+        }
+        const cellCodeDivs = window.document.querySelectorAll(".cell div.sourceCode.cell-code");
+        const fromCls = show ? "hidden" : "unhidden";
+        const toCls = show ? "unhidden" : "hidden";
+        for (let i=0; i<cellCodeDivs.length; i++) {
+          const codeDiv = cellCodeDivs[i];
+          if (codeDiv.classList.contains(fromCls)) {
+            codeDiv.classList.remove(fromCls);
+            codeDiv.classList.add(toCls);
+          } 
+        }
+        return false;
+      }
+    }
+    const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+    if (hideAllCode) {
+      hideAllCode.addEventListener("click", toggleCodeHandler(false));
+    }
+    const showAllCode = window.document.getElementById("quarto-show-all-code");
+    if (showAllCode) {
+      showAllCode.addEventListener("click", toggleCodeHandler(true));
+    }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
         var filterRegex = new RegExp("https:\/\/meteoandes\.com");
+      const newWindowLabel = "(opens in a new tab)";
+      const newWindowNoteId = "quarto-ext-newwindow-label";
+      // Links reference one hidden label through aria-describedby, so the
+      // announcement never changes their accessible name.
+      var describeNewWindow = (link) => {
+        if (!window.document.getElementById(newWindowNoteId)) {
+          var newWindowNote = window.document.createElement("span");
+          newWindowNote.id = newWindowNoteId;
+          newWindowNote.hidden = true;
+          newWindowNote.textContent = newWindowLabel;
+          window.document.body.appendChild(newWindowNote);
+        }
+        var describedBy = (link.getAttribute("aria-describedby") || "").split(/\s+/).filter(Boolean);
+        if (!describedBy.includes(newWindowNoteId)) {
+          describedBy.push(newWindowNoteId);
+          link.setAttribute("aria-describedby", describedBy.join(" "));
+        }
+      }
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -379,10 +779,72 @@ HY2023 y HY2024 registran las pérdidas diagnósticas más intensas; HY2026 es i
             if (link.getAttribute("rel") === null) {
               link.setAttribute("rel", "noopener");
             }
+            describeNewWindow(link);
+          if (!link.classList.contains('no-external-icon')) {
             // default icon
             link.classList.add("external");
+          }
         }
       }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -396,6 +858,7 @@ HY2023 y HY2024 registran las pérdidas diagnósticas más intensas; HY2026 es i
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -558,44 +1021,54 @@ HY2023 y HY2024 registran las pérdidas diagnósticas más intensas; HY2026 es i
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          let top = null;
-          let height = null;
-          let parent = null;
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
           if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
             }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
             }
+            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -694,6 +1167,55 @@ HY2023 y HY2024 registran las pérdidas diagnósticas más intensas; HY2026 es i
     }
   });
   </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Código desplazable","output":"Salida desplazable"};
+  </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Ejecutar el código</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Cambio de elevación con ICESat‑2"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">subtitle:</span><span class="co"> "Cordillera Vilcanota, 2018–2026"</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">description:</span><span class="co"> "Resultados auditados de cambio de elevación superficial glaciar con ICESat-2 ATL06-SR y COP30."</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">categories:</span><span class="co"> [ICESat-2, Vilcanota, criósfera]</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-page-meta"</span><span class="dt">&gt;&lt;</span><span class="kw">span</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-status ma-status--solid"</span><span class="dt">&gt;</span>Consolidado/auditado<span class="dt">&lt;/</span><span class="kw">span</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">## Datos y control de calidad</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>La consulta recuperó 639 415 segmentos ATL06‑SR. Después de aplicar el AOI y el control de calidad permanecieron 27 160 puntos glaciares y 141 868 puntos de terreno estable, distribuidos en 129 pasadas y ocho RGT.</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>El DEM COP30 fue convertido de alturas ortométricas EGM2008 a elipsoidales, con corrección geoidal cercana a 47.1 m. Tras el co‑registro, la mediana estable pasó de −0.607 a −0.152 m y luego a −0.008 m con corrección residual; el NMAD final fue 4.631 m.</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="fu">## Tendencia principal</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">figure</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-science-figure"</span><span class="dt">&gt;&lt;</span><span class="kw">img</span><span class="ot"> src</span><span class="op">=</span><span class="st">"/assets/img/charts/icesat2-forest.svg"</span><span class="ot"> alt</span><span class="op">=</span><span class="st">"Comparación de cinco estimadores de cambio de elevación superficial en Vilcanota"</span><span class="ot"> width</span><span class="op">=</span><span class="st">"1100"</span><span class="ot"> height</span><span class="op">=</span><span class="st">"530"</span><span class="dt">&gt;&lt;</span><span class="kw">figcaption</span><span class="dt">&gt;</span>La estimación ponderada por hipsometría representa 96.5% del área y se adopta como resultado regional.<span class="dt">&lt;/</span><span class="kw">figcaption</span><span class="dt">&gt;&lt;/</span><span class="kw">figure</span><span class="dt">&gt;</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Estimador <span class="pp">|</span> Pendiente (m año⁻¹) <span class="pp">|</span> Intervalo <span class="pp">|</span> Interpretación <span class="pp">|</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="pp">|---|---:|---|---|</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Estación seca, h′ <span class="pp">|</span> −1.590 <span class="pp">|</span> IC95% −2.229 a −1.053 <span class="pp">|</span> Producto primario por menor influencia de nieve estacional <span class="pp">|</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Todas las observaciones, h′ <span class="pp">|</span> −1.523 <span class="pp">|</span> IC95% −1.953 a −1.114 <span class="pp">|</span> Sensibilidad temporal <span class="pp">|</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> dh crudo <span class="pp">|</span> −1.356 <span class="pp">|</span> IC95% −1.740 a −0.980 <span class="pp">|</span> Sin corrección hipsométrica <span class="pp">|</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Ponderado por hipsometría <span class="pp">|</span> **−1.463** <span class="pp">|</span> IC95% −2.357 a −0.596 <span class="pp">|</span> Resultado regional <span class="pp">|</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Remuestreo hipsométrico <span class="pp">|</span> −1.600 <span class="pp">|</span> P5–P95 −1.732 a −1.434 <span class="pp">|</span> 50 iteraciones de sensibilidad <span class="pp">|</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">## Años hidrológicos</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">figure</span><span class="ot"> class</span><span class="op">=</span><span class="st">"ma-science-figure"</span><span class="dt">&gt;&lt;</span><span class="kw">img</span><span class="ot"> src</span><span class="op">=</span><span class="st">"/assets/img/charts/hydro-years.svg"</span><span class="ot"> alt</span><span class="op">=</span><span class="st">"Serie diagnóstica de cambios por año hidrológico en Vilcanota"</span><span class="ot"> width</span><span class="op">=</span><span class="st">"1100"</span><span class="ot"> height</span><span class="op">=</span><span class="st">"540"</span><span class="dt">&gt;&lt;</span><span class="kw">figcaption</span><span class="dt">&gt;</span>HY2023 y HY2024 registran las pérdidas diagnósticas más intensas.<span class="dt">&lt;/</span><span class="kw">figcaption</span><span class="dt">&gt;&lt;/</span><span class="kw">figure</span><span class="dt">&gt;</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>La suma diagnóstica relativa a HY2020 alcanza −6.90 m para estación seca y −8.10 m para todas las observaciones hasta HY2025. No equivale a un balance de masa geodésico completo.</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="fu">## Lo que puede afirmarse</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Existe descenso superficial multianual robusto cercano a 1.5 m año⁻¹.</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>La pérdida es mayor en cotas bajas y medias-bajas.</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Los estimadores independientes convergen.</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="fu">## Lo que todavía requiere cierre</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Depurar la máscara de terreno estable y cuantificar sensibilidad del NMAD.</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Documentar fuente/año nominal del inventario glaciar.</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Ejecutar pruebas leave-one-year-out y leave-one-RGT-out.</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Evitar atribución causal a incendios sin evidencia atmosférica sincronizada.</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+</div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -718,7 +1240,7 @@ HY2023 y HY2024 registran las pérdidas diagnósticas más intensas; HY2026 es i
 </a>
   </li>  
 </ul>
-    </div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/Chis01/meteoandes.github.io/blob/main/investigacion/cambio-elevacion.qmd" class="toc-action"><i class="bi bi-github"></i>Ver el código</a></li><li><a href="https://github.com/Chis01/meteoandes.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Informar sobre problema</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Ciencia abierta desde los Andes</p>
 </div>
