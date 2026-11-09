@@ -1,6 +1,7 @@
 ---
 title: "Glaciares y sitios de estudio"
 description: "Galería filtrable de sitios glaciares estudiados por MeteoAndes."
+title-block-style: none
 page-layout: full
 toc: false
 ---

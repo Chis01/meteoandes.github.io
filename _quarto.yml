@@ -114,7 +114,7 @@ format:
     smooth-scroll: true
     code-fold: true
     code-summary: "Mostrar código"
-    code-tools: true
+    code-tools: false
     code-copy: true
     highlight-style: github
     link-external-icon: true
