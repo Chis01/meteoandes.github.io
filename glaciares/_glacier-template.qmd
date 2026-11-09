@@ -4,10 +4,9 @@ subtitle: "Síntesis científica"
 description: "Descripción única y verificable."
 date-modified: last-modified
 categories: [cordillera, línea-de-investigación]
-draft: true
 ---
 
-<p><span class="ma-inline-state" data-state="pending">Definir estado</span></p>
+<div class="ma-page-meta"><span class="ma-status ma-status--pending">Definir estado</span></div>
 
 ## Pregunta
 
