@@ -68,7 +68,7 @@ main:has(.ma-hero) #title-block-header { display:none; }
 
 @media(max-width:900px){ .ma-two-col{grid-template-columns:1fr}.ma-chain{grid-template-columns:1fr}.ma-chain__node:not(:last-child)::after{content:'↓';right:auto;left:50%;top:auto;bottom:-.72rem;transform:translateX(-50%)}.ma-photo-strip{grid-template-columns:repeat(2,1fr)} }
 
-/* --- Navbar: texto oscuro explicito (el sitio renderiza en modo claro; corrige fuga del tema dark de Bootstrap) --- */
+/* --- Navbar: texto oscuro explicito (corrige fuga del tema dark de Bootstrap en modo claro) --- */
 .navbar { color:#12151a; }
 .navbar .navbar-brand, .navbar .navbar-brand:hover, .navbar .navbar-brand:focus { color:#12151a; }
 .navbar .nav-link, .navbar .nav-link:hover, .navbar .nav-link:focus, .navbar .nav-link.active,
@@ -76,4 +76,16 @@ main:has(.ma-hero) #title-block-header { display:none; }
 .navbar .nav-link:hover, .navbar .nav-link:focus, .navbar .nav-link.active { color:#0a6f89; }
 .navbar .navbar-toggler { border-color:rgba(18,21,26,.3); }
 .navbar .navbar-toggler-icon { background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%2312151a' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+
+/* --- Navbar en modo oscuro (Quarto activa body.quarto-dark): texto claro sobre navbar oscuro --- */
+body.quarto-dark .navbar { color:#e9eef2; }
+body.quarto-dark .navbar .navbar-brand, body.quarto-dark .navbar .navbar-brand:hover, body.quarto-dark .navbar .navbar-brand:focus { color:#e9eef2; }
+body.quarto-dark .navbar .nav-link, body.quarto-dark .navbar .nav-link:hover, body.quarto-dark .navbar .nav-link:focus, body.quarto-dark .navbar .nav-link.active,
+body.quarto-dark .navbar .navbar-nav .nav-link.show, body.quarto-dark .navbar .dropdown-item, body.quarto-dark .navbar .dropdown-item:hover { color:#e9eef2; }
+body.quarto-dark .navbar .nav-link:hover, body.quarto-dark .navbar .nav-link:focus, body.quarto-dark .navbar .nav-link.active { color:#71c9df; }
+body.quarto-dark .navbar .navbar-toggler { border-color:rgba(233,238,242,.3); }
+body.quarto-dark .navbar .navbar-toggler-icon { background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23e9eef2' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+
+/* La seccion "oscura" permanece oscura en modo oscuro (evita inversion clara con texto blanco) */
+body.quarto-dark .ma-section--dark { background:#0d1114; }
 @media(max-width:640px){ .ma-hero{min-height:640px}.ma-hero__veil{background:linear-gradient(0deg,rgba(6,18,26,.92) 0%,rgba(6,18,26,.50) 45%,rgba(6,18,26,.18) 100%)}.ma-scroll-cue{display:none}.ma-section-wide{width:calc(100vw - 1rem)} }
