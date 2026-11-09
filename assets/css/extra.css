@@ -12,7 +12,7 @@ main:has(.ma-hero) #title-block-header { display:none; }
   position:relative; min-height:min(820px,88vh); display:grid; align-items:end; overflow:hidden;
   margin-top:-1px; border-radius:0 0 28px 28px; background:#0c1d27; color:white;
 }
-.ma-hero__bg { position:absolute; inset:0; background:url('../img/hero/hero-glacier.svg') center/cover no-repeat; animation:ma-kenburns 18s linear infinite alternate; }
+.ma-hero__bg { position:absolute; inset:0; background:url('../img/photos/sections/alpenglow.webp') center/cover no-repeat; animation:ma-kenburns 18s linear infinite alternate; }
 .ma-hero__veil { position:absolute; inset:0; background:linear-gradient(0deg,rgba(6,18,26,.88) 0%,rgba(6,18,26,.42) 26%,transparent 55%),linear-gradient(90deg,rgba(6,18,26,.38) 0%,rgba(6,18,26,.18) 50%,transparent 85%); }
 .ma-hero__content { position:relative; z-index:2; width:min(1320px,calc(100% - 2rem)); margin:0 auto; padding:clamp(6rem,14vh,10rem) 0 clamp(3rem,8vh,6rem); }
 .ma-hero h1 { color:white; font-size:clamp(3.3rem,8.5vw,7.8rem); line-height:.88; max-width:10ch; margin:.25rem 0 1.2rem; letter-spacing:-.065em; text-wrap:balance; }
@@ -53,9 +53,27 @@ main:has(.ma-hero) #title-block-header { display:none; }
 .ma-chain__node { position:relative; padding:1rem; border-radius:var(--ma-radius-md); border:1px solid var(--ma-rime); background:var(--ma-snow); }
 .ma-chain__node:not(:last-child)::after { content:'→'; position:absolute; right:-.62rem; top:50%; transform:translateY(-50%); color:var(--ma-melt-600); font-weight:900; z-index:2; }
 
+.ma-photo-strip { display:grid; grid-template-columns:repeat(3,1fr); gap:1rem; }
+.ma-photo-strip figure { margin:0; border-radius:var(--ma-radius-md); overflow:hidden; background:var(--ma-firn); border:1px solid var(--ma-rime); }
+.ma-photo-strip img { display:block; width:100%; aspect-ratio:3/2; object-fit:cover; }
+.ma-photo-strip figcaption { padding:.6rem .8rem; font:500 .78rem/1.45 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color:var(--ma-soot-700); }
+
+/* Tarjetas de evidencia: fondo claro -> texto oscuro explicito (evita heredar blanco de la seccion oscura) */
+.ma-evidence, .ma-evidence strong { color:var(--ma-soot-900); }
+.ma-evidence p { color:var(--ma-soot-700); }
+
 .quarto-title-banner { background:linear-gradient(115deg,#0a5d74,#0e7c99 55%,#1596b8); }
 .quarto-title-banner .title,.quarto-title-banner .subtitle { color:white; }
 .nav-footer { font-size:.82rem; }
 
-@media(max-width:900px){ .ma-two-col{grid-template-columns:1fr}.ma-chain{grid-template-columns:1fr}.ma-chain__node:not(:last-child)::after{content:'↓';right:auto;left:50%;top:auto;bottom:-.72rem;transform:translateX(-50%)} }
+@media(max-width:900px){ .ma-two-col{grid-template-columns:1fr}.ma-chain{grid-template-columns:1fr}.ma-chain__node:not(:last-child)::after{content:'↓';right:auto;left:50%;top:auto;bottom:-.72rem;transform:translateX(-50%)}.ma-photo-strip{grid-template-columns:repeat(2,1fr)} }
+
+/* --- Navbar: texto oscuro explicito (el sitio renderiza en modo claro; corrige fuga del tema dark de Bootstrap) --- */
+.navbar { color:#12151a; }
+.navbar .navbar-brand, .navbar .navbar-brand:hover, .navbar .navbar-brand:focus { color:#12151a; }
+.navbar .nav-link, .navbar .nav-link:hover, .navbar .nav-link:focus, .navbar .nav-link.active,
+.navbar .navbar-nav .nav-link.show, .navbar .dropdown-item, .navbar .dropdown-item:hover { color:#12151a; }
+.navbar .nav-link:hover, .navbar .nav-link:focus, .navbar .nav-link.active { color:#0a6f89; }
+.navbar .navbar-toggler { border-color:rgba(18,21,26,.3); }
+.navbar .navbar-toggler-icon { background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%2312151a' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
 @media(max-width:640px){ .ma-hero{min-height:640px}.ma-hero__veil{background:linear-gradient(0deg,rgba(6,18,26,.92) 0%,rgba(6,18,26,.50) 45%,rgba(6,18,26,.18) 100%)}.ma-scroll-cue{display:none}.ma-section-wide{width:calc(100vw - 1rem)} }
