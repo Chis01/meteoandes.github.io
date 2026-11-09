@@ -2,9 +2,9 @@
   {
     "objectID": "DNS_CLOUDFLARE.html",
     "href": "DNS_CLOUDFLARE.html",
-    "title": "",
+    "title": "DNS de Cloudflare para MeteoAndes",
     "section": "",
-    "text": "Código\n\n\n\n\n\n\nDNS de Cloudflare para MeteoAndes\nEl dominio raíz todavía debe resolver hacia GitHub Pages. En Cloudflare → DNS → Records, todos en DNS only (nube gris):\n\n\n\nTipo\nNombre\nContenido\n\n\n\n\nA\n@\n185.199.108.153\n\n\nA\n@\n185.199.109.153\n\n\nA\n@\n185.199.110.153\n\n\nA\n@\n185.199.111.153\n\n\nCNAME\nwww\nchis01.github.io\n\n\n\nMantener también el TXT de verificación generado por GitHub. Después de la propagación:\nResolve-DnsName meteoandes.com -Type A\nResolve-DnsName www.meteoandes.com -Type CNAME\nEn GitHub: Settings → Pages → Custom domain → meteoandes.com → Enforce HTTPS.\n\n\n\n\n\n\n Volver arriba"
+    "text": "DNS de Cloudflare para MeteoAndes\nEl dominio raíz todavía debe resolver hacia GitHub Pages. En Cloudflare → DNS → Records, todos en DNS only (nube gris):\n\n\n\nTipo\nNombre\nContenido\n\n\n\n\nA\n@\n185.199.108.153\n\n\nA\n@\n185.199.109.153\n\n\nA\n@\n185.199.110.153\n\n\nA\n@\n185.199.111.153\n\n\nCNAME\nwww\nchis01.github.io\n\n\n\nMantener también el TXT de verificación generado por GitHub. Después de la propagación:\nResolve-DnsName meteoandes.com -Type A\nResolve-DnsName www.meteoandes.com -Type CNAME\nEn GitHub: Settings → Pages → Custom domain → meteoandes.com → Enforce HTTPS.\n\n\n\n\n Volver arriba"
   },
   {
     "objectID": "metodos/index.html",
@@ -179,28 +179,28 @@
     "href": "en/data/index.html",
     "title": "Data catalogue",
     "section": "",
-    "text": "Dataset\nStatus\nFile\n\n\n\n\nVilcanota ICESat‑2 trends\nAudited\nCSV\n\n\nHydrological-year diagnostic changes\nDiagnostic\nCSV\n\n\nVilcanota InSAR audit\nAdvanced diagnostic\nCSV\n\n\nPreliminary AL30 sessions\nPreliminary\nCSV\n\n\n2026 glacier sample inventory\nInventory\nCSV\n\n\n\n\n\n\n\n\n Back to top"
+    "text": "Dataset\nStatus\nFile\n\n\n\n\nVilcanota ICESat‑2 trends\nAudited\nCSV\n\n\nHydrological-year diagnostic changes\nDiagnostic\nCSV\n\n\nVilcanota InSAR audit\nAdvanced diagnostic\nCSV\n\n\nPreliminary AL30 sessions\nPreliminary\nCSV\n\n\n2026 glacier sample inventory\nInventory\nCSV\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "en/glaciers/tunshu.html",
     "href": "en/glaciers/tunshu.html",
     "title": "Tunshu",
     "section": "",
-    "text": "The 2026 field campaign collected 21 samples for rBC, ions and isotopes. Atmospheric campaign results remain preliminary until duration, flow, attenuation and meteorology are consolidated.\nBack to English home\n\n\n\n\n\n Back to top"
+    "text": "The 2026 field campaign collected 21 samples for rBC, ions and isotopes. Atmospheric campaign results remain preliminary until duration, flow, attenuation and meteorology are consolidated.\nBack to English home\n\n\n\n Back to top"
   },
   {
     "objectID": "en/glaciers/vilcanota.html",
     "href": "en/glaciers/vilcanota.html",
     "title": "Vilcanota glacier ensemble",
     "section": "",
-    "text": "The ICESat‑2 analysis covers 2018–2026 and shows robust regional surface lowering near 1.5 m yr⁻¹. The area-weighted estimate is −1.463 m yr⁻¹. InSAR geometry is well conditioned, but monthly vertical signals are close to stable-terrain noise and require accumulated products.\nBack to English home\n\n\n\n\n\n Back to top"
+    "text": "The ICESat‑2 analysis covers 2018–2026 and shows robust regional surface lowering near 1.5 m yr⁻¹. The area-weighted estimate is −1.463 m yr⁻¹. InSAR geometry is well conditioned, but monthly vertical signals are close to stable-terrain noise and require accumulated products.\nBack to English home\n\n\n\n Back to top"
   },
   {
     "objectID": "en/glaciers/quelccaya.html",
     "href": "en/glaciers/quelccaya.html",
     "title": "Quelccaya",
     "section": "",
-    "text": "Quelccaya connects glacier meteorology, atmospheric eBC and stratigraphic snow/ice sampling. The 2026 inventory contains 48 samples. A 222 ng m⁻³ AL30 value is an instantaneous context measurement, not a climatology or deposition estimate.\nBack to English home\n\n\n\n\n\n Back to top"
+    "text": "Quelccaya connects glacier meteorology, atmospheric eBC and stratigraphic snow/ice sampling. The 2026 inventory contains 48 samples. A 222 ng m⁻³ AL30 value is an instantaneous context measurement, not a climatology or deposition estimate.\nBack to English home\n\n\n\n Back to top"
   },
   {
     "objectID": "datos/index.html",
@@ -340,14 +340,14 @@
     "href": "bitacora/posts/2026-07-tunshu/index.html",
     "title": "Campaña criogeoquímica en Tunshu",
     "section": "",
-    "text": "Se recolectaron 21 muestras mediante extracción con Kovacs, conservadas en cadena fría. El objetivo es comparar rBC, composición iónica e isótopos con otros sitios peruanos bajo un esquema común.\n\n\n\n\n\n Volver arriba"
+    "text": "Se recolectaron 21 muestras mediante extracción con Kovacs, conservadas en cadena fría. El objetivo es comparar rBC, composición iónica e isótopos con otros sitios peruanos bajo un esquema común.\n\n\n\n Volver arriba"
   },
   {
     "objectID": "bitacora/posts/2026-05-22-quelccaya/index.html",
     "href": "bitacora/posts/2026-05-22-quelccaya/index.html",
     "title": "Muestreo estratigráfico en Quelccaya",
     "section": "",
-    "text": "La campaña documentó nieve de alta reflectancia, estratificación y cambios de compactación. Se aplicó un protocolo limpio, cadena fría y registro por profundidad. El inventario final incluye 48 muestras destinadas a rBC, iones e isótopos según volumen disponible.\nLa apariencia visual de una superficie limpia no demuestra ausencia de partículas absorbentes. La interpretación espera QA/QC, blancos y resultados de laboratorio.\n\n\n\n\n\n Volver arriba"
+    "text": "La campaña documentó nieve de alta reflectancia, estratificación y cambios de compactación. Se aplicó un protocolo limpio, cadena fría y registro por profundidad. El inventario final incluye 48 muestras destinadas a rBC, iones e isótopos según volumen disponible.\nLa apariencia visual de una superficie limpia no demuestra ausencia de partículas absorbentes. La interpretación espera QA/QC, blancos y resultados de laboratorio.\n\n\n\n Volver arriba"
   },
   {
     "objectID": "sobre/equipo.html",
@@ -380,16 +380,16 @@
   {
     "objectID": "CHANGELOG.html",
     "href": "CHANGELOG.html",
-    "title": "",
+    "title": "Changelog",
     "section": "",
-    "text": "Código"
+    "text": "Rebuilt MeteoAndes around the albedo design system.\nAdded audited ICESat-2 results, advanced InSAR diagnostics, meteorology, BC and sample inventory.\nAdded bilingual phase-1 pages, accessible animation, scientific evidence labels and data catalogue.\nAdded GitHub Actions, Cloudflare DNS guide and quality-control scripts."
   },
   {
     "objectID": "CHANGELOG.html#section",
     "href": "CHANGELOG.html#section",
-    "title": "",
-    "section": "1.0.0 — 2026-07-29",
-    "text": "1.0.0 — 2026-07-29\n\nRebuilt MeteoAndes around the albedo design system.\nAdded audited ICESat-2 results, advanced InSAR diagnostics, meteorology, BC and sample inventory.\nAdded bilingual phase-1 pages, accessible animation, scientific evidence labels and data catalogue.\nAdded GitHub Actions, Cloudflare DNS guide and quality-control scripts."
+    "title": "Changelog",
+    "section": "",
+    "text": "Rebuilt MeteoAndes around the albedo design system.\nAdded audited ICESat-2 results, advanced InSAR diagnostics, meteorology, BC and sample inventory.\nAdded bilingual phase-1 pages, accessible animation, scientific evidence labels and data catalogue.\nAdded GitHub Actions, Cloudflare DNS guide and quality-control scripts."
   },
   {
     "objectID": "publicaciones/index.html",
@@ -445,14 +445,14 @@
     "href": "bitacora/posts/2026-06-huaytapallana/index.html",
     "title": "Dos jornadas AL30 en Huaytapallana",
     "section": "",
-    "text": "Las dos jornadas mostraron medias preliminares contrastantes: 174 y 654 ng m⁻³. La diferencia motiva una auditoría de duración, flujo, ATN, valores negativos, meteorología y posición del instrumento antes de inferir fuentes.\n\n\n\n\n\n Volver arriba"
+    "text": "Las dos jornadas mostraron medias preliminares contrastantes: 174 y 654 ng m⁻³. La diferencia motiva una auditoría de duración, flujo, ATN, valores negativos, meteorología y posición del instrumento antes de inferir fuentes.\n\n\n\n Volver arriba"
   },
   {
     "objectID": "bitacora/posts/2026-07-mateo/index.html",
     "href": "bitacora/posts/2026-07-mateo/index.html",
     "title": "Perfil de 0–95 cm en Mateo / Contrayerba",
     "section": "",
-    "text": "El perfil está compuesto por 19 intervalos continuos de 5 cm. También se realizaron mediciones AL30 a diferentes alturas. La pendiente altitudinal no se publica hasta consolidar cotas, tiempos, QA y estadísticos.\n\n\n\n\n\n Volver arriba"
+    "text": "El perfil está compuesto por 19 intervalos continuos de 5 cm. También se realizaron mediciones AL30 a diferentes alturas. La pendiente altitudinal no se publica hasta consolidar cotas, tiempos, QA y estadísticos.\n\n\n\n Volver arriba"
   },
   {
     "objectID": "bitacora/index.html",
@@ -529,35 +529,35 @@
     "href": "glaciares/index.html",
     "title": "Glaciares y sitios de estudio",
     "section": "",
-    "text": "Red de observación\n\n\nGlaciares y sitios de estudio\n\nCinco unidades de análisis conectan criósfera, meteorología, carbono negro y química de hielo. Use los filtros para explorar por cordillera o línea de investigación.\n\n\n\n\n Todos Vilcanota Andes centrales Cordillera Blanca Carbono negro Criósfera Mostrando 5 de 5 sitios\n\n\n\n\n\n\n\n\nCordillera Vilcanota\n\n\nConjunto glaciar regional\n\n\nICESat‑2 2018–2026, InSAR Sentinel‑1 e hidrometeorología.\n\n\n4 597–6 364 m · 190 polígonos en AOI\n\n\n \n\n\n\n\n\nCusco · Vilcanota\n\n\nQuelccaya\n\n\n48 muestras, AL30, meteorología y comparación SP2/iones.\n\n\n5 200–5 680 m · campaña 2026\n\n\n \n\n\n\n\n\nJunín · Huaytapallana\n\n\nHuaytapallana / Cochas\n\n\nDos jornadas AL30, serie AE33 descrita y 25 muestras.\n\n\n \n\n\n\n\n\nJunín · Andes centrales\n\n\nTunshu\n\n\n21 muestras y campaña atmosférica de alta montaña.\n\n\n \n\n\n\n\n\nÁncash · Cordillera Blanca\n\n\nMateo / Contrayerba\n\n\nPerfil 0–95 cm, 19 muestras y mediciones AL30 por altitud.\n\n\n\n\n\n\nNingún sitio coincide con esos filtros.\n\n\nLimpiar filtros\n\n\n\n\n\n\n\n Volver arriba"
+    "text": "Red de observación\n\n\nGlaciares y sitios de estudio\n\nCinco unidades de análisis conectan criósfera, meteorología, carbono negro y química de hielo. Use los filtros para explorar por cordillera o línea de investigación.\n\n\n\n\n Todos Vilcanota Andes centrales Cordillera Blanca Carbono negro Criósfera Mostrando 5 de 5 sitios\n\n\n\n\n\n\n\n\nCordillera Vilcanota\n\n\nConjunto glaciar regional\n\n\nICESat‑2 2018–2026, InSAR Sentinel‑1 e hidrometeorología.\n\n\n4 597–6 364 m · 190 polígonos en AOI\n\n\n \n\n\n\n\n\nCusco · Vilcanota\n\n\nQuelccaya\n\n\n48 muestras, AL30, meteorología y comparación SP2/iones.\n\n\n5 200–5 680 m · campaña 2026\n\n\n \n\n\n\n\n\nJunín · Huaytapallana\n\n\nHuaytapallana / Cochas\n\n\nDos jornadas AL30, serie AE33 descrita y 25 muestras.\n\n\n \n\n\n\n\n\nJunín · Andes centrales\n\n\nTunshu\n\n\n21 muestras y campaña atmosférica de alta montaña.\n\n\n \n\n\n\n\n\nÁncash · Cordillera Blanca\n\n\nMateo / Contrayerba\n\n\nPerfil 0–95 cm, 19 muestras y mediciones AL30 por altitud.\n\n\n\n\n\n\nNingún sitio coincide con esos filtros.\n\n\nLimpiar filtros\n\n\n\n\n\n Volver arriba"
   },
   {
     "objectID": "en/about/contact.html",
     "href": "en/about/contact.html",
     "title": "Contact",
     "section": "",
-    "text": "Christian Riveros\ncontacto@meteoandes.com · GitHub\n\n\n\n\n\n Back to top"
+    "text": "Christian Riveros\ncontacto@meteoandes.com · GitHub\n\n\n\n Back to top"
   },
   {
     "objectID": "en/glaciers/mateo.html",
     "href": "en/glaciers/mateo.html",
     "title": "Mateo / Contrayerba",
     "section": "",
-    "text": "The field inventory includes 19 consecutive 5-cm samples from 0 to 95 cm and AL30 measurements at several elevations. No altitude trend is reported before the metadata and QA table are complete.\nBack to English home\n\n\n\n\n\n Back to top"
+    "text": "The field inventory includes 19 consecutive 5-cm samples from 0 to 95 cm and AL30 measurements at several elevations. No altitude trend is reported before the metadata and QA table are complete.\nBack to English home\n\n\n\n Back to top"
   },
   {
     "objectID": "en/glaciers/huaytapallana.html",
     "href": "en/glaciers/huaytapallana.html",
     "title": "Huaytapallana / Cochas",
     "section": "",
-    "text": "Two preliminary AL30 sessions had mean eBC values of 174 and 654 ng m⁻³. The contrast demonstrates session variability, not source attribution. A one-minute AE33 series for 2022–2024 is described but still requires integrated QA/QC.\nBack to English home\n\n\n\n\n\n Back to top"
+    "text": "Two preliminary AL30 sessions had mean eBC values of 174 and 654 ng m⁻³. The contrast demonstrates session variability, not source attribution. A one-minute AE33 series for 2022–2024 is described but still requires integrated QA/QC.\nBack to English home\n\n\n\n Back to top"
   },
   {
     "objectID": "en/publications/index.html",
     "href": "en/publications/index.html",
     "title": "Publications",
     "section": "",
-    "text": "Vilcanota surface-elevation change with ICESat‑2 — highest maturity.\nInSAR surface dynamics and multi-sensor validation — final accumulated analysis pending.\nAerosols, black carbon and glacier energy response — depends on the Sentinel‑5P and integrated BC closure.\n\n\n\n\n\n\n Back to top"
+    "text": "Vilcanota surface-elevation change with ICESat‑2 — highest maturity.\nInSAR surface dynamics and multi-sensor validation — final accumulated analysis pending.\nAerosols, black carbon and glacier energy response — depends on the Sentinel‑5P and integrated BC closure.\n\n\n\n\n Back to top"
   },
   {
     "objectID": "en/index.html",
@@ -754,13 +754,6 @@
     "title": "Método ICESat‑2",
     "section": "Resultado reproducible",
     "text": "Resultado reproducible\nLos CSV de síntesis se encuentran en assets/data/series/. Los notebooks analíticos pesados deben incorporarse después de eliminar rutas absolutas y conservar _freeze/."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "MeteoAndes",
-    "section": "",
-    "text": "Código"
   },
   {
     "objectID": "index.html#un-descenso-regional-robusto-en-vilcanota",
